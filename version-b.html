@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#ffffff">
+  <title>好好生醫</title>
+  <style>
+    :root {
+      --color-brand-red:    #C8373A;
+      --color-brand-white:  #FFFFFF;
+      --color-brand-dark:   #1A1A1A;
+      --color-black:        #111111;
+      --color-gray-deep:    #2C2C2C;
+      --color-gray-mid:     #6B6B6B;
+      --color-gray-light:   #E8E8E8;
+      --color-cta:          #C8373A;
+      --color-cta-hover:    #A52D30;
+      --glass-bg:           rgba(255, 255, 255, 0.18);
+      --glass-border:       rgba(255, 255, 255, 0.35);
+      --glass-shadow:       0 8px 32px rgba(31, 38, 135, 0.12);
+      --glass-blur:         12px;
+      --space-xs:   4px;
+      --space-sm:   8px;
+      --space-md:   16px;
+      --space-lg:   24px;
+      --space-xl:   40px;
+      --ease-smooth:        cubic-bezier(0.4, 0, 0.2, 1);
+      --ease-bounce:        cubic-bezier(0.34, 1.56, 0.64, 1);
+      --duration-fast:      150ms;
+      --duration-base:      250ms;
+      --duration-slow:      400ms;
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html, body {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background: #fff;
+      -webkit-tap-highlight-color: transparent;
+      touch-action: manipulation;
+    }
+
+    .page {
+      position: relative;
+      width: 100vw;
+      height: 100dvh;
+      overflow: hidden;
+    }
+
+    .brand-image {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 15%;
+      display: block;
+      user-select: none;
+      -webkit-user-drag: none;
+    }
+
+    @media (orientation: landscape) {
+      .brand-image {
+        object-position: center center;
+      }
+      .player-btn-b {
+        bottom: 12px;
+      }
+    }
+
+    /* ── Version B: Glass Disc ── */
+    .player-btn-b {
+      position: absolute;
+      left: 50%;
+      bottom: calc(88px + env(safe-area-inset-bottom, 0px));
+      transform: translateX(-50%);
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      border: 1.5px solid rgba(255,255,255,0.45);
+      cursor: pointer;
+      background: rgba(255,255,255,0.18);
+      backdrop-filter: blur(12px) saturate(160%);
+      -webkit-backdrop-filter: blur(12px) saturate(160%);
+      box-shadow:
+        inset 0 1px 1px rgba(255,255,255,0.6),
+        0 8px 32px rgba(255,255,255,0.15),
+        0 4px 16px rgba(200,55,58,0.08);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition:
+        backdrop-filter var(--duration-base) var(--ease-smooth),
+        -webkit-backdrop-filter var(--duration-base) var(--ease-smooth),
+        border-color var(--duration-base) var(--ease-smooth),
+        box-shadow var(--duration-base) var(--ease-smooth);
+      will-change: transform;
+      -webkit-tap-highlight-color: transparent;
+      outline: none;
+    }
+
+    .player-btn-b:focus-visible {
+      outline: 2px solid #C8373A;
+      outline-offset: 4px;
+    }
+
+    /* 放射紋路 */
+    .player-btn-b::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      border-radius: 50%;
+      background: repeating-conic-gradient(
+        rgba(255,255,255,0.08) 0deg,
+        transparent 1deg,
+        transparent 10deg
+      );
+      pointer-events: none;
+    }
+
+    /* 音波擴散圈 */
+    .player-btn-b .wave {
+      position: absolute;
+      inset: -1px;
+      border-radius: 50%;
+      border: 1.5px solid rgba(200,55,58,0.6);
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    .player-btn-b.playing .wave:nth-child(1) {
+      animation: soundwave-b 1.8s ease-out infinite 0s;
+    }
+    .player-btn-b.playing .wave:nth-child(2) {
+      animation: soundwave-b 1.8s ease-out infinite 0.6s;
+    }
+    .player-btn-b.playing .wave:nth-child(3) {
+      animation: soundwave-b 1.8s ease-out infinite 1.2s;
+    }
+
+    @keyframes soundwave-b {
+      0%   { transform: scale(1);    opacity: 0.7; }
+      100% { transform: scale(1.55); opacity: 0;   }
+    }
+
+    /* 旋轉 */
+    .player-btn-b.playing {
+      animation: glass-spin-b 3.6s linear infinite;
+    }
+
+    @keyframes glass-spin-b {
+      to { transform: translateX(-50%) rotate(360deg); }
+    }
+
+    /* Hover */
+    .player-btn-b:hover {
+      backdrop-filter: blur(18px) saturate(180%);
+      -webkit-backdrop-filter: blur(18px) saturate(180%);
+      border-color: rgba(255,255,255,0.65);
+    }
+
+    /* 使用 scale 屬性（獨立於 transform）避免播放中 animation 的 transform 覆蓋 :active 縮放 */
+    .player-btn-b:active {
+      scale: 0.92;
+    }
+
+    /* Icon */
+    .player-btn-b .icon-play,
+    .player-btn-b .icon-pause {
+      filter: drop-shadow(0 1px 3px rgba(0,0,0,0.4));
+      transition: opacity var(--duration-base) var(--ease-smooth);
+      position: absolute;
+    }
+    .player-btn-b .icon-play  { opacity: 1; }
+    .player-btn-b .icon-pause { opacity: 0; }
+    .player-btn-b.playing .icon-play  { opacity: 0; }
+    .player-btn-b.playing .icon-pause { opacity: 1; }
+
+    /* 響應式 */
+    @media (min-width: 390px) {
+      .player-btn-b {
+        width: 160px;
+        height: 160px;
+      }
+    }
+
+    @media (max-width: 374px) {
+      .player-btn-b {
+        width: 120px;
+        height: 120px;
+      }
+    }
+
+    /* 無障礙：減少動畫 */
+    @media (prefers-reduced-motion: reduce) {
+      * {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <img
+      class="brand-image"
+      src="brand.jpg"
+      alt="好好生醫 — With JOY."
+      loading="eager"
+    >
+
+    <button class="player-btn-b" aria-label="播放音樂" type="button">
+      <!-- 音波擴散圈 -->
+      <span class="wave" aria-hidden="true"></span>
+      <span class="wave" aria-hidden="true"></span>
+      <span class="wave" aria-hidden="true"></span>
+
+      <!-- Play Icon -->
+      <svg class="icon-play" xmlns="http://www.w3.org/2000/svg"
+           width="22" height="22" viewBox="0 0 24 24"
+           fill="white" aria-hidden="true">
+        <polygon points="5,3 19,12 5,21" />
+      </svg>
+
+      <!-- Pause Icon -->
+      <svg class="icon-pause" xmlns="http://www.w3.org/2000/svg"
+           width="22" height="22" viewBox="0 0 24 24"
+           fill="white" aria-hidden="true">
+        <rect x="6" y="4" width="4" height="16" rx="1"/>
+        <rect x="14" y="4" width="4" height="16" rx="1"/>
+      </svg>
+    </button>
+  </div>
+
+  <audio id="audio" src="voice.mp3" preload="auto"></audio>
+
+  <script>
+    (function() {
+      'use strict';
+
+      const audio = document.getElementById('audio');
+      const btnB = document.querySelector('.player-btn-b');
+
+      function togglePlay(classTarget, labelTarget) {
+        if (audio.paused) {
+          audio.play().catch(function() {
+            console.warn('autoplay blocked');
+          });
+          classTarget.classList.add('playing');
+          labelTarget.setAttribute('aria-label', '暫停音樂');
+        } else {
+          audio.pause();
+          classTarget.classList.remove('playing');
+          labelTarget.setAttribute('aria-label', '播放音樂');
+        }
+      }
+
+      if (btnB) {
+        btnB.addEventListener('click', function() {
+          togglePlay(btnB, btnB);
+        });
+      }
+
+      audio.addEventListener('ended', function() {
+        if (btnB) {
+          btnB.classList.remove('playing');
+          btnB.setAttribute('aria-label', '播放音樂');
+        }
+      });
+    })();
+  </script>
+</body>
+</html>
