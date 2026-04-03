@@ -1,0 +1,415 @@
+{
+  "shops": [
+    {
+      "name": "GOODMANS COFFEE",
+      "total": 69,
+      "visitor_map": {
+        "zh": {
+          "count": 53,
+          "pct": 77,
+          "label": "🇹🇼🇭🇰🇨🇳 中華圈"
+        },
+        "en": {
+          "count": 16,
+          "pct": 23,
+          "label": "🇺🇸 英語圈"
+        }
+      },
+      "zh_detail": {
+        "zh_unknown": 53
+      },
+      "dominance": "壓倒性以🇹🇼🇭🇰🇨🇳 中華圈遊客為主",
+      "top_visitor": "🇹🇼🇭🇰🇨🇳 中華圈",
+      "top_pct": 77
+    },
+    {
+      "name": "Ningin Coffee（ニンギン珈琲）",
+      "total": 259,
+      "visitor_map": {
+        "zh": {
+          "count": 227,
+          "pct": 88,
+          "label": "🇹🇼🇭🇰🇨🇳 中華圈"
+        },
+        "en": {
+          "count": 31,
+          "pct": 12,
+          "label": "🇺🇸 英語圈"
+        },
+        "ja": {
+          "count": 1,
+          "pct": 0,
+          "label": "🇯🇵 日本"
+        }
+      },
+      "zh_detail": {
+        "zh_unknown": 226,
+        "tw": 1
+      },
+      "dominance": "壓倒性以🇹🇼🇭🇰🇨🇳 中華圈遊客為主",
+      "top_visitor": "🇹🇼🇭🇰🇨🇳 中華圈",
+      "top_pct": 88
+    },
+    {
+      "name": "Cafe Nuis",
+      "total": 264,
+      "visitor_map": {
+        "zh": {
+          "count": 231,
+          "pct": 88,
+          "label": "🇹🇼🇭🇰🇨🇳 中華圈"
+        },
+        "en": {
+          "count": 32,
+          "pct": 12,
+          "label": "🇺🇸 英語圈"
+        },
+        "ja": {
+          "count": 1,
+          "pct": 0,
+          "label": "🇯🇵 日本"
+        }
+      },
+      "zh_detail": {
+        "zh_unknown": 229,
+        "tw": 2
+      },
+      "dominance": "壓倒性以🇹🇼🇭🇰🇨🇳 中華圈遊客為主",
+      "top_visitor": "🇹🇼🇭🇰🇨🇳 中華圈",
+      "top_pct": 88
+    },
+    {
+      "name": "chill Miyako",
+      "total": 301,
+      "visitor_map": {
+        "zh": {
+          "count": 288,
+          "pct": 96,
+          "label": "🇹🇼🇭🇰🇨🇳 中華圈"
+        },
+        "en": {
+          "count": 12,
+          "pct": 4,
+          "label": "🇺🇸 英語圈"
+        },
+        "ja": {
+          "count": 1,
+          "pct": 0,
+          "label": "🇯🇵 日本"
+        }
+      },
+      "zh_detail": {
+        "zh_unknown": 288
+      },
+      "dominance": "壓倒性以🇹🇼🇭🇰🇨🇳 中華圈遊客為主",
+      "top_visitor": "🇹🇼🇭🇰🇨🇳 中華圈",
+      "top_pct": 96
+    },
+    {
+      "name": "Sunayama Cafe",
+      "total": 428,
+      "visitor_map": {
+        "zh": {
+          "count": 391,
+          "pct": 91,
+          "label": "🇹🇼🇭🇰🇨🇳 中華圈"
+        },
+        "en": {
+          "count": 36,
+          "pct": 8,
+          "label": "🇺🇸 英語圈"
+        },
+        "ja": {
+          "count": 1,
+          "pct": 0,
+          "label": "🇯🇵 日本"
+        }
+      },
+      "zh_detail": {
+        "zh_unknown": 390,
+        "tw": 1
+      },
+      "dominance": "壓倒性以🇹🇼🇭🇰🇨🇳 中華圈遊客為主",
+      "top_visitor": "🇹🇼🇭🇰🇨🇳 中華圈",
+      "top_pct": 91
+    },
+    {
+      "name": "cafe furari",
+      "total": 36,
+      "visitor_map": {
+        "ja": {
+          "count": 20,
+          "pct": 56,
+          "label": "🇯🇵 日本"
+        },
+        "zh": {
+          "count": 8,
+          "pct": 22,
+          "label": "🇹🇼🇭🇰🇨🇳 中華圈"
+        },
+        "en": {
+          "count": 6,
+          "pct": 17,
+          "label": "🇺🇸 英語圈"
+        },
+        "ko": {
+          "count": 2,
+          "pct": 6,
+          "label": "🇰🇷 韓國"
+        }
+      },
+      "zh_detail": {
+        "zh_unknown": 8
+      },
+      "dominance": "主要為🇯🇵 日本遊客",
+      "top_visitor": "🇯🇵 日本",
+      "top_pct": 56
+    },
+    {
+      "name": "coffee shop Majya",
+      "total": 26,
+      "visitor_map": {
+        "ja": {
+          "count": 17,
+          "pct": 65,
+          "label": "🇯🇵 日本"
+        },
+        "ko": {
+          "count": 5,
+          "pct": 19,
+          "label": "🇰🇷 韓國"
+        },
+        "en": {
+          "count": 2,
+          "pct": 8,
+          "label": "🇺🇸 英語圈"
+        },
+        "zh": {
+          "count": 2,
+          "pct": 8,
+          "label": "🇹🇼🇭🇰🇨🇳 中華圈"
+        }
+      },
+      "zh_detail": {
+        "zh_unknown": 2
+      },
+      "dominance": "主要為🇯🇵 日本遊客",
+      "top_visitor": "🇯🇵 日本",
+      "top_pct": 65
+    },
+    {
+      "name": "ensemble coffee miyakoisland",
+      "total": 217,
+      "visitor_map": {
+        "zh": {
+          "count": 180,
+          "pct": 83,
+          "label": "🇹🇼🇭🇰🇨🇳 中華圈"
+        },
+        "en": {
+          "count": 35,
+          "pct": 16,
+          "label": "🇺🇸 英語圈"
+        },
+        "ja": {
+          "count": 2,
+          "pct": 1,
+          "label": "🇯🇵 日本"
+        }
+      },
+      "zh_detail": {
+        "zh_unknown": 180
+      },
+      "dominance": "壓倒性以🇹🇼🇭🇰🇨🇳 中華圈遊客為主",
+      "top_visitor": "🇹🇼🇭🇰🇨🇳 中華圈",
+      "top_pct": 83
+    },
+    {
+      "name": "PANIPANI",
+      "total": 336,
+      "visitor_map": {
+        "zh": {
+          "count": 315,
+          "pct": 94,
+          "label": "🇹🇼🇭🇰🇨🇳 中華圈"
+        },
+        "en": {
+          "count": 21,
+          "pct": 6,
+          "label": "🇺🇸 英語圈"
+        }
+      },
+      "zh_detail": {
+        "zh_unknown": 314,
+        "tw": 1
+      },
+      "dominance": "壓倒性以🇹🇼🇭🇰🇨🇳 中華圈遊客為主",
+      "top_visitor": "🇹🇼🇭🇰🇨🇳 中華圈",
+      "top_pct": 94
+    },
+    {
+      "name": "LB CAFE",
+      "total": 127,
+      "visitor_map": {
+        "zh": {
+          "count": 117,
+          "pct": 92,
+          "label": "🇹🇼🇭🇰🇨🇳 中華圈"
+        },
+        "en": {
+          "count": 10,
+          "pct": 8,
+          "label": "🇺🇸 英語圈"
+        }
+      },
+      "zh_detail": {
+        "zh_unknown": 117
+      },
+      "dominance": "壓倒性以🇹🇼🇭🇰🇨🇳 中華圈遊客為主",
+      "top_visitor": "🇹🇼🇭🇰🇨🇳 中華圈",
+      "top_pct": 92
+    },
+    {
+      "name": "Sima cafe Tounkaraya（島cafeとぅんからや）",
+      "total": 400,
+      "visitor_map": {
+        "zh": {
+          "count": 379,
+          "pct": 95,
+          "label": "🇹🇼🇭🇰🇨🇳 中華圈"
+        },
+        "en": {
+          "count": 19,
+          "pct": 5,
+          "label": "🇺🇸 英語圈"
+        },
+        "ja": {
+          "count": 2,
+          "pct": 0,
+          "label": "🇯🇵 日本"
+        }
+      },
+      "zh_detail": {
+        "zh_unknown": 379
+      },
+      "dominance": "壓倒性以🇹🇼🇭🇰🇨🇳 中華圈遊客為主",
+      "top_visitor": "🇹🇼🇭🇰🇨🇳 中華圈",
+      "top_pct": 95
+    },
+    {
+      "name": "Karakara",
+      "total": 104,
+      "visitor_map": {
+        "zh": {
+          "count": 91,
+          "pct": 88,
+          "label": "🇹🇼🇭🇰🇨🇳 中華圈"
+        },
+        "en": {
+          "count": 12,
+          "pct": 12,
+          "label": "🇺🇸 英語圈"
+        },
+        "ja": {
+          "count": 1,
+          "pct": 1,
+          "label": "🇯🇵 日本"
+        }
+      },
+      "zh_detail": {
+        "zh_unknown": 91
+      },
+      "dominance": "壓倒性以🇹🇼🇭🇰🇨🇳 中華圈遊客為主",
+      "top_visitor": "🇹🇼🇭🇰🇨🇳 中華圈",
+      "top_pct": 88
+    },
+    {
+      "name": "SR COFFEE MIYAKOJIMA",
+      "total": 16,
+      "visitor_map": {
+        "zh": {
+          "count": 8,
+          "pct": 50,
+          "label": "🇹🇼🇭🇰🇨🇳 中華圈"
+        },
+        "en": {
+          "count": 8,
+          "pct": 50,
+          "label": "🇺🇸 英語圈"
+        }
+      },
+      "zh_detail": {
+        "zh_unknown": 8
+      },
+      "dominance": "國際化程度高，多國遊客混合",
+      "top_visitor": "🇹🇼🇭🇰🇨🇳 中華圈",
+      "top_pct": 50
+    },
+    {
+      "name": "Coffee Barista",
+      "total": 41,
+      "visitor_map": {
+        "zh": {
+          "count": 37,
+          "pct": 90,
+          "label": "🇹🇼🇭🇰🇨🇳 中華圈"
+        },
+        "en": {
+          "count": 4,
+          "pct": 10,
+          "label": "🇺🇸 英語圈"
+        }
+      },
+      "zh_detail": {
+        "zh_unknown": 37
+      },
+      "dominance": "壓倒性以🇹🇼🇭🇰🇨🇳 中華圈遊客為主",
+      "top_visitor": "🇹🇼🇭🇰🇨🇳 中華圈",
+      "top_pct": 90
+    },
+    {
+      "name": "Doug's Coffee",
+      "total": 189,
+      "visitor_map": {
+        "zh": {
+          "count": 168,
+          "pct": 89,
+          "label": "🇹🇼🇭🇰🇨🇳 中華圈"
+        },
+        "en": {
+          "count": 21,
+          "pct": 11,
+          "label": "🇺🇸 英語圈"
+        }
+      },
+      "zh_detail": {
+        "zh_unknown": 168
+      },
+      "dominance": "壓倒性以🇹🇼🇭🇰🇨🇳 中華圈遊客為主",
+      "top_visitor": "🇹🇼🇭🇰🇨🇳 中華圈",
+      "top_pct": 89
+    }
+  ],
+  "overall": {
+    "en": {
+      "count": 272,
+      "pct": 10
+    },
+    "zh": {
+      "count": 2489,
+      "pct": 88
+    },
+    "other": {
+      "count": 4,
+      "pct": 0
+    },
+    "ja": {
+      "count": 41,
+      "pct": 1
+    },
+    "ko": {
+      "count": 7,
+      "pct": 0
+    }
+  }
+}

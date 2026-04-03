@@ -1,0 +1,2772 @@
+{
+  "01-goodmans-coffee.md": {
+    "name": "GOODMANS COFFEE",
+    "rating": 4.9,
+    "total": 69,
+    "star_dist": {
+      "5": 91,
+      "4": 6,
+      "3": 3,
+      "2": 0,
+      "1": 0
+    },
+    "mean_star": 4.88,
+    "variance": 0.16,
+    "coffee_pct": 64,
+    "env_pct": 7,
+    "svc_pct": 19,
+    "neg_pct": 1,
+    "neg_about_coffee_pct": 100,
+    "best_count": 9,
+    "best_pct": 13,
+    "lang": {
+      "en": 16,
+      "zh": 53
+    },
+    "cross_lang": {
+      "en": {
+        "n": 16,
+        "coffee_pct": 100,
+        "best_n": 5
+      },
+      "zh": {
+        "n": 53,
+        "coffee_pct": 53,
+        "best_n": 4
+      }
+    },
+    "top_coffee": [
+      {
+        "text": "太好喝了！\n美妙的香氣瀰漫在我的口腔，直到最後一口都縈繞不去，就連加冰的咖啡也一樣美味。\n這是我喝過最好喝的咖啡。\n我想再試試其他品牌的咖啡豆。",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "蒼鳥"
+      },
+      {
+        "text": "這是我在日本喝過最好喝的咖啡，老闆也超級熱情友善。我超愛這家露營車風格的小咖啡館的氛圍！",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "dojagi Kim"
+      },
+      {
+        "text": "we had the best coffee and tuna -avocado-sandwich in miyakojima @goodmanscoffee! we could even select from different coffee beans, which then were freshly grounded. Also talking to the owner was nice - it was really a good man's coffeeshop :)",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Mimi"
+      },
+      {
+        "text": "我年底的时候去了这家店。\n在宮古島，能喝到如此美味的精品咖啡的地方真是難得。\n每一杯咖啡都冲泡得非常用心。 （两杯热拿铁和一杯热可可）\n咖啡馆非常干净舒适。\n我的孩子不小心把熱可可灑了一地，雖然咖啡館的衛生狀況非常好，但看到孩子不小心灑了東西，我還是有點尷尬。不過，店員並沒有表現出任何不悅，反而親切地問我：\"你沒事吧？\"，這讓我非常感動。\n即使在旅行途中，我也總是很想喝一杯美味的拿鐵，所以非常感謝這家咖啡館，它不僅咖啡好喝，服務態度也專業周到。\n如果下次再來宮古島，我一定會再光顧。",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "ペリエ"
+      },
+      {
+        "text": "The food and drinks are incredible. The proprietor is very kind and welcoming. It's such a relaxing and fun coffee shop!",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Heather Rogers"
+      },
+      {
+        "text": "Best coffee in the island, not to miss when in Miyako! Lovely setting too! Hiro is the nicest barista :)",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Debora Arieta"
+      },
+      {
+        "text": "Super cool coffee place in Miyako! Owner is very friendly and passionate. We enjoyed both the pour over and espresso tonic.",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Stephanie Wong"
+      },
+      {
+        "text": "Final stop before we went back to cruise.  Friendly owner and we had a nice conversation. Good Americano made bt Brazil beans and brown sugar latte.",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Justin Wang"
+      },
+      {
+        "text": "Best coffee shop in Miyako!",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "João Martins"
+      },
+      {
+        "text": "Probably the best coffee on the island!!",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Jeffrey Vink"
+      },
+      {
+        "text": "這家店是用一輛麵包車經營的，氣氛很棒。\n價格有點小貴（一杯大約700日元），但咖啡真的很好喝。\n我每次去都會選不同的咖啡豆，味道差異很明顯。\n如果你点司康饼，他们会现场烘焙。\n食物和飲料都很美味，所以我推薦這家店。",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "Ryota Saito"
+      },
+      {
+        "text": "咖啡很棒，氣氛很好！这绝对是宫古岛最好的咖啡馆。",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "정지용"
+      },
+      {
+        "text": "路邊小咖啡館。\n他們似乎小規模烘焙咖啡豆。\n滴漏咖啡尤其出色（我推薦埃塞俄比亞咖啡）。\n第二次去的時候點的冷萃咖啡簡直是人間美味。\n這咖啡的水平堪比米其林二星。\n不過，店內只有兩個座位。",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "김래욱"
+      },
+      {
+        "text": "Great coffee with plenty of choices. You know a place knows its coffee when you can order iced espresso or Aero coffee. Great for a quick stop if you're going by car as there is free parking nearby.",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Dennis Bagstevold (Defur)"
+      },
+      {
+        "text": "Wow what an experience! Lovely owner that makes specialty coffee. We had delicious espresso and sandwiches. I'd highly recommend this place!",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Bijan K"
+      }
+    ],
+    "top_neg": [
+      {
+        "text": "雖然是第一次去，但師傅看起來很可靠，還告訴我哪些咖啡豆不推薦。\n我點了他推薦的埃塞俄比亞咖啡，味道均衡，非常好喝。",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "M M"
+      }
+    ],
+    "top_best": [
+      {
+        "text": "我年底的时候去了这家店。\n在宮古島，能喝到如此美味的精品咖啡的地方真是難得。\n每一杯咖啡都冲泡得非常用心。 （两杯热拿铁和一杯热可可）\n咖啡馆非常干净舒适。\n我的孩子不小心把熱可可灑了一地，雖然咖啡館的衛生狀況非常好，但看到孩子不小心灑了東西，我還是有點尷尬。不過，店員並沒有表現出任何不悅，反而親切地問我：\"你沒事吧？\"，這讓我非常感動。\n即使在旅行途中，我也總是很想喝一杯美味的拿鐵，所以非常感謝這家咖啡館，它不僅咖啡好喝，服務態度也專業周到。\n如果下次再來宮古島，我一定會再光顧。",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "ペリエ"
+      },
+      {
+        "text": "we had the best coffee and tuna -avocado-sandwich in miyakojima @goodmanscoffee! we could even select from different coffee beans, which then were freshly grounded. Also talking to the owner was nice - it was really a good man's coffeeshop :)",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Mimi"
+      },
+      {
+        "text": "太好喝了！\n美妙的香氣瀰漫在我的口腔，直到最後一口都縈繞不去，就連加冰的咖啡也一樣美味。\n這是我喝過最好喝的咖啡。\n我想再試試其他品牌的咖啡豆。",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "蒼鳥"
+      },
+      {
+        "text": "這是我在日本喝過最好喝的咖啡，老闆也超級熱情友善。我超愛這家露營車風格的小咖啡館的氛圍！",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "dojagi Kim"
+      },
+      {
+        "text": "The food and drinks are incredible. The proprietor is very kind and welcoming. It's such a relaxing and fun coffee shop!",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Heather Rogers"
+      },
+      {
+        "text": "Best coffee in the island, not to miss when in Miyako! Lovely setting too! Hiro is the nicest barista :)",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Debora Arieta"
+      },
+      {
+        "text": "Probably the best coffee on the island!!",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Jeffrey Vink"
+      },
+      {
+        "text": "Best coffee shop in Miyako!",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "João Martins"
+      },
+      {
+        "text": "咖啡很棒，氣氛很好！这绝对是宫古岛最好的咖啡馆。",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "정지용"
+      }
+    ]
+  },
+  "02-ningin-coffee.md": {
+    "name": "Ningin Coffee（ニンギン珈琲）",
+    "rating": 4.7,
+    "total": 259,
+    "star_dist": {
+      "5": 78,
+      "4": 17,
+      "3": 4,
+      "2": 0,
+      "1": 1
+    },
+    "mean_star": 4.7,
+    "variance": 0.43,
+    "coffee_pct": 59,
+    "env_pct": 17,
+    "svc_pct": 51,
+    "neg_pct": 2,
+    "neg_about_coffee_pct": 100,
+    "best_count": 23,
+    "best_pct": 9,
+    "lang": {
+      "en": 31,
+      "zh": 227,
+      "ja": 1
+    },
+    "cross_lang": {
+      "en": {
+        "n": 31,
+        "coffee_pct": 90,
+        "best_n": 13
+      },
+      "zh": {
+        "n": 227,
+        "coffee_pct": 55,
+        "best_n": 10
+      }
+    },
+    "top_coffee": [
+      {
+        "text": "This is truly some of the best coffee I've ever had, not to mention how exceptional the experience was. We tried three types of pour over, an espresso, and an oat latte, and everything was incredible and made with so much care and intention. We came here every day while on Miyakojima (one day we went twice), and I can't wait to come back again!\n訂單類型：內用\n平均每人消費金額：¥1-1,000\n餐點：5 服務：5 氣氛：5",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Mackenzie Arnold"
+      },
+      {
+        "text": "If you stay in Miyakojima for two weeks, you will notice something surprising: truly good coffee is not easy to find on the island.\nUntil today, my conclusion was simple. If I wanted a really good cup of coffee in Miyakojima, I would go to Grand Bleu Gamin for dessert coffee, or to LB Café for a decent and reasonably priced cup.\nBut today I discovered a place that completely changed my mind about coffee in Miyakojima — Ningin Coffee.\nYears ago I had a perfectly brewed hand-drip Geisha, and since then I rarely feel truly moved by coffee. Today's cup, made with Honduran beans, finally did. The roasting and hand-drip technique were so well balanced that the acidity didn't feel sharp at all. Instead, it slowly opened into aroma.\nThe iced coffee was the biggest surprise. The acidity transformed into a deep floral fragrance — so expressive that I briefly wondered if it was Geisha.\nThe hot version was different but equally beautiful, showing a delicate balance between bright acidity and floral aroma. I used to dislike acidic coffee, but here it felt elegant and expressive.\nAt first I thought 700 yen was expensive for a cup of coffee, but it was so good that I ended up drinking three cups.\nIf you are a coffee lover visiting Miyakojima, Ningin Coffee is a café you should not miss.\nとても感動しました。\n訂單類型：內用\n平均每人消費金額：¥1-1,000\n餐點：5 服務：5 氣氛：5",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Jiyune S"
+      },
+      {
+        "text": "這是我在宮古島喝過的最好喝的咖啡，香氣獨特。冰美式咖啡也很棒。香蕉麵包口感紮實，但沒有我想像中那麼甜。\n平均每人消費金額：¥1-1,000\n餐點：5 服務：5 氣氛：5",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "이병호"
+      },
+      {
+        "text": "我不知道在逗留期間去了多少次。很多人都推薦這家店，說那裡的咖啡最好喝。咖啡確實很香。食物也很美味。我最喜歡的是起司蛋糕，吃過無數次了。這裡是個可以獨自放鬆的好地方。\n餐點：5 服務：5 氣氛：5",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "anin"
+      },
+      {
+        "text": "我點了一杯冰美式。老闆說這是用肯亞中度烘焙的咖啡豆做的。我抿了一口，然後上車離開了。我盡情享受著前往天堂般目的地的旅程。這簡直是我此生喝過最棒的咖啡。 🫢\n訂單類型：外帶\n平均每人消費金額：¥1-1,000\n餐點：5 服務：5 氣氛：5",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "Doorung두렁"
+      },
+      {
+        "text": "我在沖繩和宮古島一共去了六家咖啡館，這家的咖啡最好喝。\n老闆很友善，店裡的氣氛也很棒。\n它離宮古島市中心很近，門口就有停車場，交通很方便。\n這一帶的咖啡館通常咖啡都不錯，但座位不夠舒適。這家咖啡館提供了舒適的休息空間，氣氛也很好。\n訂單類型：內用\n平均每人消費金額：¥1-1,000\n餐點：5 服務：5 氣氛：5",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "sh k"
+      },
+      {
+        "text": "How this has anything other than 5* amazes me! For a true coffee experience, where care, attention to detail and the finest quality goes into every cup, Ningin is the spot. We went here every day, the pour overs were exceptional, the variety of beans provided depth to flavour and the ambience was so relaxing.\nI want to come back and learn how to make great coffee here 😂\n訂單類型：內用\n平均每人消費金額：¥1-1,000\n餐點：5 服務：5 氣氛：5",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Oliver O'Donnell"
+      },
+      {
+        "text": "Best coffee place in Miyakojima!\nI went two days in a row because I fell in love with their hand drip coffee. Best coffee I've had in a while.\nTheir basque cheese cake was also to die for.\nIt gets crowded from early in the morning so it's recommended to go when you have time enough time to relax ☕️\n餐點：5 服務：4 氣氛：5",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Eri Sasaki"
+      },
+      {
+        "text": "這家烘焙咖啡館與民宿聯營。窗外鬱鬱蔥蔥的綠意和寬敞舒適的室內環境，更添愜意。我選擇了印尼的單品咖啡豆，濃鬱的可可碎粒和肉桂的微苦口感令人回味無窮。店員們非常熱情友好，甚​​至還請我品嚐了一杯埃塞俄比亞藝伎咖啡。這家咖啡館甚至開設了分店，這在日本咖啡館中實屬罕見。如果你是咖啡愛好者，這裡絕對值得你去探索一番。\n餐點：4 服務：5 氣氛：4",
+        "star": 4,
+        "lang": "zh",
+        "reviewer": "Noname"
+      },
+      {
+        "text": "Fantastic coffee! If you are looking for high quality specialty coffee in Miyakojima then this is the place to go.\nWe ordered an iced filter coffee, an iced latte and a donut. The ethiopian coffee was amazing and the donut was really yummy. Great staff too! Would recommend paying a visit.",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Ciaran Regan"
+      },
+      {
+        "text": "Quaint little coffee shop on the second floor. Best coffee I have had made with a proper milk steamer etc.\nThe owner also makes donuts but he said on slow days they sell out before 3pm, even earlier on busy days.\nAside from coffee they have hot or cold home made lemonade which sounded dope but when we visited it had already sold out. Additionally if you want to skip out on both of those there are Chai latte options.",
+        "star": 4,
+        "lang": "en",
+        "reviewer": "Constant \"マット\" Fun"
+      },
+      {
+        "text": "Best cafe in Miyako! We visited 3 days in a row. Great coffee and the best basque cheese cake. Super friendly staff and atmosphere was great, love the vibe of the cafe. Relaxing and calming place for a quick reset break.\n訂單類型：內用\n平均每人消費金額：¥1-1,000\n餐點：5 服務：5 氣氛：5",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Tweet"
+      },
+      {
+        "text": "The best coffee on the island! Great choice of different styles coffees. Owner and staff always friendly. We always start our day with their coffee when visiting beautiful Myakojima island.\n訂單類型：外帶\n平均每人消費金額：¥1-1,000\n餐點：5 服務：5 氣氛：5",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Arturas Jakutis"
+      },
+      {
+        "text": "Incredible coffee, kind and attentive service, welcoming environment. Went back again because it was so good! Thank you for the hospitality. We hope you experience lots of success :)\n訂單類型：外帶\n餐點：5 服務：5 氣氛：5",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Stephanie Connor"
+      },
+      {
+        "text": "Finally a good coffee shop! Best coffee in the island, calm and relaxing atmosphere with a very welcoming owner\n訂單類型：外帶\n平均每人消費金額：¥1,000-2,000\n餐點：5 服務：5 氣氛：5",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Cristina Alonso T."
+      }
+    ],
+    "top_neg": [
+      {
+        "text": "If you stay in Miyakojima for two weeks, you will notice something surprising: truly good coffee is not easy to find on the island.\nUntil today, my conclusion was simple. If I wanted a really good cup of coffee in Miyakojima, I would go to Grand Bleu Gamin for dessert coffee, or to LB Café for a decent and reasonably priced cup.\nBut today I discovered a place that completely changed my mind about coffee in Miyakojima — Ningin Coffee.\nYears ago I had a perfectly brewed hand-drip Geisha, and since then I rarely feel truly moved by coffee. Today's cup, made with Honduran beans, finally did. The roasting and hand-drip technique were so well balanced that the acidity didn't feel sharp at all. Instead, it slowly opened into aroma.\nThe iced coffee was the biggest surprise. The acidity transformed into a deep floral fragrance — so expressive that I briefly wondered if it was Geisha.\nThe hot version was different but equally beautiful, showing a delicate balance between bright acidity and floral aroma. I used to dislike acidic coffee, but here it felt elegant and expressive.\nAt first I thought 700 yen was expensive for a cup of coffee, but it was so good that I ended up drinking three cups.\nIf you are a coffee lover visiting Miyakojima, Ningin Coffee is a café you should not miss.\nとても感動しました。\n訂單類型：內用\n平均每人消費金額：¥1-1,000\n餐點：5 服務：5 氣氛：5",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Jiyune S"
+      },
+      {
+        "text": "Quaint little coffee shop on the second floor. Best coffee I have had made with a proper milk steamer etc.\nThe owner also makes donuts but he said on slow days they sell out before 3pm, even earlier on busy days.\nAside from coffee they have hot or cold home made lemonade which sounded dope but when we visited it had already sold out. Additionally if you want to skip out on both of those there are Chai latte options.",
+        "star": 4,
+        "lang": "en",
+        "reviewer": "Constant \"マット\" Fun"
+      },
+      {
+        "text": "我嘗試了黑糖拿鐵，因為它很特別，但如果你像我一樣討厭嚼糖，我就不推薦了ㅠㅠ\n需要攪拌約5分鐘才能喝下去沒有異味——\n拿鐵味道更好了——這裡是安靜享用咖啡的好地方！ ！價格有點高，因為他們自己烘焙咖啡豆，但咖啡豆顏色深，酸度不高，所以味道很棒。 ㅎㅎ\n黑糖拿鐵的價格大約是7000韓元。",
+        "star": 4,
+        "lang": "zh",
+        "reviewer": "정Lucy"
+      },
+      {
+        "text": "拿鐵咖啡很好喝。起司蛋糕也很濃鬱，份量十足，吃起來非常滿足。可惜麵包不能打包帶走。另外，他們沒有甜甜圈，我本來還想嚐嚐的，也挺失望的。",
+        "star": 4,
+        "lang": "zh",
+        "reviewer": "Vang"
+      }
+    ],
+    "top_best": [
+      {
+        "text": "If you stay in Miyakojima for two weeks, you will notice something surprising: truly good coffee is not easy to find on the island.\nUntil today, my conclusion was simple. If I wanted a really good cup of coffee in Miyakojima, I would go to Grand Bleu Gamin for dessert coffee, or to LB Café for a decent and reasonably priced cup.\nBut today I discovered a place that completely changed my mind about coffee in Miyakojima — Ningin Coffee.\nYears ago I had a perfectly brewed hand-drip Geisha, and since then I rarely feel truly moved by coffee. Today's cup, made with Honduran beans, finally did. The roasting and hand-drip technique were so well balanced that the acidity didn't feel sharp at all. Instead, it slowly opened into aroma.\nThe iced coffee was the biggest surprise. The acidity transformed into a deep floral fragrance — so expressive that I briefly wondered if it was Geisha.\nThe hot version was different but equally beautiful, showing a delicate balance between bright acidity and floral aroma. I used to dislike acidic coffee, but here it felt elegant and expressive.\nAt first I thought 700 yen was expensive for a cup of coffee, but it was so good that I ended up drinking three cups.\nIf you are a coffee lover visiting Miyakojima, Ningin Coffee is a café you should not miss.\nとても感動しました。\n訂單類型：內用\n平均每人消費金額：¥1-1,000\n餐點：5 服務：5 氣氛：5",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Jiyune S"
+      },
+      {
+        "text": "This is truly some of the best coffee I've ever had, not to mention how exceptional the experience was. We tried three types of pour over, an espresso, and an oat latte, and everything was incredible and made with so much care and intention. We came here every day while on Miyakojima (one day we went twice), and I can't wait to come back again!\n訂單類型：內用\n平均每人消費金額：¥1-1,000\n餐點：5 服務：5 氣氛：5",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Mackenzie Arnold"
+      },
+      {
+        "text": "Quaint little coffee shop on the second floor. Best coffee I have had made with a proper milk steamer etc.\nThe owner also makes donuts but he said on slow days they sell out before 3pm, even earlier on busy days.\nAside from coffee they have hot or cold home made lemonade which sounded dope but when we visited it had already sold out. Additionally if you want to skip out on both of those there are Chai latte options.",
+        "star": 4,
+        "lang": "en",
+        "reviewer": "Constant \"マット\" Fun"
+      },
+      {
+        "text": "How this has anything other than 5* amazes me! For a true coffee experience, where care, attention to detail and the finest quality goes into every cup, Ningin is the spot. We went here every day, the pour overs were exceptional, the variety of beans provided depth to flavour and the ambience was so relaxing.\nI want to come back and learn how to make great coffee here 😂\n訂單類型：內用\n平均每人消費金額：¥1-1,000\n餐點：5 服務：5 氣氛：5",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Oliver O'Donnell"
+      },
+      {
+        "text": "Best coffee place in Miyakojima!\nI went two days in a row because I fell in love with their hand drip coffee. Best coffee I've had in a while.\nTheir basque cheese cake was also to die for.\nIt gets crowded from early in the morning so it's recommended to go when you have time enough time to relax ☕️\n餐點：5 服務：4 氣氛：5",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Eri Sasaki"
+      },
+      {
+        "text": "Fantastic coffee! If you are looking for high quality specialty coffee in Miyakojima then this is the place to go.\nWe ordered an iced filter coffee, an iced latte and a donut. The ethiopian coffee was amazing and the donut was really yummy. Great staff too! Would recommend paying a visit.",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Ciaran Regan"
+      },
+      {
+        "text": "Best cafe in Miyako! We visited 3 days in a row. Great coffee and the best basque cheese cake. Super friendly staff and atmosphere was great, love the vibe of the cafe. Relaxing and calming place for a quick reset break.\n訂單類型：內用\n平均每人消費金額：¥1-1,000\n餐點：5 服務：5 氣氛：5",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Tweet"
+      },
+      {
+        "text": "我在沖繩和宮古島一共去了六家咖啡館，這家的咖啡最好喝。\n老闆很友善，店裡的氣氛也很棒。\n它離宮古島市中心很近，門口就有停車場，交通很方便。\n這一帶的咖啡館通常咖啡都不錯，但座位不夠舒適。這家咖啡館提供了舒適的休息空間，氣氛也很好。\n訂單類型：內用\n平均每人消費金額：¥1-1,000\n餐點：5 服務：5 氣氛：5",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "sh k"
+      },
+      {
+        "text": "The best coffee on the island! Great choice of different styles coffees. Owner and staff always friendly. We always start our day with their coffee when visiting beautiful Myakojima island.\n訂單類型：外帶\n平均每人消費金額：¥1-1,000\n餐點：5 服務：5 氣氛：5",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Arturas Jakutis"
+      },
+      {
+        "text": "Beautiful atmosphere, soothing inspiring music and some of the best cheesecake I've ever had! The coffee was so rich and velvety, I had the Kenyan. Will definitely be back!\n訂單類型：內用\n餐點類型：午餐\n平均每人消費金額：¥1,000-2,000\n餐點：5 服務：5 氣氛：5",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Nick Paige"
+      }
+    ]
+  },
+  "03-cafe-nuis.md": {
+    "name": "Cafe Nuis",
+    "rating": 4.6,
+    "total": 264,
+    "star_dist": {
+      "5": 74,
+      "4": 17,
+      "3": 5,
+      "2": 2,
+      "1": 2
+    },
+    "mean_star": 4.59,
+    "variance": 0.71,
+    "coffee_pct": 50,
+    "env_pct": 28,
+    "svc_pct": 37,
+    "neg_pct": 2,
+    "neg_about_coffee_pct": 60,
+    "best_count": 11,
+    "best_pct": 4,
+    "lang": {
+      "en": 32,
+      "zh": 231,
+      "ja": 1
+    },
+    "cross_lang": {
+      "en": {
+        "n": 32,
+        "coffee_pct": 44,
+        "best_n": 4
+      },
+      "zh": {
+        "n": 231,
+        "coffee_pct": 51,
+        "best_n": 6
+      }
+    },
+    "top_coffee": [
+      {
+        "text": "位於靜謐街區的休閒咖啡館✨\n乍看之下可能不太起眼，但一踏進門，就發現它是一家正經咖啡館。裡面有好幾對女生情侶，氣氛很甜美。每個人似乎都點了餐。\n我點了…芒果檸檬瑪芬和冷萃咖啡。\n芒果檸檬瑪芬是溫熱的，裡面的芒果和檸檬比例恰到好處，而且看起來也很可愛😍 瑪芬的外皮酥脆輕盈。說實話，在宮古島的鄉下，這樣的品質簡直令人難以置信❗️\n冷萃冰咖啡香氣濃鬱，口感清爽。我喝過星巴克和其他咖啡店的冷萃咖啡，但這家是最好的。當我分享我的感受時，店員告訴我這是老闆的特調。\n據說，這家咖啡館的咖啡豆是由一位知名咖啡師調製的…\n我被深深打動了，還買了一些咖啡帶回家。\n下次去宮古島，我一定要再來這家店！\n另外，旁邊那位朋友點的起司蛋糕好大一塊，看起來也超好吃。",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "sugimori Mahalo"
+      },
+      {
+        "text": "這裡的咖啡、花草茶和司康餅是我吃過最好吃的！ (^^) 最棒的是，店員們都很友善！他們好像在京都也有販售一些產品，我得去看看。",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "ももも"
+      },
+      {
+        "text": "我的一位同事是這家餐廳老闆的朋友，他向我推薦了這家餐廳。我和老公抵達宮古島的第二天，就決定去吃頓美味的早餐！於是我們去了Nyuisu。\n我們一到就跟老闆打了個招呼。\n這裡真是太溫馨了！ (θ‿θ)\n時尚的室內裝潢、窗外綠意盎然的景色，以及熱情周到的服務，讓我感覺就像在自己家的客廳一樣。\n早餐我們點了香脆的火腿起司吐司和咖啡套餐。吐司和搭配的沙拉都超好吃！\n老公多點的司康餅也美味得讓我驚喜！ 😲\n我可沒開玩笑，這絕對是我吃過最好吃的司康。\n咖啡的香氣也十分濃鬱，在口中蔓延開來，酸度和苦度的平衡更是令人讚嘆。\n你能感受到製作過程中傾注的用心和愛。\n我買了咖啡豆、司康和冰咖啡當伴手禮，便當盒看起來也很好吃，所以就把它當午餐吃了。\n所有東西都超級好吃 (ﾉ◕ヮ◕)ﾉ*.✧\nNuis 的咖啡在宮古島機場、島上的火車站和度假村的便利商店都有販售，難怪這麼受歡迎（哈哈）。我太開心了！ 😚\n我還買到了店主推薦的稀有芒果，即使回到家，宮古島的美好餘韻也久久縈繞在我心頭。\n店主說：\"宮古島不僅能治愈你一天的疲憊，還能讓你重新煥發活力。\"\n我完全同意。\n如果你要去宮古島，我強烈推薦這家店！ ♡♡♡\n我和海龜一起游泳，騎了賽格威，在沙灘上放鬆身心，也發現了好多好吃的東西。我愛上宮古島了！\n如果下次再去宮古島，我一定要再去這家店逛逛。\n作為一家深受當地人和遊客喜愛的店鋪，\n我會一直支持你們的！ (ﾉ◕ヮ◕)ﾉ*.✧",
+        "star": 5,
+        "lang": "ja",
+        "reviewer": "彩とう美恵"
+      },
+      {
+        "text": "宮古島九天之旅，今天是第五天，但已經是第四次了。\n第一天，我在去東平安名崎的路上順便去了這家店，一下子就愛上了。\n店內佈置簡單舒適，而且有電源插座和Wi-Fi，對遊客來說真是太棒了！\n我嘗試了咖哩、甜點、早餐等等，完全滿足！\n所有菜色中，我最喜歡的是冰咖啡！\n難以言喻的口味平衡讓我印象深刻，於是我問了店主，他告訴我：「我們的咖啡來自一家榮獲世界最佳咖啡獎的公司」（真是令人信服）。\n也有很多當地人來買便當，不到中午就賣光了。知道這家店也深受當地人的喜愛，真是令人欣慰。\n現在，我的身心和智慧型手機都充滿電了！\n我在宮古島只剩下四天的時間了，我可能會再回來的！",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "shin p"
+      },
+      {
+        "text": "Omg so cute in the middle of farm fields and very close drive to Aragusuku beach, must visit. Their cakes and coffee is awesome!",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "yvette y tang"
+      },
+      {
+        "text": "We were astonished by the experience in this café. We came in the day when the coffee was closed due to bad weather and we met accidentally with the owner that accept to open the coffee for us and give us a nice tea Time break with amazing scone and muffin. Thank you so much",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "jean miyeli"
+      },
+      {
+        "text": "I really loved the friendliness of the owner as well as the exceptionally tasteful coffee! Enjoyed a beautiful landscape outside the window too👍 …",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Wonseop Lewis Suh"
+      },
+      {
+        "text": "我下午兩點多才到海灘，很擔心會錯過午餐，但還是在這裡吃了午餐。不過，他們好像要到關門時間才開始供應午餐，所以如果你到得晚，最好提前打電話確認。咖哩是自製的，味道很清爽。紅糖咖啡也很好喝，強烈推薦。",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "A SY"
+      },
+      {
+        "text": "2025年3月到訪。\n讀了一些評論後，我抱著輕鬆的心態去的，結果發現吐司真的太好吃了。\n這似乎是早上才有的菜單選項…強烈推薦！\n第二天我又去了一次。\n咖啡口感柔和，餘韻乾淨。\n酸度不高，帶有堅果的香味，香氣和味道都很純淨。\n後來，我四處逛逛，發現唐吉訶德（Don Quijote）或免稅店也能買到Nuis Coffee的咖啡豆。\n店員和老闆態度都非常好。 （其實其他分店的服務態度也都不錯^^）\n經過時，這裡是個可以停下來放鬆的好地方。\n他們週四和週五休息~\n（所以才只去了兩次…ㅠ）",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "karin"
+      },
+      {
+        "text": "我之前去新莊海灘的時候來過這家店三次。\n總覺得老闆娘說話很生硬，這讓我很失望。\n不過，兩位女店員都很熱情友好，彌補了這一點。\n我點了一杯咖啡歐蕾，但從座位上就能清楚地看到，他們把牛奶放進微波爐裡加熱，然後因為太燙，用湯匙刮掉了表面形成的蛋白膜。\n而且，他們用的咖啡豆酸度很高，做咖啡歐蕾居然不用深度烘焙的法式咖啡豆，這讓我很失望。\n可惜的是，他們的便當盒真的很好吃。\n另外，如果可以的話，我希望他們能提供詳細的消費清單。",
+        "star": 2,
+        "lang": "zh",
+        "reviewer": "ken2 honu"
+      },
+      {
+        "text": "I had cafe au lait that I could choose with my currey, which is 3 parts coffee to 7 parts milk. No foaming. It was nice even thougu I usally only drink lattes.\nThe curry is excellent, highly recommend.\nThe cheese cake is nice, but is barely sweet (I like them sweeter).\nOverall, the service quality is excellent and even the complementary cup of water was refilled regularly.",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Ruslan Taran"
+      },
+      {
+        "text": "去得太晚了沒吃到咖哩飯\n不過點心蛋糕也都很美味\n另外咖啡蠻驚艷的\n買了手沖包隔天再沖也是很好喝\n隔天跑去唐吉柯德再補貨\n（他的咖啡唐吉柯德也買得到）\n然後老闆很親切👍\n之後歡迎來台灣玩",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "路人戊"
+      },
+      {
+        "text": "一進門就聞到濃濃的甜點烘焙味道，好喜歡這種烘焙的香氣，早晨的第一餐就沐浴在烘焙氣味中，好悠閒好療癒\n餐廳側邊有大大的開窗面積，吃著早餐看著窗外綠油油的田發呆，好愜意！\n萊姆蛋糕酒味清淡，濕軟度適中，不會太乾硬，搭配黑糖拿鐵，一整個滿足到不行\n老闆人也很好，發現我們是外國人，自己拿著手機翻譯問需不需要幫我們拍合照，真是太可愛了！店家真的很友善👍",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "小花何"
+      },
+      {
+        "text": "我很幸運，出發那天早上去了一家很早就開門的咖啡館。最基本的咖啡是手沖咖啡，味道真不錯！奶油吐司就是普通的吐司抹了奶油，所以如果你想吃果醬的話，我建議點法式吐司。所有食物都很美味！法式吐司尤其鬆軟可口！坐在窗邊欣賞田野景色也十分愜意。",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "ARIE"
+      },
+      {
+        "text": "我聽說這裡的咖啡師是前世界咖啡師冠軍。咖啡口感非常順滑，我個人喜歡法式牛奶咖啡而不是美式咖啡。他們開門很早，所以你可以享用一頓清淡的早餐。我點了一份司康餅和起司蛋糕，味道很棒。",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "원형섭"
+      }
+    ],
+    "top_neg": [
+      {
+        "text": "We were astonished by the experience in this café. We came in the day when the coffee was closed due to bad weather and we met accidentally with the owner that accept to open the coffee for us and give us a nice tea Time break with amazing scone and muffin. Thank you so much",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "jean miyeli"
+      },
+      {
+        "text": "這個夏天我幾乎每個週末都會去這家店，所以來寫篇遊記。\n首先是蕎麥麵。湯底清淡卻勁道，麵條新鮮爽滑，味道簡直棒極了。\n單點蕎麥麵價格略高，但搭配咖啡套餐就非常划算了，而且咖啡香氣濃鬱，我以後每天早上都想喝☕️\n最後是夏季限定的芒果🥭，真的太好吃了✨半份只要800日圓。我估計在其他地方至少要貴兩、三倍。沒想到這麼便宜又好吃✨現在想想，我當時真想吃一整份哈哈。\n芒果不在常規菜單上，所以如果哪天沒貨就有點失望哈哈。\n唯一讓我覺得不太舒服的是桌椅高度不太匹配，吃起來有點不方便。不過店裡的氣氛很棒。\n員工非常友善，這裡是一個非常放鬆的地方。",
+        "star": 4,
+        "lang": "zh",
+        "reviewer": "宮古島ジン君"
+      },
+      {
+        "text": "我之前去新莊海灘的時候來過這家店三次。\n總覺得老闆娘說話很生硬，這讓我很失望。\n不過，兩位女店員都很熱情友好，彌補了這一點。\n我點了一杯咖啡歐蕾，但從座位上就能清楚地看到，他們把牛奶放進微波爐裡加熱，然後因為太燙，用湯匙刮掉了表面形成的蛋白膜。\n而且，他們用的咖啡豆酸度很高，做咖啡歐蕾居然不用深度烘焙的法式咖啡豆，這讓我很失望。\n可惜的是，他們的便當盒真的很好吃。\n另外，如果可以的話，我希望他們能提供詳細的消費清單。",
+        "star": 2,
+        "lang": "zh",
+        "reviewer": "ken2 honu"
+      },
+      {
+        "text": "氣氛還不錯，但我對衛生狀況和女服務生的態度有點擔心。\n她們雖然有感染控制意識，女服務生工作時也戴著塑膠手套，但她們全程都戴著，無論是擺盤、上菜或收銀，甚至都不洗手。用摸過紙幣和硬幣的手做飯讓我感覺特別不舒服。我們自己戴著口罩，但他們卻以每個50日圓的價格向沒戴口罩的顧客出售口罩（措辭有點粗魯……），所以員工的衛生意識實在令人失望。\n餐廳裡有一位男服務員，他非常友善。\n餐廳的氣氛很溫馨可愛。",
+        "star": 2,
+        "lang": "zh",
+        "reviewer": "M"
+      },
+      {
+        "text": "我去的時候是下午三點的下午茶時間，但大部分商品都賣光了…\n黑糖冰淇淋就是一杯市售的冰淇淋，上面撒了些堅果…\n自製薑汁汽水很好喝，店內氣氛和員工都很好，所以有點失望。",
+        "star": 4,
+        "lang": "zh",
+        "reviewer": "kanchan"
+      }
+    ],
+    "top_best": [
+      {
+        "text": "我的一位同事是這家餐廳老闆的朋友，他向我推薦了這家餐廳。我和老公抵達宮古島的第二天，就決定去吃頓美味的早餐！於是我們去了Nyuisu。\n我們一到就跟老闆打了個招呼。\n這裡真是太溫馨了！ (θ‿θ)\n時尚的室內裝潢、窗外綠意盎然的景色，以及熱情周到的服務，讓我感覺就像在自己家的客廳一樣。\n早餐我們點了香脆的火腿起司吐司和咖啡套餐。吐司和搭配的沙拉都超好吃！\n老公多點的司康餅也美味得讓我驚喜！ 😲\n我可沒開玩笑，這絕對是我吃過最好吃的司康。\n咖啡的香氣也十分濃鬱，在口中蔓延開來，酸度和苦度的平衡更是令人讚嘆。\n你能感受到製作過程中傾注的用心和愛。\n我買了咖啡豆、司康和冰咖啡當伴手禮，便當盒看起來也很好吃，所以就把它當午餐吃了。\n所有東西都超級好吃 (ﾉ◕ヮ◕)ﾉ*.✧\nNuis 的咖啡在宮古島機場、島上的火車站和度假村的便利商店都有販售，難怪這麼受歡迎（哈哈）。我太開心了！ 😚\n我還買到了店主推薦的稀有芒果，即使回到家，宮古島的美好餘韻也久久縈繞在我心頭。\n店主說：\"宮古島不僅能治愈你一天的疲憊，還能讓你重新煥發活力。\"\n我完全同意。\n如果你要去宮古島，我強烈推薦這家店！ ♡♡♡\n我和海龜一起游泳，騎了賽格威，在沙灘上放鬆身心，也發現了好多好吃的東西。我愛上宮古島了！\n如果下次再去宮古島，我一定要再去這家店逛逛。\n作為一家深受當地人和遊客喜愛的店鋪，\n我會一直支持你們的！ (ﾉ◕ヮ◕)ﾉ*.✧",
+        "star": 5,
+        "lang": "ja",
+        "reviewer": "彩とう美恵"
+      },
+      {
+        "text": "位於靜謐街區的休閒咖啡館✨\n乍看之下可能不太起眼，但一踏進門，就發現它是一家正經咖啡館。裡面有好幾對女生情侶，氣氛很甜美。每個人似乎都點了餐。\n我點了…芒果檸檬瑪芬和冷萃咖啡。\n芒果檸檬瑪芬是溫熱的，裡面的芒果和檸檬比例恰到好處，而且看起來也很可愛😍 瑪芬的外皮酥脆輕盈。說實話，在宮古島的鄉下，這樣的品質簡直令人難以置信❗️\n冷萃冰咖啡香氣濃鬱，口感清爽。我喝過星巴克和其他咖啡店的冷萃咖啡，但這家是最好的。當我分享我的感受時，店員告訴我這是老闆的特調。\n據說，這家咖啡館的咖啡豆是由一位知名咖啡師調製的…\n我被深深打動了，還買了一些咖啡帶回家。\n下次去宮古島，我一定要再來這家店！\n另外，旁邊那位朋友點的起司蛋糕好大一塊，看起來也超好吃。",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "sugimori Mahalo"
+      },
+      {
+        "text": "宮古島九天之旅，今天是第五天，但已經是第四次了。\n第一天，我在去東平安名崎的路上順便去了這家店，一下子就愛上了。\n店內佈置簡單舒適，而且有電源插座和Wi-Fi，對遊客來說真是太棒了！\n我嘗試了咖哩、甜點、早餐等等，完全滿足！\n所有菜色中，我最喜歡的是冰咖啡！\n難以言喻的口味平衡讓我印象深刻，於是我問了店主，他告訴我：「我們的咖啡來自一家榮獲世界最佳咖啡獎的公司」（真是令人信服）。\n也有很多當地人來買便當，不到中午就賣光了。知道這家店也深受當地人的喜愛，真是令人欣慰。\n現在，我的身心和智慧型手機都充滿電了！\n我在宮古島只剩下四天的時間了，我可能會再回來的！",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "shin p"
+      },
+      {
+        "text": "We were astonished by the experience in this café. We came in the day when the coffee was closed due to bad weather and we met accidentally with the owner that accept to open the coffee for us and give us a nice tea Time break with amazing scone and muffin. Thank you so much",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "jean miyeli"
+      },
+      {
+        "text": "這裡的咖啡、花草茶和司康餅是我吃過最好吃的！ (^^) 最棒的是，店員們都很友善！他們好像在京都也有販售一些產品，我得去看看。",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "ももも"
+      },
+      {
+        "text": "I really loved the friendliness of the owner as well as the exceptionally tasteful coffee! Enjoyed a beautiful landscape outside the window too👍 …",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Wonseop Lewis Suh"
+      },
+      {
+        "text": "Omg so cute in the middle of farm fields and very close drive to Aragusuku beach, must visit. Their cakes and coffee is awesome!",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "yvette y tang"
+      },
+      {
+        "text": "我下午兩點多才到海灘，很擔心會錯過午餐，但還是在這裡吃了午餐。不過，他們好像要到關門時間才開始供應午餐，所以如果你到得晚，最好提前打電話確認。咖哩是自製的，味道很清爽。紅糖咖啡也很好喝，強烈推薦。",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "A SY"
+      },
+      {
+        "text": "Relaxing cafe - the vegetarian sandwich is outstanding!",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "AC HK"
+      },
+      {
+        "text": "在田裡度過一個輕鬆的早晨☕🍞🌄\n田野的景色很美，但有時候，欣賞田野本身的美景也別有一番滋味👍",
+        "star": 4,
+        "lang": "zh",
+        "reviewer": "中野由起子"
+      }
+    ]
+  },
+  "04-chill-miyako.md": {
+    "name": "chill Miyako",
+    "rating": 4.6,
+    "total": 301,
+    "star_dist": {
+      "5": 81,
+      "4": 13,
+      "3": 1,
+      "2": 1,
+      "1": 4
+    },
+    "mean_star": 4.67,
+    "variance": 0.76,
+    "coffee_pct": 2,
+    "env_pct": 15,
+    "svc_pct": 18,
+    "neg_pct": 2,
+    "neg_about_coffee_pct": 0,
+    "best_count": 11,
+    "best_pct": 4,
+    "lang": {
+      "en": 12,
+      "zh": 288,
+      "ja": 1
+    },
+    "cross_lang": {
+      "en": {
+        "n": 12,
+        "coffee_pct": 0,
+        "best_n": 4
+      },
+      "zh": {
+        "n": 288,
+        "coffee_pct": 2,
+        "best_n": 7
+      }
+    },
+    "top_coffee": [
+      {
+        "text": "這家時髦的咖啡館/餐廳讓人聯想到衝浪和海灘。店員很友好，我去是因為他們早上8點就開門了。我點了一份夏威夷蓋飯和一碗拉麵。拉麵出乎意料地好吃，我強烈推薦。夏威夷蓋飯雖然份量不大，配料也不算豐富，但味道不錯，吃過的人應該都能認出來。",
+        "star": 4,
+        "lang": "zh",
+        "reviewer": "Yeujin Lim"
+      },
+      {
+        "text": "店內裝潢非常時尚，我很喜歡這個空間。\n你可以選擇各種各樣的配料來搭配你的金槍魚波奇（Ahi Poke），\n這很棒，因為你可以創造自己的口味，而且味道真的超級棒。\n我也很喜歡免費的咖啡服務。",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "fujisawa acca"
+      },
+      {
+        "text": "店員可愛又友善，店內環境也很乾淨。\n巴西莓碗咖啡都很好喝！",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "next beauty labo"
+      },
+      {
+        "text": "這是我第一次吃巴西莓碗✨ 因為是早餐，所以希望有咖啡套餐。",
+        "star": 4,
+        "lang": "zh",
+        "reviewer": "K S"
+      },
+      {
+        "text": "巴西莓果肉軟硬適中，果肉香甜可口！\n不過，咖啡嘗起來就是普通咖啡的味道，如果能再沖泡久一點就好了。",
+        "star": 4,
+        "lang": "zh",
+        "reviewer": "あいす"
+      },
+      {
+        "text": "嗯，夏威夷碗有點小\n不過還是很好吃\n適合慢跑和喝咖啡的地方",
+        "star": 4,
+        "lang": "zh",
+        "reviewer": "‍이성빈[학생](대학원 컨벤션전시경영학과)"
+      }
+    ],
+    "top_neg": [
+      {
+        "text": "我買了份巴西莓果昔來帶走，但很失望，分量少得可憐，幾乎只有底部一層。巧克力醬要1600日元，也只是撒了一點點，我覺得還不如去別的地方買便宜。\n更讓人失望的是，巴西莓果昔就像稀果汁一樣。他們說會很快化掉，要盡快吃完，但實際上，剛拿出來一兩分鐘就化成汁了……這簡直是我吃過最難吃的東西。",
+        "star": 1,
+        "lang": "zh",
+        "reviewer": "さわ\"けろ\""
+      },
+      {
+        "text": "蕎麥麵勁道十足，美味極了！\n我的第一印像是巴西莓果粒很小，而且不厚實，更像是冰沙。\n不過，我覺得盤子上的字很可愛，不像其他餐廳。\n我點了兩份蕎麥麵、一份米飯和一份巴西莓果，\n但這些都分開上桌，很令人失望。\n我更希望他們能把它們放在一起上桌，因為拍照會更好看。",
+        "star": 4,
+        "lang": "zh",
+        "reviewer": "せいぼう"
+      },
+      {
+        "text": "我本來是專門衝巴西莓碗來的，沒想到宮古蕎麥麵也超級好吃！\n昨天吃的那家店讓我很失望，所以這次真是彌補了之前的遺憾！當然，巴西莓碗也很好吃哦。 ^_^",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "MORI AKO"
+      },
+      {
+        "text": "巴西莓果昔的分量太少了，我從來沒見過這麼少的。 1500日圓太貴了，簡直是搶錢。一點都不飽。水果倒是挺好吃的。店員態度很差。",
+        "star": 1,
+        "lang": "zh",
+        "reviewer": "K れいちぇる"
+      },
+      {
+        "text": "雖然他們的關門時間是下午5點，但我下午4點28分左右去的時候，卻被告知他們已經關門了，真是太失望了😭 也許他們食材用完了？",
+        "star": 1,
+        "lang": "zh",
+        "reviewer": "ごま"
+      },
+      {
+        "text": "阿薩伊飯1400日元，這個品質太貴了；清淡的宮古蕎麥麵800日元，肉很少，麵條不好吃，湯也很普通。真是太可惜了。",
+        "star": 2,
+        "lang": "zh",
+        "reviewer": "kana"
+      }
+    ],
+    "top_best": [
+      {
+        "text": "Atmosphere is very nice with a bit of an industrial/surfer vibe. Ordered the acai bowl which was well balanced. The cold noodles were the perfect blend of Korean cold noodles and Okinawa soba. The pork on rice side dish with an egg was flavorful without being overstated and a good deal at 650 yen.",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Steven Wood"
+      },
+      {
+        "text": "I visited to Miyakojima for the first time\nChill has the best acai bowl and the original Miyakojima soba ever!!!!!\nIt's really close to the main area in Miyakojima!!! Their service and all foods quality are so good;) I definitely will come back again!!!!",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "SATO AMANE"
+      },
+      {
+        "text": "This was by far the best food we had in Okinawa, great CHILL vibe. Delicious and hearty food. Must visit",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Simone Wilson"
+      },
+      {
+        "text": "Amazing miyako soba and açaí bowl. One of a few places open in the morning.",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Andrew Peluso"
+      },
+      {
+        "text": "早上開門的店不多，所以我非常感激。 ❤️\n巴西莓果碗和拉麵上得很快，味道很棒！\n我一定會再來的！ 🩷\n最棒的是，店裡的裝潢風格也很時尚！ 🩷",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "関"
+      },
+      {
+        "text": "這裡的氣氛和員工都超可愛！\n我吃到了有史以來最好吃的巴西莓果碗♪\n我推薦榛果巧克力醬口味的！",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "庄司彩乃"
+      },
+      {
+        "text": "我在宮古島待了四晚五天，每天都在不同的餐廳吃巴西莓碗，但這裡的巴西莓碗是最好吃的❤️🌺",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "松本苺花"
+      }
+    ]
+  },
+  "05-sunayama-cafe.md": {
+    "name": "Sunayama Cafe",
+    "rating": 4.6,
+    "total": 428,
+    "star_dist": {
+      "5": 70,
+      "4": 23,
+      "3": 6,
+      "2": 1,
+      "1": 1
+    },
+    "mean_star": 4.59,
+    "variance": 0.54,
+    "coffee_pct": 22,
+    "env_pct": 21,
+    "svc_pct": 18,
+    "neg_pct": 1,
+    "neg_about_coffee_pct": 33,
+    "best_count": 20,
+    "best_pct": 5,
+    "lang": {
+      "zh": 391,
+      "en": 36,
+      "ja": 1
+    },
+    "cross_lang": {
+      "en": {
+        "n": 36,
+        "coffee_pct": 25,
+        "best_n": 8
+      },
+      "zh": {
+        "n": 391,
+        "coffee_pct": 22,
+        "best_n": 12
+      }
+    },
+    "top_coffee": [
+      {
+        "text": "2025年5月：外賣實在太美味了，以至於我們在宮古島的最後一天決定在店裡吃（還點了晚餐帶上飛機）。\n新擔擔麵不提供外賣，所以我點了份普通大小的，給老公加了新鮮蒜蓉和島嶼辣椒醬。老公說拿到外送後還想再喝一杯，所以我們又點了一杯黑糖咖啡拿鐵，真是個不錯的選擇。島嶼辣椒醬正好中和了吃完後的辣味。\n普通大小的新擔擔麵辣度剛剛好，肉量足，上面還有蓬鬆的雞蛋。湯底、配料和宮古蕎麥麵搭配起來簡直美味極了！老公對額外的米飯和起司也很滿意。\n我們從宮古島飛往那霸的航班延誤了，所以我們在那霸機場轉機的時候吃了晚餐。我們吃的塔可飯太好吃了，外帶盒蓋上的留言也讓我很感動。\n所有東西都很美味，所以如果你在宮古島，我強烈推薦你來這家店！我一定會再去的！ ！\n2025年5月，我在別墅點了外帶晚餐。我提前打電話告訴他們我想點外賣，他們告訴我有哪些選擇。他們問我要不要飲料，但因為別墅裡有很多飲料，所以我回答「不用了」。他們說：「如果您點套餐，我們會提供折扣，您可以到店後再點，所以如果您願意，可以看看菜單。」餐廳旁邊有個很大的停車場，所以我把車停好就進去了。當我告訴他們我是來取外帶的時候，他們給我看了飲料單，說有冰沙，所以我最後又點了一杯！哈哈！不過這真是個明智的決定。芒果冰沙和紅糖拿鐵咖啡都很好喝。\n當然，那不勒斯意麵和塔可飯也都非常美味。沙拉的醬汁也是自製的，味道很棒。可以用現金或信用卡支付，非常方便。\n下次一定要試試在店裡加配料，悠閒地享用美食！",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "ベンツまつ"
+      },
+      {
+        "text": "【溫馨舒適的咖啡館，門口還有一隻可愛的貓咪吉祥物】\nHeike Cafe 位於前往池間島的路上。 ☕️\n據說在橫濱野毛也有一家分店。\n咖啡館裡有吧台、桌子和沙發座位，白天很受當地人歡迎，除了我。 ☺️✨\n早餐吃得很飽，所以我點了一份手工沖繩紅豆湯（上面撒了宮古紅豆）、一份阿芙佳朵和一杯熱三拼茶！\n哇！ ！ ！宮古紅豆太好吃了！口感和味道都像極了小小的黑豆。 🤤！他們當著我的面製作了阿芙佳朵的濃縮咖啡，感覺很貼心，熱三拼茶更是錦上添花！咖啡館停車位充足，外面還有兩個吸煙區。 🙋‍♂️ 最棒的是，店員都非常友善！ ！ ！他們的笑容真讓人感到溫暖！哦，對了，他們還有免費Wi-Fi，速度很快，足夠我用電腦完成一些工作！我還會再來的！ ☺️✨",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "辺見俊輔"
+      },
+      {
+        "text": "Unbelievably charming & cool cafe. A sweet staff , some English, English menu. The coffee alone is so good- but also the food / Dan Dan noodles & the Thai rice bowls. Incredible!!!!!",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "cristina dimichino"
+      },
+      {
+        "text": "The Thai rice was delicious ! Very friendly owners. Best coffee on the island hands down- strong like I like it",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Dk"
+      },
+      {
+        "text": "This charming café near the beach is a true gem. The coffee was rich and flavorful, the mango smoothie was refreshing, and the service was absolutely outstanding. The staff was incredibly warm and welcoming, making the experience even more enjoyable.",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Mavish Sikander"
+      },
+      {
+        "text": "Nice and chill cafe right by one of the best beaches on the island.\nLove their Okinawa waffle with red bean and mochi!\nThe miyako soba was a bit saltier than we liked. The ga pao rice was decent.",
+        "star": 4,
+        "lang": "en",
+        "reviewer": "Grace Li"
+      },
+      {
+        "text": "這家咖啡館位於砂山海灘附近。\n他們自製的黑糖冰淇淋（780日圓）是用宮古豆製作的，並自家加鹽。黑糖冰淇淋和白玉麻糬都超好吃！宮古全濟刨冰（1380日圓）蓬鬆綿軟，口感極佳。豆子軟糯甜。宮古豆是自家烘焙的，鹹度也恰到好處！\n這家咖啡館似乎對豆子非常講究。\n咖啡☕也是深度烘焙的，口感醇厚，和黑糖冰淇淋以及全濟刨冰簡直是絕配！太開心了！ 😆\n晚餐我點了外帶的塔可飯和芒果冰沙！\n芒果冰沙是用宮古芒果做的。\n美味極了！\n塔可飯裡加了額外的起司！\n分量很足。\n他們家還有其他各種各樣的餐點，包括擔擔麵、披薩、那不勒斯三明治和包子。\n這家咖啡館的吉祥物貓咪非常友善。\n我坐在它旁邊的椅子上睡著了！\n店裡的阿姨超可愛，而且所有東西都是她親手做的。\n她用馬克筆在打包盒上畫的logo和棕櫚樹🌴真是太萌了！\n店裡的貼紙也很可愛！\n我在這家美式咖啡館度過了非常愉快的時光。\n如果你有機會去宮古島的砂山海灘🏖️，一定要去砂山咖啡館休息一下。\n我還會再來的！謝謝你們提供的美食！",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "tomoko kato"
+      },
+      {
+        "text": "這是我第一次去宮古島，完全不知道該去哪裡！ 💦\n之前去浮潛的時候，偶然聽到有人說那裡的美食很棒！ ！\n所以最後一天我特意去那裡吃了一頓。\n我想嚐嚐塔可飯、披薩、黑糖拿鐵、冰咖啡和咖啡凍，結果因為太受歡迎都賣光了。 😭\n最後我點了華夫餅！\n所有東西都超級好吃！ ！\n如果你有機會去宮古島，我強烈推薦你去砂山海灘。\n哦！ ？我每次去都是為了咖啡凍！ ！哈哈",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "PORTER THIDA"
+      },
+      {
+        "text": "如果你想在沙灘上享用一杯咖啡，這家店提供最佳的外帶選擇！",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "小宮山友樹"
+      },
+      {
+        "text": "我當時想找墨西哥捲餅飯，結果發現附近有家店。我點的是咖哩口味的墨西哥捲餅飯。配料都是常見的食材，外加一片綠葉菜？裡面有很多略帶苦味的綠葉蔬菜。賣相不錯，典型的咖啡館風格，但我個人不太喜歡。配的湯有點淡，而且湯汁也比較稀。我的同伴似乎蠻滿意的。這家咖啡館裝潢得很可愛，價格也只要1000日圓左右，所以我覺得還好……就喜歡那裡的氣氛。",
+        "star": 3,
+        "lang": "zh",
+        "reviewer": "ちあき"
+      },
+      {
+        "text": "這家溫馨的咖啡館就在砂山海灘前。\n我們推薦塔可飯和黑糖冰淇淋。\n隔壁有一個可停放多輛車的停車場。\n・宮古牛肉塔可飯\n・雞肉椰汁咖哩\n・雞肉奶油多利亞\n・自製披薩\n・芒果汁\n・黑糖咖啡拿鐵\n・義大利蘇打水\n・冰沙\n・新鮮出爐的華夫餅\n・咖啡果凍和黑糖冰淇淋\n・宮古善哉",
+        "star": 4,
+        "lang": "ja",
+        "reviewer": "シウマイ"
+      },
+      {
+        "text": "距離砂山海灘僅幾步之遙，真是個絕佳的發現。在裝潢精美、熱情好客的咖啡館短暫停留。我們嘗試了阿芙佳朵（濃縮咖啡配冰淇淋和紅糖）。味道好極了。全天候供應的菜餚都很開胃（沒有品嚐過）。",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "Sophie S"
+      },
+      {
+        "text": "我去了砂山海灘，感覺有點渴，就用谷歌搜尋了一下，結果找到了這家店。這家店的評價很高，所以就去嘗試了一下，結果發現真是個不錯的選擇！\n我點了咖啡果凍、芒果冰沙和拿鐵。\n每樣都美味濃鬱！\n咖啡果凍底部放了黑糖，簡直是絕配。\n芒果冰沙的味道不像平常那​​麼寡淡，但這款卻非常濃鬱，甜度和香氣甚至可以與正宗的台灣芒果媲美。\n如果不是谷歌搜尋到這家店，我肯定不會去，所以我很慶幸偶然發現了它。",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "座頭市"
+      },
+      {
+        "text": "The dandanmen noodles and the mango Smoothie we're soo delicious and the sweetbean ice. The owners were so frendly and Patience. One small Highlight is the small handsome Co-Boss (Cat) whos was chilling on the floor.\nIf you are going to sunyama beach, make a Stop Here.",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Daborgia"
+      },
+      {
+        "text": "Always greeting customers happily, good service, food and drinks, recommend the mango smoothie and the brown sugar latte",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Richard Mahé"
+      }
+    ],
+    "top_neg": [
+      {
+        "text": "我點了份塔可飯，因為很多地方都推薦，但是……這塔可飯是用味噌水菜代替生菜做的，所以吃起來有點膩，而且還有味噌特有的苦味。嗯，說實話，我覺得不值這個價錢。本來期望很高，結果有點失望。店員很友好，但是感覺價格有點高，跟店裡的氛圍不太搭。不過現在這種時候，也沒辦法。",
+        "star": 2,
+        "lang": "zh",
+        "reviewer": "サクラサクラ"
+      },
+      {
+        "text": "我點了宮古全菜。\n份量很足，但味道太好了，我很快就吃完了。\n服務員也很有禮貌。\n唯一令人失望的是，我在停車場發現了貓屎，結果踩到了。我在好幾個地方都發現了貓屎，所以如果你要去的話一定要小心。如果你開著租來的車，車裡到處都是貓屎，那可就糟了。",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "aya aya"
+      },
+      {
+        "text": "我看了評論後去了那裡，結果很失望！\n我非常失望。\n我聽說留言會拿到一張貼紙，但我覺得應該沒人會留下負評。\n對於那些想找一家真正好餐廳的人來說，這沒什麼用。\n我覺得最好還是避免這種事。",
+        "star": 1,
+        "lang": "zh",
+        "reviewer": "さくら"
+      }
+    ],
+    "top_best": [
+      {
+        "text": "2025年5月：外賣實在太美味了，以至於我們在宮古島的最後一天決定在店裡吃（還點了晚餐帶上飛機）。\n新擔擔麵不提供外賣，所以我點了份普通大小的，給老公加了新鮮蒜蓉和島嶼辣椒醬。老公說拿到外送後還想再喝一杯，所以我們又點了一杯黑糖咖啡拿鐵，真是個不錯的選擇。島嶼辣椒醬正好中和了吃完後的辣味。\n普通大小的新擔擔麵辣度剛剛好，肉量足，上面還有蓬鬆的雞蛋。湯底、配料和宮古蕎麥麵搭配起來簡直美味極了！老公對額外的米飯和起司也很滿意。\n我們從宮古島飛往那霸的航班延誤了，所以我們在那霸機場轉機的時候吃了晚餐。我們吃的塔可飯太好吃了，外帶盒蓋上的留言也讓我很感動。\n所有東西都很美味，所以如果你在宮古島，我強烈推薦你來這家店！我一定會再去的！ ！\n2025年5月，我在別墅點了外帶晚餐。我提前打電話告訴他們我想點外賣，他們告訴我有哪些選擇。他們問我要不要飲料，但因為別墅裡有很多飲料，所以我回答「不用了」。他們說：「如果您點套餐，我們會提供折扣，您可以到店後再點，所以如果您願意，可以看看菜單。」餐廳旁邊有個很大的停車場，所以我把車停好就進去了。當我告訴他們我是來取外帶的時候，他們給我看了飲料單，說有冰沙，所以我最後又點了一杯！哈哈！不過這真是個明智的決定。芒果冰沙和紅糖拿鐵咖啡都很好喝。\n當然，那不勒斯意麵和塔可飯也都非常美味。沙拉的醬汁也是自製的，味道很棒。可以用現金或信用卡支付，非常方便。\n下次一定要試試在店裡加配料，悠閒地享用美食！",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "ベンツまつ"
+      },
+      {
+        "text": "【溫馨舒適的咖啡館，門口還有一隻可愛的貓咪吉祥物】\nHeike Cafe 位於前往池間島的路上。 ☕️\n據說在橫濱野毛也有一家分店。\n咖啡館裡有吧台、桌子和沙發座位，白天很受當地人歡迎，除了我。 ☺️✨\n早餐吃得很飽，所以我點了一份手工沖繩紅豆湯（上面撒了宮古紅豆）、一份阿芙佳朵和一杯熱三拼茶！\n哇！ ！ ！宮古紅豆太好吃了！口感和味道都像極了小小的黑豆。 🤤！他們當著我的面製作了阿芙佳朵的濃縮咖啡，感覺很貼心，熱三拼茶更是錦上添花！咖啡館停車位充足，外面還有兩個吸煙區。 🙋‍♂️ 最棒的是，店員都非常友善！ ！ ！他們的笑容真讓人感到溫暖！哦，對了，他們還有免費Wi-Fi，速度很快，足夠我用電腦完成一些工作！我還會再來的！ ☺️✨",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "辺見俊輔"
+      },
+      {
+        "text": "第一次去宮古島的最後一天，我老公是個墨西哥捲餅飯的愛好者，他研究了這家餐廳，最後選擇了它。\n我們點了墨西哥捲餅飯和擔擔面，這兩樣東西在評論裡經常被提及。兩者都很美味，但我絕對推薦擔擔麵，而不是墨西哥捲餅飯！ ！\n擔擔面裡滿滿的蒜香，絕對好吃！ ！\n我老公也超愛擔擔面，哈哈。\n還有，shikwasa汽水也超好喝！\n我們在宮古島待了五天，在很多地方都嚐過shikwasa，但這家是最棒的！\n回家路上找零錢的時候，發現是新設計的紙鈔！\n我以前從來沒見過，所以很驚喜！ 😍\n我會把它留作紀念，哈哈。\n我們一定會再來的！",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "y"
+      },
+      {
+        "text": "This charming café near the beach is a true gem. The coffee was rich and flavorful, the mango smoothie was refreshing, and the service was absolutely outstanding. The staff was incredibly warm and welcoming, making the experience even more enjoyable.",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Mavish Sikander"
+      },
+      {
+        "text": "Nice and chill cafe right by one of the best beaches on the island.\nLove their Okinawa waffle with red bean and mochi!\nThe miyako soba was a bit saltier than we liked. The ga pao rice was decent.",
+        "star": 4,
+        "lang": "en",
+        "reviewer": "Grace Li"
+      },
+      {
+        "text": "Enjoyed everything about this place so much that we went back! The Miyako soba was one of the best dishes I’ve had during my time in Japan. Even had adorable little handmade jewelry for sale.",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "monica opilac"
+      },
+      {
+        "text": "Unbelievably charming & cool cafe. A sweet staff , some English, English menu. The coffee alone is so good- but also the food / Dan Dan noodles & the Thai rice bowls. Incredible!!!!!",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "cristina dimichino"
+      },
+      {
+        "text": "One of the best places in Miyakojima. Good food, cool place and the best of all the people who work there. They are really kind and helpful. If you have the chance you must go.",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "ivan dopazo"
+      },
+      {
+        "text": "宮古禪材最棒了！\n這是島上最好吃的刨冰禪材！",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "もっちりもちまろ"
+      },
+      {
+        "text": "The Thai rice was delicious ! Very friendly owners. Best coffee on the island hands down- strong like I like it",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Dk"
+      }
+    ]
+  },
+  "06-cafe-furari.md": {
+    "name": "cafe furari",
+    "rating": 4.6,
+    "total": 36,
+    "star_dist": {
+      "5": 75,
+      "4": 14,
+      "3": 8,
+      "2": 3,
+      "1": 0
+    },
+    "mean_star": 4.61,
+    "variance": 0.57,
+    "coffee_pct": 14,
+    "env_pct": 19,
+    "svc_pct": 31,
+    "neg_pct": 6,
+    "neg_about_coffee_pct": 0,
+    "best_count": 2,
+    "best_pct": 6,
+    "lang": {
+      "en": 6,
+      "ja": 20,
+      "ko": 2,
+      "zh": 8
+    },
+    "cross_lang": {
+      "ja": {
+        "n": 20,
+        "coffee_pct": 20,
+        "best_n": 2
+      },
+      "en": {
+        "n": 6,
+        "coffee_pct": 0,
+        "best_n": 0
+      },
+      "zh": {
+        "n": 8,
+        "coffee_pct": 0,
+        "best_n": 0
+      }
+    },
+    "top_coffee": [
+      {
+        "text": "３日目の朝で、宿の朝食にも飽きたのでこちらを利用しました。\nはじめは入り口も分かりにくく、大きく期待していなかったのですが、パンは数は多くないものの一つ一つ丁寧に作られており、人気なのが分かります。コーヒーも島内で一番おいしかったです。",
+        "star": 5,
+        "lang": "ja",
+        "reviewer": "ムッシュゴン"
+      },
+      {
+        "text": "モーニングが食べられますが、トーストに野菜サラダとスープを付けるとそこそこの値段になります。コーヒーはエスプレッソマシンで淹れた珈琲。パンのテイクアウトも出来ます。",
+        "star": 3,
+        "lang": "ja",
+        "reviewer": "旅浪漫"
+      },
+      {
+        "text": "カフェラテめちゃ美味しかったです🫶\nミニグラタンもいいサイズでした。\nワッフルだけ買ったのですが、少し温めるとめちゃ美味しかったです🎀\n別のパンや、メニューも食べてみたいのでまた行きます",
+        "star": 4,
+        "lang": "ja",
+        "reviewer": "the emm"
+      },
+      {
+        "text": "12/11 아침식사로 방문하였습니다.\n주차장 공간도 넉넉하고, 가게 내부도 아기자기하며 잘 관리되고 있는 느낌입니다.\n주문한 토스트 세트와 에그산도는 엄마가 만들어주는 따뜻한 느낌으로 매우 맛있었습니다!\n수제빵과 커피만 테이크아웃도 가능하며, 직원분들은 매우 친절합니다.",
+        "star": 5,
+        "lang": "ko",
+        "reviewer": "Jen C"
+      },
+      {
+        "text": "初めてモーニング☕🍞お邪魔しました。🍞フワフワで美味しかったです🤗スープ､🥗も👍コーヒーついてないのは少しビックリ😵",
+        "star": 4,
+        "lang": "ja",
+        "reviewer": "中野由起子"
+      }
+    ],
+    "top_neg": [
+      {
+        "text": "モーニングやってるお店が少ない宮古でとてもありがたいです。\nパンおいしかったです。\n天井高くて、のんびり仕事させて頂きました。\nランチもやっておられる雰囲気でした。\nまた行きます！\nWifiがないのが、残念。",
+        "star": 5,
+        "lang": "ja",
+        "reviewer": "旅する"
+      },
+      {
+        "text": "店員さんの対応もいいし\nパンすごく柔らかくて美味しい。\n写真撮ってないのが残念(T_T)",
+        "star": 4,
+        "lang": "ja",
+        "reviewer": "1228 seven"
+      }
+    ],
+    "top_best": [
+      {
+        "text": "朝からやっている数少ないお店。\n焼きたてパンは絶品‼︎モーニングの500円と安くて最高です😆\nバケットを切ってツナを乗せて食べても美味しいです😂\nフードロスで冷凍パンも買えました☺️",
+        "star": 5,
+        "lang": "ja",
+        "reviewer": "やまぐちあさみ"
+      },
+      {
+        "text": "３日目の朝で、宿の朝食にも飽きたのでこちらを利用しました。\nはじめは入り口も分かりにくく、大きく期待していなかったのですが、パンは数は多くないものの一つ一つ丁寧に作られており、人気なのが分かります。コーヒーも島内で一番おいしかったです。",
+        "star": 5,
+        "lang": "ja",
+        "reviewer": "ムッシュゴン"
+      }
+    ]
+  },
+  "07-coffee-shop-majya.md": {
+    "name": "coffee shop Majya",
+    "rating": 4.5,
+    "total": 26,
+    "star_dist": {
+      "5": 73,
+      "4": 15,
+      "3": 4,
+      "2": 0,
+      "1": 8
+    },
+    "mean_star": 4.46,
+    "variance": 1.25,
+    "coffee_pct": 85,
+    "env_pct": 27,
+    "svc_pct": 38,
+    "neg_pct": 0,
+    "neg_about_coffee_pct": 0,
+    "best_count": 3,
+    "best_pct": 12,
+    "lang": {
+      "en": 2,
+      "ja": 17,
+      "ko": 5,
+      "zh": 2
+    },
+    "cross_lang": {
+      "ja": {
+        "n": 17,
+        "coffee_pct": 94,
+        "best_n": 3
+      },
+      "ko": {
+        "n": 5,
+        "coffee_pct": 100,
+        "best_n": 0
+      }
+    },
+    "top_coffee": [
+      {
+        "text": "自家焙煎コーヒーと自家製スイーツを提供されている落ち着いた雰囲気のカフェです。店主のハンドドリップで丁寧に淹れたコーヒーや、こだわりのスイーツは絶品です☕!! ※島外から来られる方は駐車場に迷われると思いますので一度問い合わせしてから来店された方が良いですよ☺️ #リベシティ #宮古島コーヒー #美味しいコーヒー #宮古島チーズケーキ #隠れカフェ",
+        "star": 5,
+        "lang": "ja",
+        "reviewer": "佐賀の筋肉まん"
+      },
+      {
+        "text": "紹介したくないけど紹介したい店。。。 宮古島で本格的なコーヒーを楽しみたいなら「majya」は外せません。 こんなに美味しいのにスッキリする珈琲飲んだ事ない。。。 店内は落ち着いた雰囲気で、豆の香りに包まれながらゆったりとした時間を過ごせます。 ハンドドリップで丁寧に淹れられたコーヒーは香り高く、酸味やコクのバランスも絶妙。 豆の種類や特徴も分かりやすく説明してくれるので、コーヒー初心者でも楽しめます。 手作りスイーツとの相性も抜群で、特にケーキや焼き菓子はコーヒーとのペアリングにぴったり。 観光の合間に立ち寄って一息つくのに最適なカフェで、地元の方からも愛されている理由がよく分かりました。",
+        "star": 5,
+        "lang": "ja",
+        "reviewer": "nao yama"
+      },
+      {
+        "text": "드립 커피 전문점 입니다. 선호하는 커피맛을 문의하시면 기호에 맞게 잘 추천해주시고, 로스팅도 직접하시는 곳이며 생 원두를 하나하나 선별하는 모습이 인상적이었습니다. 물론 커피 맛도 좋고, 가게 분위기도 좋았습니다. 주차는 가게 맞은편에 있는 주차장에 하시면 됩니다.",
+        "star": 5,
+        "lang": "ko",
+        "reviewer": "두둥탁"
+      },
+      {
+        "text": "핸드드립 커피를 좋아하신다면 미야코지마에서는 이곳으로 가시면 됩니다. 원두 종류 다양하고 디저트로 먹은 케이크도 너무맛있었네요. 테이크아웃도 가능하구요. 주차는 가게 바로 건너편 주차장에 Majya 표시가 되어있는 공간이 두개가 있는데 그쪽에 하시면 됩니다. 결제는 카드 현금 모두 가능합니다. 사장님 매우 친절하시고 편하게 있다가 왔어요!",
+        "star": 5,
+        "lang": "ko",
+        "reviewer": "이찬혁님"
+      },
+      {
+        "text": "宮古島でハンドドリップの美味しいコーヒーを求めてこちらに行きつきました。私はカフェピューマ、妻は本日お勧めのカフェジャスミンをいただきました。どちらも大変美味しかったです！上質の豆をご主人が丁寧に焙煎して、奥さんが豆の個性や美味しさを上手に引き出して淹れてくださいました。カウンターでのコーヒー談義は楽しいひと時となり、旅の良い思い出ともなりました。また宮古島に行く時には必ず伺います！",
+        "star": 5,
+        "lang": "ja",
+        "reviewer": "T. K"
+      },
+      {
+        "text": "ハンドドリップで作るコーヒーが飲みたくて、やっと美味しいコーヒーに出会えました。 お店入ると、ん、、大丈夫かなと思うようなパンチはありましたが、コーヒーは美味しかったです。 2日連続でうかがいました。 浅煎りのコーヒーが飲みたい方にお勧めします。",
+        "star": 4,
+        "lang": "ja",
+        "reviewer": "Liz Lee"
+      },
+      {
+        "text": "まずはケーキを頂きました。🧀 チーズケーキはとても濃厚で、大変美味しかったです😊 飲むコーヒーゼリー、黒糖オレ、次回絶対飲みに行きます❤️☕️ 店員さんの対応がとても良くて素敵だなと思いました。 珈琲を使った入浴剤や、ドリップパック、焼き菓子なども販売してありました。入浴剤は珍しいので、お土産にいいなと思いました✨",
+        "star": 5,
+        "lang": "ja",
+        "reviewer": "H M (はーたん)"
+      },
+      {
+        "text": "コーヒー、美味しくて感動です(^^)お店は狭いですが、運良く座れました✨自分ご褒美時間見つけてまた来たいなと思えるところです",
+        "star": 5,
+        "lang": "ja",
+        "reviewer": "さな"
+      },
+      {
+        "text": "美味しいの一言。挽きたての珈琲豆の香りが最高",
+        "star": 5,
+        "lang": "ja",
+        "reviewer": "Zen 0222"
+      },
+      {
+        "text": "席のすぐ横の衝立の向こう側から身内でしょうか、男性と子供が絶えず咳をしていて衛生的にどうかと思います。一口飲んですぐテイクアウトに変更してもらいました。 コーヒーは値段のわりに美味しくはなかった。 二度と行きません。",
+        "star": 1,
+        "lang": "ja",
+        "reviewer": "N S"
+      },
+      {
+        "text": "店内はお席少なめで、やや雑多な雰囲気なので、テイクアウトのつもりが良いかもしれません。（気にならなければイートインで😊） とはいえ、宮古島の中で、こちらのコーヒーは私的ナンバー１です。 ケーキは小ぶりで、日によって違うみたいですが、どれもとても美味しいのでおすすめ。 駐車場は斜向かいの敷地に２台程確保されているようですが、出入口がとても狭く高低差があります。車体を擦る可能性が有るので、運転には気をつけてください。",
+        "star": 5,
+        "lang": "ja",
+        "reviewer": "s10c 385"
+      },
+      {
+        "text": "地元の方に愛されている雰囲気のカフェ。 入店すると、店主のお子さんとご近所の子供たちが遊んでいました。 焼き菓子と飲むコーヒーゼリーを注文。 飲むコーヒーゼリーというメニューは初めてだったので興味本位で注文。味は普通でした。 ただ、暑い日の甘いお菓子と冷たい飲み物は何倍もおいしく感じました。",
+        "star": 3,
+        "lang": "ja",
+        "reviewer": "s kai"
+      },
+      {
+        "text": "드립커피 굳!! 전문적이고 깔끔하게 커피 내려주십니다. 추천!",
+        "star": 5,
+        "lang": "ko",
+        "reviewer": "정지용"
+      },
+      {
+        "text": "落ち着いた店内の雰囲気で、頂いたアイスコーヒー、もの凄く美味しかったです。",
+        "star": 5,
+        "lang": "ja",
+        "reviewer": "takumi tengan"
+      },
+      {
+        "text": "始めて購入したけど店員さんも丁寧で優しくてコーヒー豆もキレイな焙煎した色で美味しい😆又、買いに行く☺️",
+        "star": 5,
+        "lang": "ja",
+        "reviewer": "比嘉すみれ"
+      }
+    ],
+    "top_neg": [],
+    "top_best": [
+      {
+        "text": "自家焙煎コーヒーと自家製スイーツを提供されている落ち着いた雰囲気のカフェです。店主のハンドドリップで丁寧に淹れたコーヒーや、こだわりのスイーツは絶品です☕!! ※島外から来られる方は駐車場に迷われると思いますので一度問い合わせしてから来店された方が良いですよ☺️ #リベシティ #宮古島コーヒー #美味しいコーヒー #宮古島チーズケーキ #隠れカフェ",
+        "star": 5,
+        "lang": "ja",
+        "reviewer": "佐賀の筋肉まん"
+      },
+      {
+        "text": "コーヒー、美味しくて感動です(^^)お店は狭いですが、運良く座れました✨自分ご褒美時間見つけてまた来たいなと思えるところです",
+        "star": 5,
+        "lang": "ja",
+        "reviewer": "さな"
+      },
+      {
+        "text": "美味しいの一言。挽きたての珈琲豆の香りが最高",
+        "star": 5,
+        "lang": "ja",
+        "reviewer": "Zen 0222"
+      }
+    ]
+  },
+  "08-ensemble-coffee.md": {
+    "name": "ensemble coffee miyakoisland",
+    "rating": 4.4,
+    "total": 217,
+    "star_dist": {
+      "5": 65,
+      "4": 21,
+      "3": 8,
+      "2": 2,
+      "1": 4
+    },
+    "mean_star": 4.4,
+    "variance": 1.03,
+    "coffee_pct": 62,
+    "env_pct": 18,
+    "svc_pct": 14,
+    "neg_pct": 5,
+    "neg_about_coffee_pct": 70,
+    "best_count": 29,
+    "best_pct": 13,
+    "lang": {
+      "zh": 180,
+      "en": 35,
+      "ja": 2
+    },
+    "cross_lang": {
+      "en": {
+        "n": 35,
+        "coffee_pct": 71,
+        "best_n": 11
+      },
+      "zh": {
+        "n": 180,
+        "coffee_pct": 59,
+        "best_n": 17
+      }
+    },
+    "top_coffee": [
+      {
+        "text": "【我在宮古島找到的最好喝的咖啡館！分量十足的巴西莓碗和正宗的咖啡真是太棒了！ 】\n為了慶祝結婚紀念日，我去了宮古島，一位沖繩的朋友推薦了這家店，於是我去了。\n這次我選擇堂食，點了一份巴西莓碗、一杯咖啡和一杯拿鐵。 ☕️\n巴西莓碗的份量出乎意料地足，上面鋪滿了水果，味道也超級棒。 🥣 我點的咖啡和拿鐵品質也很高，香醇的香氣讓我旅途的疲憊都煙消雲散了！\n這家咖啡館氛圍溫馨，很有當地人的喜愛，但對我們這樣的遊客來說也非常舒適友善。 🫶\n店員們也都很棒，這次體驗成為了我們特別的結婚紀念日的美好回憶。\n強烈推薦這家咖啡館給所有在宮古島附近尋找美味早餐、甜點和正宗咖啡的朋友們！下次再去宮古島，我一定還會去光顧的。 😊",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "ウユニ"
+      },
+      {
+        "text": "If you want real coffee from roasted beans this is the place to go.\nAs an Australian this was the best coffee on miyakojima island and the cafe itself is adorable.\nThey have soy milk and oat milk.\nAlso they have cute gifts if you want to buy something.\nParking is easy and it's right near the supermarket!\nCan not recommend this place enough !!\nThey also do acai bowls! And do smoothies if you want to try it.\nThey also had some vegan cakes.\nコーヒーはおいしいですよ!\nいちばんコーヒー☕",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Samantha Lear"
+      },
+      {
+        "text": "Amazing coffee, awkward and limiting seating, service experience mediocre at best.",
+        "star": 3,
+        "lang": "en",
+        "reviewer": "Jdm Vrzn"
+      },
+      {
+        "text": "The best coffee we had on the island and the acai bowls were amazing.\nThe nicest place also with a good vibe",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Gabriel"
+      },
+      {
+        "text": "烤綠茶拿鐵和燕麥餅乾太好吃了！喝咖啡的朋友說這是她在宮古島喝過最好喝的咖啡。店內空間雖小但很溫馨，店員也非常友善。下次去宮古島我一定會再來的！",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "po"
+      },
+      {
+        "text": "這是我在宮古島喝過最好喝的咖啡！ ！ ！太好喝了，我去了兩次。我明天就要走了，所以想著又去了一次。真是太棒了。",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "이희진"
+      },
+      {
+        "text": "Wonderful little coffee shop that's absolutely worth a visit. Our iced lattes were made to perfection, and the sleek, modern interior added to the experience. Definitely check it out!",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Lucas K"
+      },
+      {
+        "text": "My favorite coffee shop in Miyako! The best iced latte I've had in a long time. Super friendly staff. They're the best!",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Stephen Redeker"
+      },
+      {
+        "text": "我大概在2024年10月去過。\n這家店不是特別大，所以外帶似乎是最好的選擇。\n店內外觀和內部都很可愛，裡面出售的商品有一種真正的島嶼氛圍，讓我很興奮。\n我點了什麼：\n・咖啡拿鐵（中盃） 600日圓\n・莓果香蕉冰沙 800日圓\n・燕麥餅乾 250日圓\n我想點巴西莓冰沙，但他們缺貨，所以換成了莓果冰沙。\n我一個人很難把兩杯飲料和一塊餅乾帶回家，所以我問他們有沒有袋子，他們只是簡單地說「沒有」。工作人員很冷漠，即使在點餐時也不友好，這讓我很失望。\n等餐的時候，我在店裡四處看看，他們對常客很友好，所以也許他們對遊客不太友好。哈哈\n飲料和餅乾……很一般。\n------------------------------------------------\n我在 Instagram 上分享我最喜歡的東西 @iamrika_ 我熱愛音樂、美食和書法 📍東京 ------------------------------------------------",
+        "star": 3,
+        "lang": "ja",
+        "reviewer": "rika"
+      },
+      {
+        "text": "Ensemble COFFEE MIYAKOISLAND!! 🌴🌞🌺\n在宮古島尋找一個時尚的避暑勝地時，我偶然發現了這家咖啡館，簡直完美！ 🫶☕️✨\n首先，咖啡館的內外裝潢都非常可愛。白色和木質的搭配營造出度假勝地的感覺，與悠閒的熱帶氛圍完美契合。 🌿🌞🕊️\n這次我點了一杯美式冰咖啡！ 🧊☕️ 清爽可口，香氣撲鼻！在炎熱的宮古島喝上一杯，感覺瞬間煥然一新！ 🥹✨\n咖啡館裡有各種原味咖啡豆、精緻的調味品和精選商品，光是逛逛就讓人心情愉悅！ 🛒💫🌈\n座位寬敞，環境安靜舒適，感覺可以一直待下去！ 🪑🌿 店員們都非常友善溫柔，讓我覺得很放鬆自在。 🫶💖\n如果你在宮古島尋找一家時尚的咖啡館，我強烈推薦這家！ ！我一定會再去喝冰咖啡的！ 🌺🧊☕️💕",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "eiji shimotsu"
+      },
+      {
+        "text": "這家店真時尚！\n店面不大，所以最好把它當成外帶店。\n我根據評論點了印度奶茶，但對我來說有點太辣了。\n我妹妹點的拿鐵咖啡清爽可口。\n這家店位置有點難找，最好把車停在永旺超市，然後步行過去。",
+        "star": 3,
+        "lang": "zh",
+        "reviewer": "arinko ue"
+      },
+      {
+        "text": "Fancy and clean,\nMost of all, coffee was the best\nAnd cookies too\nI love here 🩷 enjoy!!!!!!",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Aspyn son (Aspyn)"
+      },
+      {
+        "text": "這家店的裝潢很時尚。\n我早上十點一開門就進去了，點了一份巴西莓碗、椰棗、巧克力和一杯咖啡牛奶。\n這是我在宮古島的最後一天，所以我忍不住想多吃一點…\n他們說巴西莓碗要等30分鐘。\n好吧，這也沒辦法。\n我前面有兩桌客人（我和另外兩個人），這時又來了第三桌。店員說：「這裡只有我一個人，所以你們的訂單我稍後再做，請在裡面等一下。」他們等了大約五分鐘，然後就不耐煩地離開了。\n店裡的氣氛很好，我猜他們是想喝茶，但實在不忍心讓他們獨處。\n咖啡牛奶太好喝了！\n比我昨天喝的那家還要好喝！ ！\n椰棗也很好吃！\n椰棗裹著巧克力，但甜度剛好！\n我喜歡甜食，但又不想太甜，所以這個正合我意！\n我覺得巴西莓碗也很好吃。\n我之前沒怎麼吃過巴西莓，所以我不知道哪個最好吃，哈哈。\n不過香蕉好像不甜。\n這是普通的香蕉嗎？",
+        "star": 4,
+        "lang": "zh",
+        "reviewer": "haru"
+      },
+      {
+        "text": "這家咖啡館位於宮古島購物中心內，購物中心裡還有MaxValu、大創和麥當勞。\n最好只看看外面，別進去。\n咖啡館裝潢時尚，我去的那天，一位亞洲女士正用手機不停地拍照。\n店裡經常很擁擠，常常沒有座位。\n他們也出售各種商品和服裝。\n他們主打巧克力，並提供用沖繩知名店舖的巧克力製作的餅乾。\n這裡是休息放鬆的好去處。",
+        "star": 4,
+        "lang": "zh",
+        "reviewer": "ジェイク（お得食&旅）"
+      },
+      {
+        "text": "我和妻子蜜月期間來過這裡。\n工作人員都非常友好，我們度過了一段美好的時光。\n明亮的室內裝潢時尚舒適。\n人氣頗高的巴西莓碗最好提早點。它們很容易飽腹，兩個人一碗應該就夠了。烤綠茶拿鐵尤其好喝。\n只接受現金付款，所以去的時候一定要帶足夠的現金。",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "ふじたく"
+      }
+    ],
+    "top_neg": [
+      {
+        "text": "I was searching for coffee on the island and this place came up. It's got a nice beach vibe even though it's not on the beach, with lots of natural light to add to the ambiance. There are a handful of drink options (but no pour overs) and a few sweets to choose from. I went with the iced americano and it was nice and strong. The terrine looked really good and I'm a bit disappointed I didn't get it. They have various items for sale such as clothing, jewelry, and coffee items. The service was fast and friendly.",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Alright Food Reviews"
+      },
+      {
+        "text": "我大概在2024年10月去過。\n這家店不是特別大，所以外帶似乎是最好的選擇。\n店內外觀和內部都很可愛，裡面出售的商品有一種真正的島嶼氛圍，讓我很興奮。\n我點了什麼：\n・咖啡拿鐵（中盃） 600日圓\n・莓果香蕉冰沙 800日圓\n・燕麥餅乾 250日圓\n我想點巴西莓冰沙，但他們缺貨，所以換成了莓果冰沙。\n我一個人很難把兩杯飲料和一塊餅乾帶回家，所以我問他們有沒有袋子，他們只是簡單地說「沒有」。工作人員很冷漠，即使在點餐時也不友好，這讓我很失望。\n等餐的時候，我在店裡四處看看，他們對常客很友好，所以也許他們對遊客不太友好。哈哈\n飲料和餅乾……很一般。\n------------------------------------------------\n我在 Instagram 上分享我最喜歡的東西 @iamrika_ 我熱愛音樂、美食和書法 📍東京 ------------------------------------------------",
+        "star": 3,
+        "lang": "ja",
+        "reviewer": "rika"
+      },
+      {
+        "text": "我點了一杯芒果冰沙，但他們說沒有容器了，就給了我一個紙杯。我想拍照，但照片上很難看清楚我點的是什麼。如果他們在我點單的時候就告訴我，我會點別的。\n而且，雖然是冰沙，但他們竟然沒給我吸管。冰沙就該直接喝嗎？環保修然重要，但我認為他們應該用紙吸管，或像其他店裡使用的甘蔗吸管。杯蓋也很糟糕，因為冰沙的重量，喝的時候很容易就掉了。\n這是我宮古島之旅中最糟糕的體驗。不推薦。",
+        "star": 1,
+        "lang": "zh",
+        "reviewer": "ぶるーまうんてん"
+      },
+      {
+        "text": "我獨自旅行（這是我第五次來這個島了），想喝咖啡，於是搜尋了營業到下午六點的咖啡館，找到了這家。我快到關門時間的時候去點了咖啡，因為我不喜歡黑咖啡，就問他們有沒有牛奶，但他們說沒有。這一點我有點失望，不過咖啡的味道很淡，很容易入口，所以不加牛奶也挺好喝的。\n這家店交通也很方便，離我住的地方只有五分鐘的步行路程。\n咖啡很美味。非常感謝！",
+        "star": 4,
+        "lang": "zh",
+        "reviewer": "佳秋"
+      },
+      {
+        "text": "我當時特別想喝一杯道地的冰美式，所以根據GPT的推薦就去了這家店。它就在MaxVal旁邊，停車超級方便。咖啡館不大，所以很安靜舒適。咖啡有點酸，味道也比較濃，如果你喜歡淡咖啡，可能不太喜歡。我個人不太喜歡酸味的咖啡，所以對GPT的咖啡有點失望，不過味道還是不錯的。如果你要去超市或麥當勞，這家店是個不錯的歇腳點！",
+        "star": 4,
+        "lang": "zh",
+        "reviewer": "김연지"
+      },
+      {
+        "text": "不推薦給咖啡愛好者。\n口味：非常一般。說真的，跟7-11的咖啡沒什麼兩樣。\n裝潢：非常時尚。\n服務：一般。\n總的來說，我感覺這家店更注重環保而不是咖啡。\n例如，就連店裡賣的東西都是紙杯，包括冰淇淋杯。\n你沒辦法像其他人一樣，用塑膠杯拍出好看的冰淇淋照。",
+        "star": 2,
+        "lang": "zh",
+        "reviewer": "アロエ"
+      },
+      {
+        "text": "我們去這家店是因為我女兒想吃巴西莓果。\n但是，他們店裡沒有巴西莓果了，\n所以那天我們沒吃到。\n另外，吃巴西莓果需要提前預訂。\n請注意這一點。\n店員的服務令人失望。\n我可能不會再去了。",
+        "star": 3,
+        "lang": "zh",
+        "reviewer": "Tigu 2006"
+      },
+      {
+        "text": "Amazing coffee, awkward and limiting seating, service experience mediocre at best.",
+        "star": 3,
+        "lang": "en",
+        "reviewer": "Jdm Vrzn"
+      }
+    ],
+    "top_best": [
+      {
+        "text": "If you want real coffee from roasted beans this is the place to go.\nAs an Australian this was the best coffee on miyakojima island and the cafe itself is adorable.\nThey have soy milk and oat milk.\nAlso they have cute gifts if you want to buy something.\nParking is easy and it's right near the supermarket!\nCan not recommend this place enough !!\nThey also do acai bowls! And do smoothies if you want to try it.\nThey also had some vegan cakes.\nコーヒーはおいしいですよ!\nいちばんコーヒー☕",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Samantha Lear"
+      },
+      {
+        "text": "我大概在2024年10月去過。\n這家店不是特別大，所以外帶似乎是最好的選擇。\n店內外觀和內部都很可愛，裡面出售的商品有一種真正的島嶼氛圍，讓我很興奮。\n我點了什麼：\n・咖啡拿鐵（中盃） 600日圓\n・莓果香蕉冰沙 800日圓\n・燕麥餅乾 250日圓\n我想點巴西莓冰沙，但他們缺貨，所以換成了莓果冰沙。\n我一個人很難把兩杯飲料和一塊餅乾帶回家，所以我問他們有沒有袋子，他們只是簡單地說「沒有」。工作人員很冷漠，即使在點餐時也不友好，這讓我很失望。\n等餐的時候，我在店裡四處看看，他們對常客很友好，所以也許他們對遊客不太友好。哈哈\n飲料和餅乾……很一般。\n------------------------------------------------\n我在 Instagram 上分享我最喜歡的東西 @iamrika_ 我熱愛音樂、美食和書法 📍東京 ------------------------------------------------",
+        "star": 3,
+        "lang": "ja",
+        "reviewer": "rika"
+      },
+      {
+        "text": "【我在宮古島找到的最好喝的咖啡館！分量十足的巴西莓碗和正宗的咖啡真是太棒了！ 】\n為了慶祝結婚紀念日，我去了宮古島，一位沖繩的朋友推薦了這家店，於是我去了。\n這次我選擇堂食，點了一份巴西莓碗、一杯咖啡和一杯拿鐵。 ☕️\n巴西莓碗的份量出乎意料地足，上面鋪滿了水果，味道也超級棒。 🥣 我點的咖啡和拿鐵品質也很高，香醇的香氣讓我旅途的疲憊都煙消雲散了！\n這家咖啡館氛圍溫馨，很有當地人的喜愛，但對我們這樣的遊客來說也非常舒適友善。 🫶\n店員們也都很棒，這次體驗成為了我們特別的結婚紀念日的美好回憶。\n強烈推薦這家咖啡館給所有在宮古島附近尋找美味早餐、甜點和正宗咖啡的朋友們！下次再去宮古島，我一定還會去光顧的。 😊",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "ウユニ"
+      },
+      {
+        "text": "這家店的裝潢很時尚。\n我早上十點一開門就進去了，點了一份巴西莓碗、椰棗、巧克力和一杯咖啡牛奶。\n這是我在宮古島的最後一天，所以我忍不住想多吃一點…\n他們說巴西莓碗要等30分鐘。\n好吧，這也沒辦法。\n我前面有兩桌客人（我和另外兩個人），這時又來了第三桌。店員說：「這裡只有我一個人，所以你們的訂單我稍後再做，請在裡面等一下。」他們等了大約五分鐘，然後就不耐煩地離開了。\n店裡的氣氛很好，我猜他們是想喝茶，但實在不忍心讓他們獨處。\n咖啡牛奶太好喝了！\n比我昨天喝的那家還要好喝！ ！\n椰棗也很好吃！\n椰棗裹著巧克力，但甜度剛好！\n我喜歡甜食，但又不想太甜，所以這個正合我意！\n我覺得巴西莓碗也很好吃。\n我之前沒怎麼吃過巴西莓，所以我不知道哪個最好吃，哈哈。\n不過香蕉好像不甜。\n這是普通的香蕉嗎？",
+        "star": 4,
+        "lang": "zh",
+        "reviewer": "haru"
+      },
+      {
+        "text": "我看到網路上說最好提前預訂巴西莓碗，所以就打電話過去，結果賣完了。\n沒辦法，我只好沒預訂直接去了。\n我問了店員，他們說店裡忙的時候電話可能打不通。\n如果打不通，可以先看看他們的Instagram，確認營業時間再去。\n*他們好像有時候會提早關門。\n我點了一杯熱拿鐵和一份巴西莓碗。\n兩樣東西總共花了大約2000日元，還找了一些零錢。\n他們說做巴西莓碗需要一些時間，所以我被告知要等大約30分鐘，所以我就在附近的百元商店和超市裡消磨時間。\n*我的拿鐵下單後馬上就拿到了。 ( ◠‿◠ )\n自從發現這家店後，我就一直很想吃巴西莓碗，所以很高興這次終於有機會嚐到了！\n味道真棒！\n熱拿鐵也很好喝！\n我覺得價格有點小貴，不過下次來宮古島的時候還想再吃一次。",
+        "star": 4,
+        "lang": "zh",
+        "reviewer": "ただのアラサー。RISA"
+      },
+      {
+        "text": "我來這裡是因為想吃巴西莓碗。\n麥當勞或MaxValu都有停車位，不過最好步行前往。他們接受PayPay付款。\n由於乾旱，他們買不到巴西莓，只好用莓果代替，但味道依然很棒！分量很足！非常滿足！\n店裡的氣氛很好，商品可愛又時尚，讓人覺得很舒適。\n我老公分了一些燕麥餅乾給我，餅乾又脆又好吃，我還打包了一些回家！\n這是我吃過最好吃的燕麥餅乾！我一定要在住宿期間再去買一些！\n點兩份或兩份以上的巴西莓碗（或漿果碗）似乎需要一些時間，所以最好提前預訂。\n我完全不介意店員的態度和聊天。事實上，他們非常友好！",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "& RYO"
+      },
+      {
+        "text": "The best coffee we had on the island and the acai bowls were amazing.\nThe nicest place also with a good vibe",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Gabriel"
+      },
+      {
+        "text": "Wonderful little coffee shop that's absolutely worth a visit. Our iced lattes were made to perfection, and the sleek, modern interior added to the experience. Definitely check it out!",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Lucas K"
+      },
+      {
+        "text": "Amazing coffee, awkward and limiting seating, service experience mediocre at best.",
+        "star": 3,
+        "lang": "en",
+        "reviewer": "Jdm Vrzn"
+      },
+      {
+        "text": "烤綠茶拿鐵和燕麥餅乾太好吃了！喝咖啡的朋友說這是她在宮古島喝過最好喝的咖啡。店內空間雖小但很溫馨，店員也非常友善。下次去宮古島我一定會再來的！",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "po"
+      }
+    ]
+  },
+  "09-panipani.md": {
+    "name": "PANIPANI",
+    "rating": 4.4,
+    "total": 336,
+    "star_dist": {
+      "5": 60,
+      "4": 26,
+      "3": 9,
+      "2": 2,
+      "1": 3
+    },
+    "mean_star": 4.38,
+    "variance": 0.88,
+    "coffee_pct": 27,
+    "env_pct": 15,
+    "svc_pct": 4,
+    "neg_pct": 1,
+    "neg_about_coffee_pct": 25,
+    "best_count": 23,
+    "best_pct": 7,
+    "lang": {
+      "en": 21,
+      "zh": 315
+    },
+    "cross_lang": {
+      "en": {
+        "n": 21,
+        "coffee_pct": 33,
+        "best_n": 5
+      },
+      "zh": {
+        "n": 315,
+        "coffee_pct": 27,
+        "best_n": 18
+      }
+    },
+    "top_coffee": [
+      {
+        "text": "我在宮古島最愛的咖啡館…PANIPANI！我有幸去探訪了一番！ 😊\n它位於栗間島！我開車環島的時候經過那裡。 😅\n我是七月的一個工作日去的，剛過10點20分……當時還有空位。 😊\n走進咖啡館，感覺就像置身於海外的熱帶度假勝地。 😍\n座位在戶外，但那裡有樹蔭，而且那天早上天氣很好，所以非常舒適。 😊\n我本來是想去吃午餐的，但是……聽說他們從2025年起就停止供應食物了。 😭\n我點了咖啡朱莉（含稅600日圓）和萬間金時果凍（含稅680日圓）。\n咖啡朱莉…\n下面的咖啡凍竟然是黑色的！而且很苦！所以，如果你不喜歡黑咖啡，最好搭配冰淇淋一起吃。 😊\n真的太好吃了…🤤\nNmanma Kintoki Kori（一種沖繩甜點）…\n個頭挺大的！上面淋了三品茶糖漿，底下鋪著沖繩全菜……我一直想嚐嚐沖繩全菜，所以很感興趣……味道真的太棒了……🤤\n而且價格也超實惠！ 😳\n下次去宮古島的時候我一定還會再去！ 😊",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "絹ちゃん"
+      },
+      {
+        "text": "這家咖啡館就像是烈日下的一片綠洲🎵冰拿鐵最好喝。 …",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "K K"
+      },
+      {
+        "text": "2022年7月20日到訪。\nPanipani位於久裡間島。\n擁有完美熱帶氛圍的餐廳🏝\n每次去宮古島我都會去那裡。\n餐廳採用開放式設計，屋頂可俯瞰室外景色。\n地面鋪著類似珊瑚的白色細沙，\n營造出與室內截然不同的氛圍，同樣令人放鬆。\n餐廳早上10點開始供應早餐，所以我點了一杯看起來很健康的飲品，裡面有苦瓜和其他配料。\n他們家的拿鐵咖啡很有名，但普通的可樂也很好喝。\n我一開門就去了，立刻就排了十幾個人的長隊。要等第一批人離開才能進去，所以我建議在開門前去。\n我點了套餐：墨西哥捲餅（800日圓）、鹹豬裡肌（760日圓）和照燒（800日圓）。\n菜單上的其他菜色看起來都很美味，下次一定要嚐嚐。\n這家餐廳非常受歡迎，旺季的時候可能需要排隊。\n它給人的印像是價格親民，所以當地人經常光顧。隨著遊客的增多，據說當地人甚至在餐廳開門前就開始排隊了。\n順便一提，這是一家很棒的露天咖啡館，但正因為如此，下雨天就會關門。\n強烈推薦在晴天去。\n我三月去的時候，它關門了。\n這次，我的復仇成功了！ ＼(^^)／\n店旁邊有停車場，大概可以停20輛車！\n不用擔心路邊停車的問題，這點很放心。\n如果要去的話，最好在它開門前去。\n天氣很熱，排隊很煎熬。\n這絕對是我想再去一次的地方。\n順便提一下，他們只接受現金支付。",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "アーモンド!"
+      },
+      {
+        "text": "You feel as if you've been transported to Bali. And it's the perfect place to rest after some time in the water.\nThe coffee is strong and the ice cream is delicious. They sell handmade trinkets as cute souvenirs as well! They have an English menu if needed",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Jackie L"
+      },
+      {
+        "text": "This is a beautiful outdoor cafe and restaurant. The coffee was amazing and the environment was so relaxed and refreshing. The owner is so friendly and speaks English too. This is my go to place on Kurima Island.",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Kiana"
+      },
+      {
+        "text": "當我提到要去宮古島時，有人強烈推薦了Panipani咖啡館。我原本打算早上搭車去這家露天咖啡館，但騎車一路汗流浹背之後，在樹蔭下享受了一番清涼舒爽的體驗（咖啡館也有室內區域），真是太開心了。不過，如果沒有電動自行車，過橋後的上坡路段確實有點挑戰。\n人多的時候，你永遠不知道什麼時候會有人因為座位太舒服而起身離開，所以我建議一定要預留充足的時間。",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "k5"
+      },
+      {
+        "text": "大約四年前，我第一次來到宮古島，當時我和媽媽開車，順道去了久留間島。我們發現了Pani Pani咖啡館，就進去逛了逛，它至今仍是我心目中日本最好的咖啡館。 ✨\n咖啡館裡綠植蔥鬱，修剪整齊，鋪著白沙的地面，從家具、設備到洗手間，每一件都精緻可愛，讓人感覺彷彿置身於另一個世界。\n為這自然氛圍增添色彩的飲品也同樣可愛美味——我被深深打動了，而且價格也很合理。\n這家咖啡館的一切都充滿了品味。\n不過，由於它是露天咖啡館，所以遇到刮風或惡劣天氣時，他們似乎會關門或提前關門。宮古島舉辦活動時，似乎也會休息。\n最近，咖啡館總是人滿為患，排隊是常態，所以我好幾次都沒能進去。但如果我再造訪宮古島，我一定會再去光顧的。",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "Naomi Horino"
+      },
+      {
+        "text": "植物美麗又令人放鬆。\n我記得我點的是帕尼帕尼三明治套餐，每樣都很美味。熱飲用大杯子盛著，份量也很足。冰飲方面，他們把打好的奶泡送到我的桌上，直接倒在我面前。\n我大約9點50分到，是第一批入場的。後面還有人在排隊，所以最好在他們開門前去，或者第二批人快要開門的時候去（我的訂單大約等了30分鐘才上桌，所以如果你沒能和第一批人一起進去，可能要等很久）。\n我建議你趁有空的時候去。這是一家很不錯的咖啡館，所以等待一點也不費力。",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "U I"
+      },
+      {
+        "text": "史上最棒的太空咖啡館。希望他們晚上也能開。",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "宮古島いなだ"
+      },
+      {
+        "text": "這家咖啡館真是個隱藏的寶藏，不過很受歡迎，中午之前就擠滿了人，所以最好早點去。地面鋪著沙子，營造出非常舒適的氛圍。墨西哥捲餅很好吃，強烈推薦！",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "Yuta Ito"
+      },
+      {
+        "text": "Great spot to escape the heat.. Beautiful setting in a lush garden with a range of iced coffee style drinks before between stints on the beach!",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Thomas Sutton"
+      },
+      {
+        "text": "這家咖啡館氛圍超棒，充滿了熱帶度假風格🏝️\n開放式的室內空間和綠意環繞的露台座位都非常棒。即使在戶外，也感覺涼爽宜人。\n淋上三品茶糖漿的「甘藷冰」簡直美味極了，經典的咖啡凍也棒極了，甜度和咖啡的苦味完美平衡！",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "T"
+      },
+      {
+        "text": "如果你要去來間島，這裡絕對值得一去。\n這裡真正體現了熱帶咖啡館的氛圍。\n這家人氣咖啡館非常棒，所以一定要在關門前查看營業時間和日期。\n我來這裡是為了喝龍香蕉奶昔，但他們這個季節的所有配料都賣光了。 😢\n我點了一杯咖啡拿鐵，驚訝地發現它裝在一個大杯子裡。它大約是普通杯子的兩倍大，所以喝起來有點難，但口感順滑，非常美味。",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "ダカランマサン"
+      },
+      {
+        "text": "我順道去了這家餐廳吃午餐。餐廳是露天的，那天風有點大，所以有點冷。地板上鋪著沙子，很有熱帶風情。咖啡拿鐵的杯量讓我很驚喜！我點了照燒煎餅，這是我第一次吃照燒五花肉，味道很棒。",
+        "star": 4,
+        "lang": "zh",
+        "reviewer": "ＴＳＵＹＵ ＭＵＲＡ"
+      },
+      {
+        "text": "The place itself has a nice, natural atmosphere, and the service was friendly. The outdoor seating feels like a European-style patio, and the sandy floor inside gives it a unique, eco-friendly vibe.\nHowever, the coffee was honestly terrible. It tasted like low-quality buffet coffee, and I was very disappointed after seeing so many reviews saying the coffee was good.\nI'm writing this so others don't come expecting good coffee like I did. I didn't try smoothies or other drinks, so I can't comment on those — but if you're coming for coffee, I wouldn't recommend it at all.",
+        "star": 1,
+        "lang": "en",
+        "reviewer": "Jiyune S"
+      }
+    ],
+    "top_neg": [
+      {
+        "text": "The place itself has a nice, natural atmosphere, and the service was friendly. The outdoor seating feels like a European-style patio, and the sandy floor inside gives it a unique, eco-friendly vibe.\nHowever, the coffee was honestly terrible. It tasted like low-quality buffet coffee, and I was very disappointed after seeing so many reviews saying the coffee was good.\nI'm writing this so others don't come expecting good coffee like I did. I didn't try smoothies or other drinks, so I can't comment on those — but if you're coming for coffee, I wouldn't recommend it at all.",
+        "star": 1,
+        "lang": "en",
+        "reviewer": "Jiyune S"
+      },
+      {
+        "text": "我本來很期待去那裡，結果發現它關門了。\n白跑一趟，真是浪費時間。\n他們不應該在網路上或Google地圖上發布關門通知嗎？\n不定期關門對遠道而來的顧客來說風險太大了！我希望他們以後別再在雜誌上推薦這家餐廳了。\n其他評論也都是同樣的評價，看來這家餐廳實在令人失望，而且沒有任何改進的希望。",
+        "star": 1,
+        "lang": "zh",
+        "reviewer": "まん太郎"
+      },
+      {
+        "text": "我去過幾次，但感覺谷歌上關於營業時間和營業日的資訊不太可靠。\n我倒沒什麼好抱怨的，因為這也是島嶼氛圍的一部分，但如果你沒做好心理準備，你可能會失望地發現它關門了。",
+        "star": 4,
+        "lang": "zh",
+        "reviewer": "sea turtle"
+      },
+      {
+        "text": "我連續去了兩天，結果兩天都關門了。 😓\n第一天是因為大風關門的，第二天我不確定是什麼原因，但他們提前關門了，真讓人失望。\n我想嚐嚐他們的帕尼帕尼三明治。 😂",
+        "star": 3,
+        "lang": "zh",
+        "reviewer": "あや"
+      }
+    ],
+    "top_best": [
+      {
+        "text": "2022年7月20日到訪。\nPanipani位於久裡間島。\n擁有完美熱帶氛圍的餐廳🏝\n每次去宮古島我都會去那裡。\n餐廳採用開放式設計，屋頂可俯瞰室外景色。\n地面鋪著類似珊瑚的白色細沙，\n營造出與室內截然不同的氛圍，同樣令人放鬆。\n餐廳早上10點開始供應早餐，所以我點了一杯看起來很健康的飲品，裡面有苦瓜和其他配料。\n他們家的拿鐵咖啡很有名，但普通的可樂也很好喝。\n我一開門就去了，立刻就排了十幾個人的長隊。要等第一批人離開才能進去，所以我建議在開門前去。\n我點了套餐：墨西哥捲餅（800日圓）、鹹豬裡肌（760日圓）和照燒（800日圓）。\n菜單上的其他菜色看起來都很美味，下次一定要嚐嚐。\n這家餐廳非常受歡迎，旺季的時候可能需要排隊。\n它給人的印像是價格親民，所以當地人經常光顧。隨著遊客的增多，據說當地人甚至在餐廳開門前就開始排隊了。\n順便一提，這是一家很棒的露天咖啡館，但正因為如此，下雨天就會關門。\n強烈推薦在晴天去。\n我三月去的時候，它關門了。\n這次，我的復仇成功了！ ＼(^^)／\n店旁邊有停車場，大概可以停20輛車！\n不用擔心路邊停車的問題，這點很放心。\n如果要去的話，最好在它開門前去。\n天氣很熱，排隊很煎熬。\n這絕對是我想再去一次的地方。\n順便提一下，他們只接受現金支付。",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "アーモンド!"
+      },
+      {
+        "text": "我在宮古島最愛的咖啡館…PANIPANI！我有幸去探訪了一番！ 😊\n它位於栗間島！我開車環島的時候經過那裡。 😅\n我是七月的一個工作日去的，剛過10點20分……當時還有空位。 😊\n走進咖啡館，感覺就像置身於海外的熱帶度假勝地。 😍\n座位在戶外，但那裡有樹蔭，而且那天早上天氣很好，所以非常舒適。 😊\n我本來是想去吃午餐的，但是……聽說他們從2025年起就停止供應食物了。 😭\n我點了咖啡朱莉（含稅600日圓）和萬間金時果凍（含稅680日圓）。\n咖啡朱莉…\n下面的咖啡凍竟然是黑色的！而且很苦！所以，如果你不喜歡黑咖啡，最好搭配冰淇淋一起吃。 😊\n真的太好吃了…🤤\nNmanma Kintoki Kori（一種沖繩甜點）…\n個頭挺大的！上面淋了三品茶糖漿，底下鋪著沖繩全菜……我一直想嚐嚐沖繩全菜，所以很感興趣……味道真的太棒了……🤤\n而且價格也超實惠！ 😳\n下次去宮古島的時候我一定還會再去！ 😊",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "絹ちゃん"
+      },
+      {
+        "text": "大約四年前，我第一次來到宮古島，當時我和媽媽開車，順道去了久留間島。我們發現了Pani Pani咖啡館，就進去逛了逛，它至今仍是我心目中日本最好的咖啡館。 ✨\n咖啡館裡綠植蔥鬱，修剪整齊，鋪著白沙的地面，從家具、設備到洗手間，每一件都精緻可愛，讓人感覺彷彿置身於另一個世界。\n為這自然氛圍增添色彩的飲品也同樣可愛美味——我被深深打動了，而且價格也很合理。\n這家咖啡館的一切都充滿了品味。\n不過，由於它是露天咖啡館，所以遇到刮風或惡劣天氣時，他們似乎會關門或提前關門。宮古島舉辦活動時，似乎也會休息。\n最近，咖啡館總是人滿為患，排隊是常態，所以我好幾次都沒能進去。但如果我再造訪宮古島，我一定會再去光顧的。",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "Naomi Horino"
+      },
+      {
+        "text": "Beautiful welcoming place. Warm and friendly staff.\nThey were playing bossa nova style music that matched perfectly the ambiance.\nWe ordered 3 pizzas and 2 flatbreads for a brunch for 2, everything felt fresh and well done. We ate quite well and payed around 2.200 yen. Last order is 4pm, so beware.",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Paulo André Marinho"
+      },
+      {
+        "text": "2025年8月補充\n好久沒去了，這次去發現三明治沒了，只剩下飲料和烤麵包了。\n好難過🥲 這是我最喜歡的麵包店😔\n＿＿＿＿＿＿＿\n☀️照燒雞肉？\n芥末醬太好吃了，簡直無法抗拒。最棒的。我的最愛。每次都點。\n☀️三拼刨冰\n太棒了。三拼刨冰一直都這麼好吃嗎？份量很足，但我永遠吃不膩……我個人喜歡下面墊著豆子的。我的第二愛。每次都點。\n☀️豬裡肌？\n芥末醬很棒。好吃。\n☀️風乾番茄羅勒\n太好吃了。我喜歡羅勒。如果碰巧遇到，我肯定會吃。這並不總是取決於季節…\n☀️蝦仁胡蘿蔔\n美味！核桃、胡蘿蔔和雞肉搭配起來真是絕妙。\n我嘗試過很多不同的菜餚，但上面這道菜我百吃不厭。我太喜歡它了。",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "保健室ゆい（保健室ゆい）"
+      },
+      {
+        "text": "You feel as if you've been transported to Bali. And it's the perfect place to rest after some time in the water.\nThe coffee is strong and the ice cream is delicious. They sell handmade trinkets as cute souvenirs as well! They have an English menu if needed",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Jackie L"
+      },
+      {
+        "text": "This is a beautiful outdoor cafe and restaurant. The coffee was amazing and the environment was so relaxed and refreshing. The owner is so friendly and speaks English too. This is my go to place on Kurima Island.",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Kiana"
+      },
+      {
+        "text": "植物美麗又令人放鬆。\n我記得我點的是帕尼帕尼三明治套餐，每樣都很美味。熱飲用大杯子盛著，份量也很足。冰飲方面，他們把打好的奶泡送到我的桌上，直接倒在我面前。\n我大約9點50分到，是第一批入場的。後面還有人在排隊，所以最好在他們開門前去，或者第二批人快要開門的時候去（我的訂單大約等了30分鐘才上桌，所以如果你沒能和第一批人一起進去，可能要等很久）。\n我建議你趁有空的時候去。這是一家很不錯的咖啡館，所以等待一點也不費力。",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "U I"
+      },
+      {
+        "text": "Must visit! So cute place with super friendly staff and amazing food and drinks. All made by hand with love.",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Carsten Lehnen"
+      },
+      {
+        "text": "這是一個非常好的地方♡\n那是七月底的一個工作日，我在開門前 15 分鐘到達。\n鄰近的停車場仍有足夠的空間。\n商店一開門，車輛就開始陸續到達，所以最好早點去。\n雖然沒有空調，但是植物的遮蔭和涼爽的微風令人心曠神怡。腳下涼爽的白色沙灘營造出熱帶氛圍。\n飲料和食物的價格合理，但份量相當足。\n一切都很美味，如果我來宮古島（池間島）我一定會再次光顧這家餐廳（^^）",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "reek -rook"
+      }
+    ]
+  },
+  "10-lb-cafe.md": {
+    "name": "LB CAFE",
+    "rating": 4.4,
+    "total": 127,
+    "star_dist": {
+      "5": 58,
+      "4": 31,
+      "3": 9,
+      "2": 0,
+      "1": 2
+    },
+    "mean_star": 4.44,
+    "variance": 0.62,
+    "coffee_pct": 52,
+    "env_pct": 14,
+    "svc_pct": 61,
+    "neg_pct": 1,
+    "neg_about_coffee_pct": 100,
+    "best_count": 7,
+    "best_pct": 6,
+    "lang": {
+      "en": 10,
+      "zh": 117
+    },
+    "cross_lang": {
+      "en": {
+        "n": 10,
+        "coffee_pct": 80,
+        "best_n": 1
+      },
+      "zh": {
+        "n": 117,
+        "coffee_pct": 50,
+        "best_n": 6
+      }
+    },
+    "top_coffee": [
+      {
+        "text": "超棒的拿鐵店😍\n咖啡味濃鬱，奶味更重。\n這是我在宮古喝過最好喝的咖啡。訂單類型外帶餐點：5服務：5氣氛：5",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "Zami Choi"
+      },
+      {
+        "text": "這裡提供Wi-Fi，牛奶可以換成豆奶或燕麥奶。旁邊有飾品店、Patagonia專賣店和蕎麥麵館。我在這裡吃的早午餐三明治是我在宮古島吃過最好吃的！冰咖啡和豆奶拿鐵都香氣撲鼻，口感順滑，所以我來了兩次。下次一定要來嚐嚐這裡的熱三明治！",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "元"
+      },
+      {
+        "text": "There's nothing particularly special about the scenery or interior, but it's a lovely place to enjoy an ordinary moment.\nMost of all, the coffee is smooth and delicious — the best I had on this island.\nThe banana pancake is a bit dense and not my favorite, but the sandwiches were good.\nI came back again later during my stay, and it confirmed my first impression — this is still the best coffee I've found on the island (except for Grand Bleu Gamin, but that requires a full meal).\nIt was also nice that one of the staff members speaks English.\nFriendly staff, great coffee, and a comfortable place to spend some quiet time on the island.訂單類型內用餐點類型其他平均每人消費金額¥1,000-2,000餐點：4服務：5氣氛：5預訂網址不需要訂位等待時間不需等候座位類型室內用餐區停車位很多停車位附近的停車場免費停車場",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Jiyune S"
+      },
+      {
+        "text": "我開始環遊世界尋找咖啡，聽了飯店的推薦，就來了這裡！\n我點了一杯拿鐵，苦味很濃，但和牛奶搭配起來卻很完美！\n雖然很苦，但我並不喜歡只有苦味的咖啡，這杯咖啡的甜度也恰到好處，非常美味！\n我還買了一些東帝汶咖啡豆，很期待回家品嚐！\n謝謝你們提供的咖啡😋平均每人消費金額¥1-1,000餐點：5服務：5氣氛：5吵雜程度安靜，適合交談用餐人數1 人, 2 人座位類型室內用餐區停車位很多停車位",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "AKINORI UEDA (Nicholas)"
+      },
+      {
+        "text": "我完全被貨架上琳瑯滿目的咖啡豆吸引住了…\n我的冰咖啡喝多了😭\n他們反應很快，也很貼心地把沒喝完的那杯給了我。\n我感到很抱歉，但同時也非常開心。\n拿鐵咖啡也很好喝。\n不過，他們好像下午1點到2點之間甜點就賣完了……這家店真的太忙了😭訂單類型內用平均每人消費金額¥1-1,000餐點：5服務：5氣氛：5吵雜程度非常安靜等待時間不需等候停車位很多停車位附近的停車場免費停車場",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "23ko S"
+      },
+      {
+        "text": "位於摩耶小島最佳景點附近，地理位置絕佳。\n咖啡館環境溫馨舒適，食物味道熟悉卻不失美味。服務熱情周到，咖啡館本身也很漂亮。訂單類型內用餐點類型早午餐平均每人消費金額¥2,000-3,000餐點：5服務：5氣氛：5停車位很多停車位附近的停車場免費停車場",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "Nami"
+      },
+      {
+        "text": "宮古島最好的美式咖啡餐廳訂單類型內用平均每人消費金額¥6,000-7,000餐點：4服務：4氣氛：4",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "안녕"
+      },
+      {
+        "text": "Cozy place for breakfast. Sandwich and croque madame were good. Pancake was too dried but the peanut sauce was great.訂單類型內用餐點類型早餐平均每人消費金額¥1-1,000餐點：3服務：4氣氛：4建議的餐點Hand Drip Coffee停車位很多停車位附近的停車場免費停車場",
+        "star": 4,
+        "lang": "en",
+        "reviewer": "Ting Ting LIM"
+      },
+      {
+        "text": "Great place for coffee and breakfast. Very friendly staff, excellent range of coffee, many toasted sandwiches looked fantastic and fruits/yoghurts/granola delicious too.訂單類型內用餐點類型早餐平均每人消費金額¥1,000-2,000餐點：5服務：5氣氛：4建議的餐點Hand Drip Coffee停車位很多停車位附近的停車場免費停車場",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Thomas Sutton"
+      },
+      {
+        "text": "這裡真是個好地方！咖啡香醇可口，店員熱情友好，一看就知道他們對咖啡豆充滿熱愛。環境也很舒適。首先，一定要點一杯熱咖啡。我強烈推薦熱拿鐵。如果你來宮古島，一定要來嚐嚐！餐點：5服務：5氣氛：5",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "コンゴレッド"
+      },
+      {
+        "text": "我點了一杯手沖咖啡和一份咖哩肉末起司三明治外帶。\n看來外送只有熱三明治了。\n咖啡可以選擇淺烘焙和深烘焙。店裡氣氛很棒，店員也很貼心，因為三明治還熱乎乎的，所以店員甚至幫我把紙袋打開，讓我享受了一次愉快的購物體驗。\n下次想試試店內吃的法式吐司。訂單類型外帶平均每人消費金額¥1-1,000餐點：4服務：4氣氛：4",
+        "star": 4,
+        "lang": "zh",
+        "reviewer": "久保せいじ"
+      },
+      {
+        "text": "這裡的食物和咖啡真的非常美味。你可以品嚐到兩種咖啡：淺烘焙和深烘焙，點套餐還可以無限暢飲！這裡也有賣咖啡豆，所以我們當然買了一些！\n我點了法式火腿起司三明治（croque madame），我的同伴點了法式吐司。\n我們剛開門不久就去了，悠閒地讀了一本關於宮古島的書。餐點：5服務：5氣氛：3",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "浦川尚樹"
+      },
+      {
+        "text": "他們人特別好，咖啡也超好喝。\n我每天的第一杯咖啡都在這裡喝！\n喜歡甜咖啡的朋友，一定要點一杯甜拿鐵（Cafe Latte Ama Kute）！餐點：5服務：5氣氛：5預訂網址不需要訂位",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "me tell"
+      },
+      {
+        "text": "我點了一杯拿鐵咖啡和一個外帶的Sanpincha甜甜圈。\nSanpincha甜甜圈其實挺好吃的，想想就覺得\"哇，太好吃了！\"，我喝了一口拿鐵咖啡，驚喜萬分。\n他們似乎對咖啡豆很講究，所以我會推薦給咖啡愛好者。\n店面不大，大概有4-5個座位。\n我星期日下午3點左右去的，大概有3個座位被佔了。外面也有座位。\n停車場很大，空間很充足。\n本來只是想順便吃點東西，結果咖啡拿鐵太好喝了，而且看到評論說店裡的食物也很好吃，所以下次我想在店裡悠閒地吃一頓！訂單類型外帶餐點類型其他平均每人消費金額¥1-1,000餐點：5服務：5氣氛：5停車位很多停車位附近的停車場免費停車場",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "むむっく"
+      },
+      {
+        "text": "我去過兩次，都是買外帶咖啡。冰拿鐵很好喝，美式咖啡也很好喝 :) 咖啡館旁邊有一家 Patagonia 服裝店，可惜關門了，沒能進去逛逛ㅠㅠ餐點：5服務：5氣氛：5",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "Seohyun Kim"
+      }
+    ],
+    "top_neg": [
+      {
+        "text": "2025年4月到訪\n咖啡之旅的第三家咖啡館\n宮古島有很多自家烘焙的咖啡館。 LB Cafe的老闆是一位技藝精湛的烘焙大師，手下有十幾位學徒。\n點一杯東帝汶咖啡，自備杯子可享20日圓優惠。\n雖然分量足，價格也實惠，但味道有點淡，嘗不出東帝汶咖啡的濃鬱風味，有點失望。",
+        "star": 3,
+        "lang": "zh",
+        "reviewer": "げ"
+      }
+    ],
+    "top_best": [
+      {
+        "text": "There's nothing particularly special about the scenery or interior, but it's a lovely place to enjoy an ordinary moment.\nMost of all, the coffee is smooth and delicious — the best I had on this island.\nThe banana pancake is a bit dense and not my favorite, but the sandwiches were good.\nI came back again later during my stay, and it confirmed my first impression — this is still the best coffee I've found on the island (except for Grand Bleu Gamin, but that requires a full meal).\nIt was also nice that one of the staff members speaks English.\nFriendly staff, great coffee, and a comfortable place to spend some quiet time on the island.訂單類型內用餐點類型其他平均每人消費金額¥1,000-2,000餐點：4服務：5氣氛：5預訂網址不需要訂位等待時間不需等候座位類型室內用餐區停車位很多停車位附近的停車場免費停車場",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Jiyune S"
+      },
+      {
+        "text": "2024年10月14日星期一上午，我獨自使用了露台。\n沒能親自向他們道謝，在此深感抱歉。\n我的訂單好像被漏掉了，等了大約一個小時後，我主動聯絡了他們。他們立即道了歉，準備了我的餐點。\n我點了格蘭諾拉麥片和吐司套餐，但他們沒有一次性上齊，而是先上格蘭諾拉麥片（可能是因為格蘭諾拉麥片先做好了？），還說吐司稍後再上。\n吐司和格蘭諾拉麥片做好後立即上桌，而不是同時點，這讓我很感動。\n他們真誠地道歉，讓我感受到了這家餐廳的魅力，也讓我對宮古島有了更深的印象。\n我獨自來到宮古島旅行，真的覺得很溫暖。\n如果我再來宮古島，我一定會再使用你們的服務^^\n謝謝那位戴眼鏡的男工作人員！訂單類型內用餐點類型早餐平均每人消費金額¥1,000-2,000餐點：5服務：5氣氛：5停車位很多停車位附近的停車場免費停車場",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "そう"
+      },
+      {
+        "text": "超棒的拿鐵店😍\n咖啡味濃鬱，奶味更重。\n這是我在宮古喝過最好喝的咖啡。訂單類型外帶餐點：5服務：5氣氛：5",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "Zami Choi"
+      },
+      {
+        "text": "位於摩耶小島最佳景點附近，地理位置絕佳。\n咖啡館環境溫馨舒適，食物味道熟悉卻不失美味。服務熱情周到，咖啡館本身也很漂亮。訂單類型內用餐點類型早午餐平均每人消費金額¥2,000-3,000餐點：5服務：5氣氛：5停車位很多停車位附近的停車場免費停車場",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "Nami"
+      },
+      {
+        "text": "這裡提供Wi-Fi，牛奶可以換成豆奶或燕麥奶。旁邊有飾品店、Patagonia專賣店和蕎麥麵館。我在這裡吃的早午餐三明治是我在宮古島吃過最好吃的！冰咖啡和豆奶拿鐵都香氣撲鼻，口感順滑，所以我來了兩次。下次一定要來嚐嚐這裡的熱三明治！",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "元"
+      },
+      {
+        "text": "Absolutely amazing French toast. Awesome breakfast.訂單類型內用餐點類型早餐平均每人消費金額¥1,000-2,000餐點：5服務：5氣氛：5",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "Roman Innerbichler"
+      },
+      {
+        "text": "宮古島最好的美式咖啡餐廳訂單類型內用平均每人消費金額¥6,000-7,000餐點：4服務：4氣氛：4",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "안녕"
+      }
+    ]
+  },
+  "11-sima-cafe-tounkaraya.md": {
+    "name": "Sima cafe Tounkaraya（島cafeとぅんからや）",
+    "rating": 4.3,
+    "total": 400,
+    "star_dist": {
+      "5": 53,
+      "4": 34,
+      "3": 9,
+      "2": 2,
+      "1": 2
+    },
+    "mean_star": 4.35,
+    "variance": 0.71,
+    "coffee_pct": 22,
+    "env_pct": 59,
+    "svc_pct": 8,
+    "neg_pct": 2,
+    "neg_about_coffee_pct": 0,
+    "best_count": 27,
+    "best_pct": 7,
+    "lang": {
+      "zh": 379,
+      "en": 19,
+      "ja": 2
+    },
+    "cross_lang": {
+      "en": {
+        "n": 19,
+        "coffee_pct": 11,
+        "best_n": 6
+      },
+      "zh": {
+        "n": 379,
+        "coffee_pct": 23,
+        "best_n": 21
+      }
+    },
+    "top_coffee": [
+      {
+        "text": "這家店的西瓜汁是宮古島上最好喝的。\n「島咖啡廳 Tonkara-ya」。\n這家店有室內和室外座位，室外座位區有鞦韆和草坪供孩子們玩耍，所以也很適合帶孩子來。\n景色很美，一邊喝西瓜汁一邊欣賞海景，簡直太棒了。\n西瓜汁太好喝了，我每次都點太多。\n有一次我點了10杯西瓜汁帶走，店員都笑我了。哈哈",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": ""
+      },
+      {
+        "text": "我去了宮古島一家人氣十足的時尚咖啡館——Tonkara-ya。\n我早早就到了，吃午餐的時候，但到了中午，店裡就已經坐滿了，排隊的人很多。\n我點了一杯苦瓜啤酒，裡面添加了苦瓜萃取物。微微的苦味很有意思。\n啤酒花味道清淡，口感清爽。\n宮古牛漢堡肉濃鬱醇厚，入口即化，肉汁四溢，美味無比。\n其他菜色包括阿古豬肉咖哩和海蘊素麵。這家咖啡館很棒，我以後會再來的。\n他們有嚴格的防疫措施，點餐流程也比較慢，所以最好在時間充裕的時候去。",
+        "star": 4,
+        "lang": "zh",
+        "reviewer": ""
+      },
+      {
+        "text": "We came for afternoon coffee, coffee, smoothie, and ice cream were great, with amazing view and comfortable atmosphere.",
+        "star": 5,
+        "lang": "en",
+        "reviewer": ""
+      },
+      {
+        "text": "一家可以欣賞海景的咖啡館。\n人氣很旺，所以最好在營業時間前或稍晚一點去。\n店內有稍微開闊的區域，有吊床，還有兒童遊樂區。帶小朋友來這裡玩很開心(^^)！\n隔壁還有一家雜貨店，可以買些紀念品。\n景色很棒，推薦露台座位♪",
+        "star": 3,
+        "lang": "zh",
+        "reviewer": ""
+      },
+      {
+        "text": "宮古島著名的海景咖啡館。\n在這裡，您可以一邊享用美食，一邊欣賞宮古島美麗的海景。\n這是我第一次來這裡，但由於我到的時候快到關門時間了，海蘊料理已經賣完了，所以我點了宮古牛肉漢堡和醬油咖哩。\n兩道菜都非常好吃。\n宮古牛肉漢堡的口味濃鬱，但不會太油膩，很容易入口。\n醬油咖哩也很美味，醬油和咖哩的搭配非常完美。\n如果您想在時尚的咖啡館裡一邊享用美食，一邊欣賞宮古島美麗的海景，那麼Tonkara-ya絕對是您的最佳選擇！",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": ""
+      },
+      {
+        "text": "這是我最喜歡的店（包括隔壁的雜貨店），每次來島上我都會去好幾次。\n每樣東西都很美味，氣氛也很棒，而且我從未和店員有過不愉快的經歷。\n偏遠島嶼上的咖啡館午餐時間很短，只要你明白午餐吃完就結束了，你就可以去任何一家咖啡館，不會有任何不愉快的經歷。\n這家店很受歡迎，所以最好在開門後30分鐘內去。我總是能買到我想要的東西，而且總是很滿意。\n我覺得最好在下午1點左右去，如果能吃到午餐就算幸運了。",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": ""
+      },
+      {
+        "text": "這家島嶼咖啡館距離志賀度假村（Allamanda）非常近，坐落在山頂，擁有絕佳的視野。 🍰\n這裡的食物也堪稱一流；咖哩、塔可飯、雜糧漢堡等菜餚巧妙地運用了當地食材，打造出美味的宮古島風味。\n它是島上品質最高的咖啡館之一，我強烈推薦給當地居民、遊客以及來島上玩的朋友。\n店員熱情友善。\n雖然這次我沒有嘗試，但他們提供豐富的冰沙，所以如果您在前往景點的途中順道來這裡，或許能在炎熱的宮古島享受一杯清爽的飲品。 🍹\n絕對值得再次光顧！",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": ""
+      },
+      {
+        "text": "這家餐廳很棒，但非常受歡迎，午餐套餐在下午1點左右就幾乎售罄了。所以，如果想去吃午餐，最好早點去。餐廳景色很美，所以如果只是想喝杯咖啡，我建議下午3點以後去，那時人會少一些，可以更放鬆一些。",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": ""
+      },
+      {
+        "text": "可以欣賞海景的咖啡館❗️\n一邊欣賞美景一邊享用午餐是最棒的‼ ️",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": ""
+      },
+      {
+        "text": "我們中午前到達時，海藻漢堡已經賣完了，所以我們點了一份宮古牛肉漢堡和香腸湯套餐。\n我兩歲的兒子也狼吞虎嚥地吃完了。湯裡胡椒很濃，大人很喜歡，但對小孩來說有點太辣了。\n番石榴汁和冰咖啡都很好喝。\n飯後，我們在吊床上放鬆休息。兒子很喜歡，所以我們又待了一會兒。\n景色很美，微風習習。幾朵雲遮住了陽光，感覺很舒服。\n然而，服務生看起來很疲憊，臉上沒有笑容，很快就過來收拾我們的餐盤了。這家餐廳很受歡迎，下一位客人已經在等位了，所以我們讓出了座位，並在吊床上又點了一杯飲料。服務生的語氣帶著一絲怒氣，讓我們等到有座位再坐。真是太遺憾了。",
+        "star": 4,
+        "lang": "zh",
+        "reviewer": ""
+      },
+      {
+        "text": "Hime推薦的宮古島咖啡館：Shima Cafe Tonkaraya。 「這裡的位置和鞦韆都超讚！」Hime說。\n我點了：\n◾️百香果蘇打\n◾️藍鳳梨蘇打\n◾️芒果漂浮\n在鞦韆上欣賞美景。\n熱帶飲品，還有愉快的聊天。是不是很棒？ ❗️\n一定要去試試！ ❗️",
+        "star": 4,
+        "lang": "zh",
+        "reviewer": ""
+      },
+      {
+        "text": "這家時尚的咖啡廳位於Shigira度假村附近，距離宮古機場約20分鐘車程。\n我點了宮古牛漢堡排和塔可飯。\n他們提供各種飲料和食物。他們還提供Satabanpin冰淇淋，隔壁還有一家雜貨店。",
+        "star": 3,
+        "lang": "zh",
+        "reviewer": ""
+      },
+      {
+        "text": "這家咖啡館位於風景優美的地方。\n您只需在店前的平板電腦上輸入您一行的人數即可登記，之後便可隨意使用店內外的座位。\n店內還設有裝飾著可愛花朵積木的洗手間。\n炎炎夏日，一杯清爽的飲品真是身心舒暢的完美選擇^^！",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": ""
+      },
+      {
+        "text": "空氣清新，服務一流👍\n我來這裡買了外帶冰咖啡\n洗手間也很乾淨🚽",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": ""
+      },
+      {
+        "text": "時尚的咖啡餐廳。\n它位於山上，需要徒步一小段路程才能到達，可以遠眺大海，景色非常優美。\n餐廳內部裝潢嶄新乾淨。\n咖啡館旁有一家類似雜貨店的紀念品商店。\n我平日下午3點去的，當時還有空位。從點餐到拿到飲品大約花了10分鐘。\n藍色鳳梨汽水（825日圓）不僅顏值高，而且味道也很棒。\n我覺得他們為了環保已經停止使用塑膠製品，轉而使用紙杯、木製餐具和生物質產品，這一點很棒。",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": ""
+      }
+    ],
+    "top_neg": [
+      {
+        "text": "我不明白為什麼它的評價這麼高。\n1️⃣截至2023年3月，吊床區正在施工，根本沒有吊床……我本來很期待，所以我很失望。而且座位也少了。\n2️⃣由於周圍環境（可能是施工？），餐廳裡有一股很濃的異味。雖然不是餐廳的問題，但它毀了露台。對於對氣味敏感的人來說，簡直是地獄。\n3️⃣雖然能看到海景，但距離有點遠。前方有一條大馬路，所以能聽到汽車的噪音，這裡可不是放鬆的地方。\n苦瓜冰沙和熱狗很美味。價格也不錯，所以做好花錢的準備吧…\n說實話，值得你特意來排隊嗎？",
+        "star": 3,
+        "lang": "zh",
+        "reviewer": ""
+      },
+      {
+        "text": "我經過的時候順便進去逛了逛，沒想到這家餐廳這麼受歡迎。紅糖薑汁汽水是用真薑釀的，味道好極了。漢堡排賣完了，所以我點了個熱狗。排隊的時候，他們提前警告我可能會賣完，所以我的失望減輕了一半。這家餐廳真是貼心周到。我明白為什麼它這麼受歡迎，不僅因為美麗的景色，還因為美味的食物和友好的員工。",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": ""
+      },
+      {
+        "text": "Atmosphere is nice. However we waited food for one hour. Although it's tasty enough, not worth to wait for one hour. Mango float is good.",
+        "star": 4,
+        "lang": "en",
+        "reviewer": ""
+      },
+      {
+        "text": "這是一家很時尚的餐廳。\n我去的時候還沒開門，但很快就坐滿了客人，所以建議早點去。\n我點了芒果冰沙和塔可飯，不僅造型時尚，而且味道也很棒。\n價格不算太貴，我推薦這裡的氣氛和食物。",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": ""
+      },
+      {
+        "text": "我點了新推出的佐藤條甜點。\n照片太誤導人了！\n我很失望。 …",
+        "star": 2,
+        "lang": "zh",
+        "reviewer": ""
+      },
+      {
+        "text": "景色美極了♪ 飲料可能好也可能不好喝。",
+        "star": 3,
+        "lang": "zh",
+        "reviewer": ""
+      }
+    ],
+    "top_best": [
+      {
+        "text": "An absolutely gorgeous seaside cafe with a children's playground equipped with a swing, a little slide, and rock climbing (mostly suitable for small children)\nWouldn't be able to tell from the outside when we arrived, but once you stepped inside, the whole place just washed over us with a cool, fresh vibe and a very relaxing atmosphere.\nWherever you choose to sit (inside or outside), you'll face the sea! Outside seating has swing seats.\nIt's a perfect place for winding out with a cool drink.\nThe mango smoothie was so delicious we ordered second for the road.\nWe spent a good hour here! If there were a hammock, I would just go on it and fall asleep! 😀",
+        "star": 5,
+        "lang": "en",
+        "reviewer": ""
+      },
+      {
+        "text": "One of the best cafe in Miyako island with stunning ocean view. I tried Humburg steak and Sata andagi ice, both of which were amazing. If you are lucky you can choose swing seat.\nAs this cafe is very popular and many food will be sold out soon, note that may not be available for late lunch",
+        "star": 5,
+        "lang": "en",
+        "reviewer": ""
+      },
+      {
+        "text": "我和妻子在工作日中午前去了這家餐廳。首先，停車位很寬敞，停車也很順利。辦理完入場手續後，我們用觸控螢幕點餐，然後叫號，不過很幸運，沒等多久就進去了。進去後，我們在入口處點餐付款，食物做好後我們去取餐。我們點了塔可飯和熱狗，都非常美味！之後可以加的微辣醬汁與食物完美搭配，真想在家也嚐嚐。露台座位可以一覽無餘的海景，餐廳裡也有面向大海的吧台桌，可以一邊欣賞海景一邊用餐，空調也正好，我想無論選擇哪一家都會讓您滿意。我住在宮古島，所以偶爾會去，也想帶父母朋友來玩的時候也去。\n① 這裡沒有餐具、水、食物的領取和清潔等服務，一切都是自助式的。因為這家餐廳不提供服務，所以我給了3顆星，但我一點也不不滿意。 ②即使是工作日，中午12點以後顧客也會增多，所以最好早點來。正如其他人在評論中所說，當天晚些時候菜餚可能會售罄。",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": ""
+      },
+      {
+        "text": "我和朋友開車經過的時候順便去了這家餐廳。當時已經是午餐時間了，所以餐廳裡沒什麼人。露台空間寬敞，視野開闊，還能欣賞海景。露台上甚至還有一個鞦韆，增添了幾分輕鬆愉快的氛圍。\n餐廳提供吧台座位、餐桌座位、露台座位以及鞦韆。\n你需要先點餐，然後再付款。之後你會拿到一個取餐按鈕，等餐做好後就可以去拿餐了。\n我點了一份漢堡牛排和一杯西瓜冰沙。\n我本來想坐在露臺上，但是太熱了，只好放棄了。我換到了室內。\n漢堡牛排鮮嫩多汁，味道極佳。它配有各種蔬菜，看起來也很漂亮。我一開始不知道該點什麼冰沙，但西瓜冰沙真是個明智的選擇。它非常美味。\n我嚐了一小口朋友點的蓋飯，那是我吃過最好吃的蓋飯。濃鬱的香味讓它和米飯搭配起來簡直完美。\n飯後，我在鞦韆上拍了很多照片。\n外面有洗手間，洗手間後面是吸煙區。",
+        "star": 4,
+        "lang": "zh",
+        "reviewer": ""
+      },
+      {
+        "text": "我因為用了旅行補貼券，所以我意外地去了這家餐廳。結果真是太棒了！我點了漢堡牛排套餐，主菜肉質飽滿多汁，肉香濃鬱。配的薯條也很蓬鬆，沾著番茄醬和芥末醬吃，味道絕佳。米飯也煮得恰到好處，早上在海灘玩了一上午，吃上一碗，頓覺神清氣爽。我們運氣很好，天氣晴朗，坐在露臺上，可以遠眺蔚藍的宮古海，真是享受。這家餐廳看起來很受歡迎，絡繹不絕的顧客讓服務略顯繁瑣，但服務生都很友善熱情。因為是自助餐廳，食物做好後會叫號，周圍此起彼落的提示音讓人感覺像是走進了永旺美食廣場（哈哈）。我太喜歡這家餐廳了，以至於在逗留期間去了兩次。與網路資訊相反，我們去的時候，他們11:30才開門。他們有很多休息日，所以最好提前查詢。",
+        "star": 4,
+        "lang": "zh",
+        "reviewer": ""
+      },
+      {
+        "text": "這家店的西瓜汁是宮古島上最好喝的。\n「島咖啡廳 Tonkara-ya」。\n這家店有室內和室外座位，室外座位區有鞦韆和草坪供孩子們玩耍，所以也很適合帶孩子來。\n景色很美，一邊喝西瓜汁一邊欣賞海景，簡直太棒了。\n西瓜汁太好喝了，我每次都點太多。\n有一次我點了10杯西瓜汁帶走，店員都笑我了。哈哈",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": ""
+      },
+      {
+        "text": "Our favorite place to chill in the island. Beautiful place and view, nap on the hammock 🌿🦭✨\nFood wise, amazing curry! Spicy and tasty. Had pineapple smoothie + white rum, and mango smoothie. Both were very delicious as well.",
+        "star": 5,
+        "lang": "en",
+        "reviewer": ""
+      },
+      {
+        "text": "這家島嶼咖啡館距離志賀度假村（Allamanda）非常近，坐落在山頂，擁有絕佳的視野。 🍰\n這裡的食物也堪稱一流；咖哩、塔可飯、雜糧漢堡等菜餚巧妙地運用了當地食材，打造出美味的宮古島風味。\n它是島上品質最高的咖啡館之一，我強烈推薦給當地居民、遊客以及來島上玩的朋友。\n店員熱情友善。\n雖然這次我沒有嘗試，但他們提供豐富的冰沙，所以如果您在前往景點的途中順道來這裡，或許能在炎熱的宮古島享受一杯清爽的飲品。 🍹\n絕對值得再次光顧！",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": ""
+      },
+      {
+        "text": "我去了宮古島一家人氣十足的時尚咖啡館——Tonkara-ya。\n我早早就到了，吃午餐的時候，但到了中午，店裡就已經坐滿了，排隊的人很多。\n我點了一杯苦瓜啤酒，裡面添加了苦瓜萃取物。微微的苦味很有意思。\n啤酒花味道清淡，口感清爽。\n宮古牛漢堡肉濃鬱醇厚，入口即化，肉汁四溢，美味無比。\n其他菜色包括阿古豬肉咖哩和海蘊素麵。這家咖啡館很棒，我以後會再來的。\n他們有嚴格的防疫措施，點餐流程也比較慢，所以最好在時間充裕的時候去。",
+        "star": 4,
+        "lang": "zh",
+        "reviewer": ""
+      },
+      {
+        "text": "宮古島著名的海景咖啡館。\n在這裡，您可以一邊享用美食，一邊欣賞宮古島美麗的海景。\n這是我第一次來這裡，但由於我到的時候快到關門時間了，海蘊料理已經賣完了，所以我點了宮古牛肉漢堡和醬油咖哩。\n兩道菜都非常好吃。\n宮古牛肉漢堡的口味濃鬱，但不會太油膩，很容易入口。\n醬油咖哩也很美味，醬油和咖哩的搭配非常完美。\n如果您想在時尚的咖啡館裡一邊享用美食，一邊欣賞宮古島美麗的海景，那麼Tonkara-ya絕對是您的最佳選擇！",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": ""
+      }
+    ]
+  },
+  "12-karakara.md": {
+    "name": "Karakara",
+    "rating": 4.2,
+    "total": 104,
+    "star_dist": {
+      "5": 60,
+      "4": 27,
+      "3": 6,
+      "2": 3,
+      "1": 5
+    },
+    "mean_star": 4.34,
+    "variance": 1.09,
+    "coffee_pct": 24,
+    "env_pct": 20,
+    "svc_pct": 44,
+    "neg_pct": 6,
+    "neg_about_coffee_pct": 17,
+    "best_count": 3,
+    "best_pct": 3,
+    "lang": {
+      "en": 12,
+      "zh": 91,
+      "ja": 1
+    },
+    "cross_lang": {
+      "en": {
+        "n": 12,
+        "coffee_pct": 8,
+        "best_n": 2
+      },
+      "zh": {
+        "n": 91,
+        "coffee_pct": 26,
+        "best_n": 1
+      }
+    },
+    "top_coffee": [
+      {
+        "text": "This place is just magical — like something straight out of a dream. It feels like a beautiful granny’s home, filled with warmth and charm. When we arrived, we were greeted by the sweetest old couple who owns the café. They’re so friendly and genuinely kind, even chatting with us for a bit.\nWe only ordered an iced coffee and a coffee float since we had already eaten before coming, but everything was great, and I can’t wait to go back to try their food next time.\nThe man even gave us a helpful tip on how to enjoy our bike trip to Ikema and return safely. Your trip to going to Ikema wouldn’t be complete without stopping by this unique, heartwarming café. 💛☕",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Unique Uy"
+      },
+      {
+        "text": "這家神秘的咖啡店面朝國道，給人一種非常震撼的感覺！店內氛圍十足，有水族館和復古的罐子。店員們非常友好，也會介紹附近的旅遊景點。\n臨走時，他們告訴我店裡那塊石頭背後的秘密。\n真有趣！問問店員（男）就知道了！\n我點了宮古島咖哩和花草茶。茶裡的花草是宮古島自家種的，一點苦味都沒有，味道好極了。喝起來非常順口，味道也很棒。\n咖哩的形狀像宮古島，隱藏著許多故事，很有趣。咖哩很清淡，但香料用得很好，味道也很好。\n另外，\n他們好像還有DIY燈罩的工作坊或體驗活動。\n謝謝您的用餐！ (^^)",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "孤独旅トミモン"
+      },
+      {
+        "text": "這家咖啡館氛圍獨特，充滿手工氣息。由一對夫妻經營，空間非常溫馨舒適。\n出川哲郎和小島瑠璃子在電視節目《出川哲郎的Charge Me Up？ 》中造訪時，在擺放的紙條上寫下了各自的願望。\n人氣菜是宮古島咖哩。顧名思義，這是一種形狀像宮古島的湯咖哩。\n乍一看，它像是普通的咖哩，但辛辣的濃鬱味道會逐漸增強，變得美味。\n多虧了丈夫提供的宮古島觀光建議，這些建議與旅遊指南中提到的截然不同，讓我在宮古島度過了充實的時光。\n【交通】\n距離宮古機場開車不到30分鐘。它位於平良地區的海岸邊。建議租車或搭乘計程車。飯店內設有停車場。",
+        "star": 4,
+        "lang": "zh",
+        "reviewer": "yoshihiro hirayama (hira_garagehrs)"
+      },
+      {
+        "text": "這家咖啡館真漂亮！ 😘\n如果你去宮古島，一定要來這裡看看！\n老闆親手用珊瑚製作燈飾，看起來手藝相當不錯。\n老闆也超級熱情友善！ 😍\n從我停車的那一刻起，我就覺得很舒服，食物也很美味。就連洗手間都很漂亮。",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "SuperFull MOON"
+      },
+      {
+        "text": "距離上次發文已經五年了 (⌒-⌒;)\n這是我第一次去宮古島的咖啡館。\n我點了宮古牛排和漢堡。\n味道很棒，氛圍也很獨特。\n這家咖啡館之前還上過出川先生的「Recharge Trip」節目呢！ ^_^",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "Ito Imaji"
+      },
+      {
+        "text": "我們在前往池間島的途中順道去了這家咖啡館。\n老闆非常熱情，給了我們一些在宮古島玩耍的建議。\n卡拉卡拉果汁味道鮮美，店主友善周到的服務也讓這家咖啡館成為一段美好的回憶。",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "K N"
+      },
+      {
+        "text": "這家咖啡館完全是手工製作，並用浮木裝飾。\n它由一對20年前搬到宮古的夫婦經營。老闆是個很酷的傢伙，留著一頭長長的白髮，有點像Mike Maki。\n從一艘舊船上拆下來的繩梯（也是用浮木做的）太酷了😆\n浮木雖然是垃圾，但卻很浪漫🤩 咖啡館內部還有很多其他的浮木裝飾✨",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "MIYA KUN"
+      },
+      {
+        "text": "這家咖啡館是由一對關西夫婦經營的。我去的時候是工作日，所以我感覺非常放鬆。燈罩、植物和包包都是手工製作的。咖啡很美味，我玩得很開心。這對夫婦的關係非常好，我以後還想再去。",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "旅する"
+      },
+      {
+        "text": "這家咖啡館位於宮古島，就在通往池間島的大橋前。去的時候我在橋的右手邊發現了它，回來的時候就順便進去逛了逛。\n這家咖啡館瀰漫著神秘的海島氛圍。我點了當季的芭菲。老闆娘因為忘了加葡萄就送來了。\n我拍照的時候，熱情的老闆娘告訴我咖啡館門前一朵花的名字。",
+        "star": 4,
+        "lang": "zh",
+        "reviewer": "コダワリの女のひとりごと"
+      },
+      {
+        "text": "我剛好路過，看到了這家咖啡館的入口，就知道肯定是真的！於是我走了進去。\n老闆夫婦做的咖哩，以宮古島為靈感，真是太可愛了。炸物也像徵著這座小島的地理位置，看起來也萌生了！\n老闆夫婦和韓國人有淵源，所以他們對韓國人非常熱情友善。\n離開的時候，老闆送了我一個他自己種的番石榴，說是可以當車載香薰用的，聞起來好香！我在宮古島留下了美好的回憶。祝你們生意興隆！你們已經開了21年了！",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "긍짤"
+      },
+      {
+        "text": "水果芭菲比我想像的還要好吃！\n800日元，簡直太划算了！ ！\n鳳梨、西瓜、奇異果、蘋果…\n水果好豐富♪\n這家咖啡館是一對老夫婦經營的，\n他們非常熱情友善。\n下次有機會還想再去！\n隔壁工坊手工製作的珊瑚和貝殼飾品也太可愛了，我買了一對耳環！\n一定要買一個當紀念品！",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "m"
+      },
+      {
+        "text": "這家咖啡館允許吸煙，老闆很友善，我們聊得很開心。\n我點了一份芒果芭菲，但品質有點差強人意。芒果嘛，難免如此，不過價格略貴。芒果還有點苦味。\n咖啡很好喝。",
+        "star": 3,
+        "lang": "zh",
+        "reviewer": "tao"
+      },
+      {
+        "text": "看起來像叢林？森林？ ！它就在去池間島的路上，所以我推薦給附近的人。這裡很適合帶孩子來，有很多適合孩子吃的菜，像是咖哩和漢堡。不過，咖哩對孩子來說可能有點辣。咖哩周圍的薯條有點凍住了，有點可惜。 1100日圓的咖哩配料居然是凍的……？ ？雞肉炒飯也是1250日元，但周圍的薯條也有點凍住了，令人失望。說實話，我希望在宮古島，超過1000日元的午餐能更注重品質，但我還是推薦給那些不太在意品質或口味，只是想找一家有宮古島獨特氛圍的咖啡館的人。也許只喝杯咖啡也是個不錯的選擇。\n這裡不太乾淨。洗手間很暗。這裡有充電器，雖然有點髒，但看起來可以為手機充電，所以對於需要為設備充電的人來說是個不錯的選擇。\n兩位工作人員都很友善。",
+        "star": 2,
+        "lang": "zh",
+        "reviewer": "AN"
+      },
+      {
+        "text": "鄉間小路邊一家小咖啡館。老闆很友善，菜單是韓式的！\n冰美式咖啡的味道和韓國便利商店賣的榛果即溶咖啡很像。 😅",
+        "star": 3,
+        "lang": "zh",
+        "reviewer": "Y"
+      },
+      {
+        "text": "我地玩ebike路過時發現呢間cafe....座位唔多。但坐得舒服。老闆好好人，見我地咁熱，為我地送上一瓶herb water..即煮咖啡好好飲。",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "Karen L"
+      }
+    ],
+    "top_neg": [
+      {
+        "text": "看起來像叢林？森林？ ！它就在去池間島的路上，所以我推薦給附近的人。這裡很適合帶孩子來，有很多適合孩子吃的菜，像是咖哩和漢堡。不過，咖哩對孩子來說可能有點辣。咖哩周圍的薯條有點凍住了，有點可惜。 1100日圓的咖哩配料居然是凍的……？ ？雞肉炒飯也是1250日元，但周圍的薯條也有點凍住了，令人失望。說實話，我希望在宮古島，超過1000日元的午餐能更注重品質，但我還是推薦給那些不太在意品質或口味，只是想找一家有宮古島獨特氛圍的咖啡館的人。也許只喝杯咖啡也是個不錯的選擇。\n這裡不太乾淨。洗手間很暗。這裡有充電器，雖然有點髒，但看起來可以為手機充電，所以對於需要為設備充電的人來說是個不錯的選擇。\n兩位工作人員都很友善。",
+        "star": 2,
+        "lang": "zh",
+        "reviewer": "AN"
+      },
+      {
+        "text": "我当时在水果芭菲和水果拼盘之间犹豫不决，店员告诉我芭菲和水果拼盘里的水果不一样，所以我两个都点了。\n結果端上來的是幾乎一樣的水果。芭菲裡有少量的鳳梨、奇異果、麝香葡萄和大量的蘋果，上面還淋了香草冰淇淋。水果拼盤只是在芭菲的基礎上加了些柳橙和香蕉。\n感覺完全不像宮古島的風格，而且價格還很貴。真不該點兩份。\n我還希望裡面至少能看到一點芒果或火龍果呢……太失望了。",
+        "star": 1,
+        "lang": "zh",
+        "reviewer": "rie ｔ"
+      },
+      {
+        "text": "這是我第一次參觀石灰岩洞。\n真是太神奇了！我親眼目睹了大自然的鬼斧神工。\n然而，為了方便遊客，洞穴的許多部分都被封閉了。\n雖然我理解封閉的必要性，但我還是感到非常失望。",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "ましみきむら"
+      },
+      {
+        "text": "這很花時間，而且時令果凍糕裡的水果是凍過的，看起來像是剛從冰箱裡拿出來一樣。真令人失望。",
+        "star": 1,
+        "lang": "zh",
+        "reviewer": "metsuko0405"
+      },
+      {
+        "text": "宮古島咖哩就是把咖哩塊溶於熱水里，沒有食材也沒有蔬菜，令人失望。",
+        "star": 1,
+        "lang": "zh",
+        "reviewer": "Yumi Ando"
+      }
+    ],
+    "top_best": [
+      {
+        "text": "You have to stop by! Amazing drinks. My bicycle was broken so the owner invite me in for a tea while he offers to repair it for me. I ended up ordered the Karakara smoothies which totally boost up my energy. (So good) we had a fun chitchat.\nI am grateful to how generous and kind they are. Will definitely go back if i have a chance!",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "HiThisIsTwo"
+      },
+      {
+        "text": "我們從真夏海灘回來的路上順道來這裡吃了午餐。\n這家餐廳是小島琉璃子在出川哲郎的《充電之旅》節目中介紹的。\n您可以在輕鬆的氛圍中享用美味佳餚。\n這裡最好開車前往，但如果您來到池間地區，請務必來這裡看看。",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "こじろうりゅう"
+      },
+      {
+        "text": "Amazing little cute garden cafe! The owner lady was very cute and spoke well english! Heaven place!",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Pa Gi"
+      }
+    ]
+  },
+  "13-sr-coffee.md": {
+    "name": "SR COFFEE MIYAKOJIMA",
+    "rating": 4.2,
+    "total": 16,
+    "star_dist": {
+      "5": 62,
+      "4": 19,
+      "3": 6,
+      "2": 0,
+      "1": 12
+    },
+    "mean_star": 4.19,
+    "variance": 1.78,
+    "coffee_pct": 62,
+    "env_pct": 38,
+    "svc_pct": 6,
+    "neg_pct": 0,
+    "neg_about_coffee_pct": 0,
+    "best_count": 2,
+    "best_pct": 12,
+    "lang": {
+      "zh": 8,
+      "en": 8
+    },
+    "cross_lang": {
+      "en": {
+        "n": 8,
+        "coffee_pct": 62,
+        "best_n": 1
+      },
+      "zh": {
+        "n": 8,
+        "coffee_pct": 62,
+        "best_n": 1
+      }
+    },
+    "top_coffee": [
+      {
+        "text": "SR咖啡的冰淇淋是宮古島最棒的冰淇淋之一。香蕉鬆餅是香脆可口的鬆餅和冰淇淋的完美結合，是咖啡的完美搭配。推薦飲品是島上獨有的黑糖拿鐵。",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "take i (T-take)"
+      },
+      {
+        "text": "Great matcha latte. Perfect atmosphere.",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Taiyo Tatara"
+      },
+      {
+        "text": "很棒的藝術空間，拿鐵咖啡好喝，冰淇淋香蕉蛋糕好吃，下雨來宮古島不知去哪裡可以來這裡殺時間💖（附：餐點評分 5 分）",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "李其郁（Olive Lee）"
+      },
+      {
+        "text": "Cool place for coffee, gelato, and art gallery. There was an art exhibition when we went.",
+        "star": 4,
+        "lang": "en",
+        "reviewer": "Stephanie Wong"
+      },
+      {
+        "text": "Had a tasty cafe latte in a terrace with cool architecture and artful photography exhibit inside",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Just In"
+      },
+      {
+        "text": "這家咖啡價格略高，但品質絕對物有所值。店內裝潢如同藝廊，播放的音樂也與藝術作品相得益彰。我一邊喝咖啡一邊看書消磨了一個小時，感覺非常愜意。如果你喜歡這種氛圍，這裡絕對是個好去處。我沒嚐甜點，但看起來種類豐富。我想咖啡愛好者和甜點愛好者都能在這裡找到心儀之選。",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "keni yatsuhashi"
+      },
+      {
+        "text": "A nice coffee. Their matcha was better in my opinion :)",
+        "star": 4,
+        "lang": "en",
+        "reviewer": "Lotem Aharon"
+      },
+      {
+        "text": "Excellent coffee, relaxing environment",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Jacqueline Castaneda"
+      },
+      {
+        "text": "咖啡太好喝了！🙏🏻✨ 喝完後我好開心！😆✨ 我忍不住一直說「太好喝了！」🙈 謝謝你們的款待！",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "Ruriko R"
+      }
+    ],
+    "top_neg": [],
+    "top_best": [
+      {
+        "text": "SR咖啡的冰淇淋是宮古島最棒的冰淇淋之一。香蕉鬆餅是香脆可口的鬆餅和冰淇淋的完美結合，是咖啡的完美搭配。推薦飲品是島上獨有的黑糖拿鐵。",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "take i (T-take)"
+      },
+      {
+        "text": "Great matcha latte. Perfect atmosphere.",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Taiyo Tatara"
+      }
+    ]
+  },
+  "14-coffee-barista.md": {
+    "name": "Coffee Barista",
+    "rating": 4.1,
+    "total": 41,
+    "star_dist": {
+      "5": 46,
+      "4": 27,
+      "3": 20,
+      "2": 2,
+      "1": 5
+    },
+    "mean_star": 4.07,
+    "variance": 1.19,
+    "coffee_pct": 71,
+    "env_pct": 20,
+    "svc_pct": 7,
+    "neg_pct": 5,
+    "neg_about_coffee_pct": 50,
+    "best_count": 0,
+    "best_pct": 0,
+    "lang": {
+      "en": 4,
+      "zh": 37
+    },
+    "cross_lang": {
+      "en": {
+        "n": 4,
+        "coffee_pct": 75,
+        "best_n": 0
+      },
+      "zh": {
+        "n": 37,
+        "coffee_pct": 70,
+        "best_n": 0
+      }
+    },
+    "top_coffee": [
+      {
+        "text": "菜單上沒有，所以我問他們有沒有美式咖啡，他們很樂意幫我做了！\n我還在這裡喝過拿鐵和黑咖啡，都超級好喝 >.<\n他們甚至允許你加任意數量的濃縮咖啡！ ！\n老闆特別好，外帶還有折扣🤎\n你一定要去！有停車位！",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "황소정"
+      },
+      {
+        "text": "旅行途中，我順道去了機場附近的自行車租賃店，想進去涼快涼快。\n一進門，我就費了好大勁才找到櫃檯，因為店裡空間實在太大了。\n不，我這麼說可不是貶義；店裡的整體佈局非常寬敞，我覺得很棒。比其他那些走動空間狹窄的店好多了。\n這次我點了一杯冰拿鐵和兩個小麵包，總共500日圓。麵包分別是巧克力丹麥酥和牛角包。\n照片裡是端上來的東西。\n拿鐵咖啡的苦味很濃，但口感順滑，味道也很好，不像連鎖咖啡店那樣，喝完之後喉嚨裡會殘留苦澀或酸澀的味道。\n不過，更讓我驚喜的是丹麥酥和牛角包，比我想像的還要好吃。\n外皮裹著一層甜甜的糖霜，酥脆可口。最重要的是，這種淡淡的甜味與略帶苦味的拿鐵咖啡完美融合，如果它在我家附近，我肯定會經常光顧。\n下次我去那附近的時候，我也想再去一次。",
+        "star": 4,
+        "lang": "zh",
+        "reviewer": "荒城煌河"
+      },
+      {
+        "text": "唯一供應的熱咖啡是濃縮咖啡。\n他們推薦我喝美式咖啡，味道和一般熱咖啡差不多，不太淡，但我覺得還是淡。\n咖啡的味道可以說是清爽的，但略顯平淡，我個人不太喜歡。\n考慮到價格和位置的不便，我可能不會再來了…",
+        "star": 3,
+        "lang": "zh",
+        "reviewer": "Ken S"
+      },
+      {
+        "text": "他們選用苦澀的咖啡豆，在宮古區製作出難得一見的拿鐵。 ☕️\n店內裝潢別緻時尚，以黑色為主色調。 ✨",
+        "star": 2,
+        "lang": "zh",
+        "reviewer": "Ta-kun"
+      },
+      {
+        "text": "Coffee was ok - a little burnt taste but I give them a pass. Mini sweet croissants reminded me of Argentine medialunas and were awesome. Service is great.",
+        "star": 4,
+        "lang": "en",
+        "reviewer": "Fernando Kondayen"
+      },
+      {
+        "text": "停車場有點難找，不過店裡很乾淨，椅子也很舒服，還有電源插座，感覺像星巴克。\nWi-Fi速度很快。\n我點了一杯咖啡歐蕾，但味道不太好…\n他們也提供甜甜圈之類的小點心。\n只接受VISA和萬事達卡。\n希望他們也接受PayPal。\n營業到晚上7點也很棒！",
+        "star": 3,
+        "lang": "zh",
+        "reviewer": "うじゅ丨熊本と旅するコスパグルメ"
+      },
+      {
+        "text": "我去年發現了這家店，今年又來了。 ☺️\n它位於一條主要道路上，所以我在還車前順便過來坐坐。\n舒適的沙發非常適合放鬆。 🎵\n我點了一杯黑咖啡。 😊\n味道很棒，感覺像是專賣店。 😋\n店前好像只有幾個停車位…💦\n即使待很久，店員也很友好，所以可以很放鬆。 💕\n他們還提供Wi-Fi，很棒。 ❣️\n這家悠閒的咖啡館成了我在宮古島最後一天最喜歡的地方。 🫶",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "ハムchan"
+      },
+      {
+        "text": "我當時有點累，所以點了一杯咖啡歐蕾。咖啡味濃鬱，奶香四溢，喝起來很清爽。法式甜點也很美味。他們還有咖啡師沙拉、切好的水果和迷你甜甜圈。輕鬆的氛圍讓這裡成為快速會面的好去處。",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "Bijou八城"
+      },
+      {
+        "text": "我喝了一杯黑冰咖啡。\n正如《紐約故事》裡所描述的那樣，這咖啡在宮古島並不常見，但味道確實不錯。\n這裡離租車還車區也很近，是回到大陸前放鬆身心的絕佳去處。",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "Toshi"
+      },
+      {
+        "text": "Plenty of seating. Good selection of coffee and sweets.",
+        "star": 4,
+        "lang": "en",
+        "reviewer": "M B"
+      },
+      {
+        "text": "Coffee is tasty. No big choice for food.",
+        "star": 4,
+        "lang": "en",
+        "reviewer": "Ouss C."
+      },
+      {
+        "text": "這裡很安靜，人也不多，所以你可以放鬆身心，享受美好時光。咖啡和鬆餅都很好吃！",
+        "star": 3,
+        "lang": "zh",
+        "reviewer": "anin"
+      },
+      {
+        "text": "阿芙佳朵真的很好吃。咖啡也很濃鬱，洗手間特別乾淨 :)",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "윤윤기"
+      },
+      {
+        "text": "我仍然不確定不同咖啡之間的區別，所以我無法評論咖啡本身，但鬆餅雖小但卻很濕潤，非常好吃，店內有 Wi-Fi。",
+        "star": 3,
+        "lang": "zh",
+        "reviewer": "H M (はーたん)"
+      },
+      {
+        "text": "這裡有很多沙發可以休息，還有無線網絡，而且它是少數幾家能提供類似星巴克的「第三空間」體驗的咖啡館之一。\n不過，停車位不多，所以你可能不得不放棄。",
+        "star": 4,
+        "lang": "zh",
+        "reviewer": "POKI"
+      }
+    ],
+    "top_neg": [
+      {
+        "text": "Coffee was ok - a little burnt taste but I give them a pass. Mini sweet croissants reminded me of Argentine medialunas and were awesome. Service is great.",
+        "star": 4,
+        "lang": "en",
+        "reviewer": "Fernando Kondayen"
+      },
+      {
+        "text": "我經過的時候進去過幾次，但每次都有些失望。麵包和小吃味道不錯，但份量太少。尤其讓我不滿的是，即使是堂食的顧客，杯子和餐具也都是便宜的一次性用品。\n店裡有沙發，而且看起來可以把筆記型電腦鋪開，待上很久，所以如果你想在附近放鬆一下，這裡倒是挺合適的…",
+        "star": 4,
+        "lang": "zh",
+        "reviewer": "ちひろ"
+      }
+    ],
+    "top_best": []
+  },
+  "15-dougs-coffee.md": {
+    "name": "Doug's Coffee",
+    "rating": 4.0,
+    "total": 189,
+    "star_dist": {
+      "5": 41,
+      "4": 37,
+      "3": 13,
+      "2": 5,
+      "1": 3
+    },
+    "mean_star": 4.08,
+    "variance": 1.04,
+    "coffee_pct": 74,
+    "env_pct": 12,
+    "svc_pct": 13,
+    "neg_pct": 5,
+    "neg_about_coffee_pct": 80,
+    "best_count": 6,
+    "best_pct": 3,
+    "lang": {
+      "zh": 168,
+      "en": 21
+    },
+    "cross_lang": {
+      "en": {
+        "n": 21,
+        "coffee_pct": 76,
+        "best_n": 2
+      },
+      "zh": {
+        "n": 168,
+        "coffee_pct": 74,
+        "best_n": 4
+      }
+    },
+    "top_coffee": [
+      {
+        "text": "造訪時間：2022年8月\n在宮古島和沖繩本島漫步。\n接下來一段時間我會分享沖繩美食！\n我在盂蘭盆節前夕遊覽了宮古島和沖繩本島。\n這是一趟漫長的五天四夜之旅，從8月5日到9日。\n我還品嚐了許多美味佳餚，所以我想和大家分享一下。\n*我也把這篇文章發佈到了我的Instagram精選動態裡，有興趣的朋友可以去看看！\n@shota__1989\n第二天午餐後，欣賞完伊良部大橋後，\n我去了這家咖啡館休息。\n這家咖啡館由Doug's Burger經營，Doug's Burger是日本排名前100的漢堡店之一。咖啡館就在Doug's Burger旁邊。\n我是星期六下午3點多去的，當時店裡還有其他三組客人。\n休息時間很短，所以我喝了杯咖啡。\n✔︎冰咖啡（480日圓）\n有五種不同的咖啡豆可供選擇。\nDoug's Coffee 的標準咖啡似乎是 1 號，\n但我這次選擇了 5 號，中度烘焙。\n它的酸度和苦度平衡得很好。\n這款咖啡主要採用來自中美洲和南美洲的咖啡豆。\n店裡的牆上貼著編號說明，\n看來他們很注重咖啡的拍照效果 (^^)\n短暫休息後，我們該前往下一站了。\n謝謝你們的款待！",
+        "star": 4,
+        "lang": "zh",
+        "reviewer": "あさしょ"
+      },
+      {
+        "text": "Doug's Coffee，隸屬於 Doug's Group 集團。\nDoug's Coffee 位於 Doug's Burger 旁邊，比起漢堡店，這裡用餐環境更舒適。店內不用排隊，我順利地進入了。\n店前似乎有幾個停車位，所以如果運氣好，可以直接停在店門口。\n滴漏咖啡售價 500 日圓。\n他們提供各種咖啡豆，從深烘焙到淺烘焙，根據產地而定。\n我這次點的是 3 號滴漏咖啡，口感均衡，酸度適中，醇厚度也恰到好處。\n為了對比，我還點了一杯冷萃王子冰沙（Oji Rock），這款咖啡需要隔夜萃取。\n王子冰沙是一種加冰塊的飲品，類似威士忌。我點的是 0 號，一款深烤的咖啡豆，苦味濃鬱，非常適合冷萃。\n能夠品嚐到各種不同咖啡豆的風味，真是太棒了。\n謝謝你們的款待。",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "kazuma kyosu"
+      },
+      {
+        "text": "吃完漢堡後，我們在Doug's Coffee享受餘韻♪\nDoug's Coffee\n沖繩縣宮古島市平良町下里1153-3\n來品嚐宮古島排名第一的漢堡吧♪\n據說起司漢堡很受歡迎✨️\n✒︎官方帳號\n@doug_himself\n‍♂️路線\n從宮古機場開車10分鐘\n━━━━選單━━━━━\n冰拿鐵咖啡\n━━━印象━━━━\n□□□□□□□□□□□□□□□□□□□□□\n宮古島人氣超高的美食漢堡連鎖店Doug's Burger經營的咖啡店\nDoug's咖啡\n店主Doug是一位出生於東京的美國人，擁有著居住在加州的公司律師的職業背景，讓他看起來與眾不同。\nDoug深諳正宗的咖啡館之道，尤其註重美式風格的外觀和簡約別緻的室內裝潢。新鮮咖啡豆的香氣撲鼻而來，令人心曠神怡。\n濃鬱醇厚的咖啡，連拿鐵，也令人驚艷！\n這家咖啡館現在和Doug's Burgers一樣受歡迎。 ♪\n━━━━━━━━━━━━━",
+        "star": 4,
+        "lang": "zh",
+        "reviewer": "Tomoaki Mizuno"
+      },
+      {
+        "text": "[251202]\n中盃冰咖啡（680日圓）\n今天的下午茶地點是「Doug's Coffee 宮古島總店」❗️\n這家店就在 DOUG'S BURGER 宮古島店旁。店內裝潢時尚。\n我在櫃檯點了冰咖啡。咖啡豆可以選擇1號或5號。根據介紹，5號咖啡豆味道偏酸，所以我選了1號，感覺1號是比較標準的。\n那麼，味道怎麼樣呢？嗯！味道不錯，但稍微淡了點。\n謝謝款待❗️",
+        "star": 4,
+        "lang": "zh",
+        "reviewer": "ken bou"
+      },
+      {
+        "text": "我也推薦這裡作為共享辦公空間。這裡配備了Wi-Fi和電源插座，我只喝了一杯咖啡就待了大約三個小時。店員也非常友善。我喜歡這裡可以選擇從深度烘焙到中度烘焙的咖啡。我選了一款偏深烘焙的中度烘焙咖啡，苦味和酸度都恰到好處，非常容易上手。如果你來宮古島，他們還有100%純芒果飲品，或許是個不錯的選擇。順便一提，Daku's Coffee隔壁還有一家姊妹店叫Daku's Burger，我也推薦這家。",
+        "star": 4,
+        "lang": "zh",
+        "reviewer": "Makoto Miyagi"
+      },
+      {
+        "text": "道格漢堡宮古島總店隔壁兩家就是道格咖啡宮古島總店，兩家店緊鄰。 ✨\n真沒想到這裡居然有咖啡店！ ✨✨\n之前都沒注意到。\n而且，吃完漢堡後，他們還提供指定咖啡立減100日元的優惠，所以我就進去了！ ✨\n這次我點了冰咖啡，有好幾種口味，從0號到7號。我有點猶豫，店員推薦了5號，一款中度烘焙、果香濃鬱又帶點酸味的咖啡，我就點了5號。我的冰咖啡上來了！ ✨✨✨\n嚐了一口，即使是黑咖啡，酸度也很宜人，很容易入口，即使是咖啡新手也能輕鬆享用。 ✨\n優惠後是450日元，不過吃完豐盛的漢堡後，來一杯這樣的咖啡真是太完美了！ ✨✨",
+        "star": 4,
+        "lang": "zh",
+        "reviewer": "グルメダイスキング"
+      },
+      {
+        "text": "Amazing coffee and sandwhichs, warm and cozy atmosphere!!",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Tori Lennox"
+      },
+      {
+        "text": "我下午兩點左右來的。隔壁的漢堡店看起來很忙，但這裡只有兩桌客人。環境很安靜，即使一個人也能放鬆。今天我點了1號冰咖啡和雞蛋三明治。雞蛋給很多，咖啡也很濃鬱香醇——真的很好喝！他們好像有七種咖啡豆，我想再去幾次，把所有種類都嚐一遍^_^",
+        "star": 4,
+        "lang": "zh",
+        "reviewer": "anin"
+      },
+      {
+        "text": "2025年4月\n週日我去那裡吃了早餐。咖啡館幾乎滿座，但氣氛很安靜，一個人去也很舒服。\n我點了鮪魚沙拉+冰拿鐵，總共990日圓。\n拿鐵味道一般，下次想試試咖啡。鮪魚三明治很好吃，洋蔥脆爽，柑橘酸甜。\n麵包厚實蓬鬆又酥脆——太好吃了！ 😋\n配菜薯片鹹度適中，突顯了馬鈴薯本身的香味。\n咖啡館輕鬆的氛圍讓我很想再去一次。 ♡\n2024年5月 重訪\n蛋三明治&冰咖啡\n我個人喜歡雞蛋三明治而不是鮪魚三明治。 ♡\n水煮蛋切成了大塊，所以量很足，味道很棒。\n雖然是黃金週期間，但早上人不多，體驗很舒適。 ☺️",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "あっすー"
+      },
+      {
+        "text": "我早餐點了鮪魚沙拉三明治套餐，清爽的酸味和薯片的鹹味搭配得恰到好處。\n點熱咖啡的時候，我很高興能免費升級。\n我還聽說他們會在拿鐵咖啡上加拉花，下次我想試試。",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "tad miya"
+      },
+      {
+        "text": "2025年5月 - 我每次去宮古島都會去這家店。這次是去吃早餐。早餐只供應1號咖啡，所以我又點了一杯熱咖啡和一杯冰咖啡帶走。咖啡很好喝，而且熱咖啡有五種咖啡豆可選，冰咖啡有兩種，這點我很喜歡。\n付款很方便，可以用NicoNico現金或d-payment等方式支付。\n店前有好幾個停車位。",
+        "star": 4,
+        "lang": "zh",
+        "reviewer": "ベンツまつ"
+      },
+      {
+        "text": "說到早餐，我聽朋友推薦了Doug's Coffee，就去了一趟。\n店面寬敞，氣氛溫馨。我點了奶油吐司套餐，還額外加了一份蜂蜜。\n熱咖啡是深度烘焙的，味道很棒，一下子就把我喚醒了。新鮮出爐的麵包也很好吃，奶油和蜂蜜更是美味無比！\n店員們也非常友善。\n他們還有雞蛋三明治和甜點，我很想嚐嚐。",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "tommy tommy"
+      },
+      {
+        "text": "這家咖啡館隸屬於不斷發展的 Doug's 集團，毗鄰 Doug's Burgers 漢堡店。\n咖啡館早上 8 點開門，是享用早餐的絕佳去處。您也可以在等待 Doug's Burgers 漢堡店開門的同時，在這裡小酌一杯。\n作為 Doug's 旗下的咖啡館，內部裝潢精緻時尚，氛圍優雅。這裡似乎是攜帶筆記型電腦辦公的理想場所。\n⚫熱帶冰沙 790 日元\n這款冰沙是與栗間島的 Aozora Parlor 合作推出的。在觀看製作過程時，我看到切碎的冷凍芒果與少量液體混合攪拌，幾乎完全由芒果製成。和 Aozora Parlor 的冰沙一樣，口感順滑，散發著濃鬱的芒果香氣和甜美滋味，味道絕對美味。\n⚫中盃熱咖啡 440 日圓\n共有五種烘焙程度可供選擇，從深度烘焙的 0 號到淺度烘焙的 7 號、1 號、3 號、5 號和 7 號。 7號手沖咖啡香氣清新怡人，味道也相當不錯。",
+        "star": 4,
+        "lang": "zh",
+        "reviewer": "めるはば"
+      },
+      {
+        "text": "我超愛這裡的氛圍！這是我宮古島之旅中最喜歡的咖啡館。咖啡也超好喝！ ♫ 我喜歡深度烘焙的咖啡，所以我選了0號（小杯，500日圓）。他們居然有五種不同的咖啡豆可以選擇，真是太棒了！ ♫\n他們不總是提供食物。\n但是咖啡真的太好喝了！\n簡直完美！ 💓\n咖啡館門前和街對面都有停車位，非常方便。\n附近好像有很多漢堡店，所以這裡也是個不錯的等位地點。",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "K Yuka"
+      },
+      {
+        "text": "從宮古機場開車過來只需10分鐘。店前有好幾個停車位。早餐套餐750日元，內含奶油吐司和煮蛋。另外還有三種選擇：雞蛋沙拉三明治配洋芋片，售價780日圓；鮪魚沙拉三明治配洋芋片，售價990日圓。我點了一杯法式牛奶咖啡，但他們說可以換成拿鐵，於是我提了一下，他們端上來一杯漂亮的拉花拿鐵。這裡環境舒適，可以放鬆身心，悠閒地享用早餐。",
+        "star": 4,
+        "lang": "zh",
+        "reviewer": "黒井ねこ"
+      }
+    ],
+    "top_neg": [
+      {
+        "text": "Not great! Got the over priced breakfast set with toast, a boiled egg and a cup of coffee and my wife order tea with a muffin. There were only 2 tables including us in the restaurant but we waited a very long time. After over 10 mins my wife's order came but not mine, then after another 5 mins the toast and egg came but they said the coffee would be a bit longer, I decided to start eating and finished my food while still waiting for coffee. Finally coffee comes, no milk or sugar so I went up to the counter to ask for milk, but they gave me nothing to mix it with.\nSeems very odd for a coffee place to wait over 15 mins for a cup a coffee and not give anything required for drinking the coffee in the cafe.    Additionally the muffin was so dry my wife couldn't finish it. We had planned to try Dougs Burger for lunch but after our experience that morning decided against it.\nFor the prices and the wait, we expected more.\nNot worth visiting.",
+        "star": 2,
+        "lang": "en",
+        "reviewer": "Cassean Brooks"
+      },
+      {
+        "text": "I ordered the morning set, the only vegetarian option on the menu, and despite requesting 卵なしで three times (and the guy repeating it back to me to confirm), they still brought my order out with egg. The toast comes with only a tiny glob of butter that barely goes half way and they didn't seem happy about giving more. The coffee was also very disappointing. Soulless.",
+        "star": 1,
+        "lang": "en",
+        "reviewer": "Claire Scott"
+      },
+      {
+        "text": "Touch down to here finally. Very crispy toast and deep roasted (Brazil and Guatemala??) no sour taste. Bad things is big nose typing boy was sitting for a long time since opening lol",
+        "star": 4,
+        "lang": "en",
+        "reviewer": "大杉漣"
+      },
+      {
+        "text": "我旅行途中去了那裡。現在是夏天，所以我想應該沒人會點熱的咖啡歐蕾。如果我點的是冰咖啡，結果會不會不一樣呢？花那麼多錢買這麼難喝的咖啡，真是太虧了。咖啡的味道完全被牛奶蓋住了，嘗起來就像熱牛奶一樣，我甚至懷疑是不是店員搞錯了。這咖啡難喝到我連一顆星都不想給。停車也很不方便。我以後絕對不會再去了。",
+        "star": 1,
+        "lang": "zh",
+        "reviewer": "にこにこ"
+      },
+      {
+        "text": "Very weak and over priced coffee, even when ordering extra shot. Good selection of coffee, but do not recommend for coffee lovers.",
+        "star": 2,
+        "lang": "en",
+        "reviewer": "dan fromfuc"
+      },
+      {
+        "text": "他們家咖啡種類繁多，選擇起來很有樂趣。此外，他們還提供少量甜點和紀念品。\n我原本對這裡的三明治抱有很高的期望，但雖然食材看起來都很用心，三明治卻很鹹，而且個頭很小，這讓我有點失望。\n考慮到價格偏高，咖啡和三明治的品質都只能算是一般。",
+        "star": 2,
+        "lang": "zh",
+        "reviewer": "ちひろ"
+      },
+      {
+        "text": "或許是因為新年夜清晨的緣故，宮古島的年輕人不太熱情，不過推薦的鮪魚起司三明治味道確實不錯。只是價格偏貴。早餐整體來說比較普通。咖啡好不好喝全憑個人喜好。我還點了越南咖啡，但味道一般。",
+        "star": 3,
+        "lang": "zh",
+        "reviewer": "Akemi Kugimachi"
+      },
+      {
+        "text": "Location good. Clean.  Not bad but nothing special.",
+        "star": 3,
+        "lang": "en",
+        "reviewer": "Eric Dan"
+      }
+    ],
+    "top_best": [
+      {
+        "text": "Very tasty tamago sando, one of the best I've ever had. Came on a weekday morning, not too busy. Managed to park in front of the shop in a stop labelled as Doug's burger. There should be a second, larger, parking a little bit further.",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Kamil Krasny"
+      },
+      {
+        "text": "宮古島之旅！\n聽說他們家的漢堡很好吃，所以就打包了一些帶走。\n我點了道格加州漢堡和洋蔥圈。\n漢堡肉質鮮嫩，分量十足，味道超棒！\n那天是九月一個三天小長假的中間那個週六，所以我提早十分鐘到了，比11點開門時間早了十分鐘，但還是排在了第三個。\n雖然餐廳11點前就開門了，但如果你想在店裡用餐，還是得進去告訴店員你的名字。\n如果是外帶的話，就在右邊排隊，11點開始點餐。\n這家餐廳看起來很受歡迎，所以最好早點去。",
+        "star": 4,
+        "lang": "zh",
+        "reviewer": "伊藤克憲"
+      },
+      {
+        "text": "Amazing coffee and sandwhichs, warm and cozy atmosphere!!",
+        "star": 5,
+        "lang": "en",
+        "reviewer": "Tori Lennox"
+      },
+      {
+        "text": "可以喝到美味咖啡的地方…也許是宮古島最好的",
+        "star": 5,
+        "lang": "zh",
+        "reviewer": "Anzai Shigefumi"
+      }
+    ]
+  }
+}
