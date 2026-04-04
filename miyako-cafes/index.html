@@ -138,43 +138,37 @@ body{font-family:var(--sans);color:var(--text);background:var(--bg);-webkit-font
 .map-visitor-track{flex:1;height:8px;background:var(--coffee-100);border-radius:4px;overflow:hidden;}
 .map-visitor-fill{height:100%;border-radius:4px;}
 .map-visitor-pct{min-width:36px;text-align:right;font-weight:600;color:var(--text);}
-/* ═══ Top 5 列表（地圖下方） ═══ */
-.map-top5{
-  margin-top:16px;
-}
-.map-top5-title{
-  font-family:var(--serif);font-size:14px;font-weight:600;
-  color:var(--coffee-700);margin-bottom:10px;padding-left:4px;
-}
-.map-top5-item{
-  display:flex;align-items:center;gap:10px;
-  padding:10px 12px;margin-bottom:4px;
-  border-radius:8px;cursor:pointer;
-  text-decoration:none;color:inherit;
-  transition:background 0.15s;
-}
-.map-top5-item:hover{background:var(--coffee-50);}
-.map-top5-rank{
-  font-family:var(--serif);font-size:12px;font-weight:700;
-  width:24px;height:24px;border-radius:50%;
-  display:flex;align-items:center;justify-content:center;
-  flex-shrink:0;
-}
-.map-top5-name{
-  font-size:14px;font-weight:600;color:var(--text);
-  flex:1;min-width:0;
-}
-.map-top5-meta{
-  font-size:12px;color:var(--text-3);white-space:nowrap;
-}
-.map-top5-tag{
-  font-size:10px;font-weight:500;color:var(--coffee-600);
-  background:var(--coffee-100);padding:2px 8px;border-radius:4px;
+/* ═══ 地圖上的虛線標籤（放海面） ═══ */
+.map-callout-label{
+  position:absolute;z-index:4;
+  background:rgba(255,255,255,0.92);
+  backdrop-filter:blur(6px);
+  border:1px solid var(--border);
+  border-radius:8px;
+  padding:8px 12px;
   white-space:nowrap;
+  font-family:var(--sans);
+  box-shadow:0 2px 10px rgba(0,0,0,0.08);
+}
+.map-callout-name{
+  font-family:var(--serif);font-size:12px;font-weight:700;
+  color:var(--coffee-800);line-height:1.3;
+}
+.map-callout-info{
+  font-size:10px;color:var(--text-3);line-height:1.4;margin-top:2px;
+}
+.map-callout-info strong{color:var(--text);font-weight:600;}
+.map-callout-tag{
+  display:inline-block;font-size:9px;font-weight:600;
+  padding:1px 6px;border-radius:3px;margin-top:3px;
 }
 @media(max-width:700px){
   .map-osm-wrap{border-radius:12px;}
-  .map-top5-tag{display:none;}
+  .map-callout-label{padding:5px 8px;}
+  .map-callout-name{font-size:10px;}
+  .map-callout-info{font-size:8px;}
+  .map-callout-tag{font-size:7px;}
+  .map-callout-svg line{opacity:0.4 !important;}
 }
 .map-tooltip{
   position:fixed;pointer-events:none;z-index:9999;
@@ -383,41 +377,60 @@ body{font-family:var(--sans);color:var(--text);background:var(--bg);-webkit-font
         <div class="map-dot" data-id="14" style="left:63.7%;top:70.3%;width:18.7px;height:18.7px;background:#4A8FA8;margin-left:-9.35px;margin-top:-9.35px;"><span class="map-dot-num">14</span></div>
         <!-- #15 chill 47.8%, 50.4% reviews:301 color:#4A8FA8 size:16.3px -->
         <div class="map-dot" data-id="15" style="left:47.8%;top:50.4%;width:16.3px;height:16.3px;background:#4A8FA8;margin-left:-8.15px;margin-top:-8.15px;"><span class="map-dot-num">15</span></div>
+        <!-- ═══ Top 5 虛線標籤（放在海面，不蓋島） ═══ -->
+
+        <!-- #1 GOODMANS (45.6%,51.7%) → 拉到左邊海面 (標籤放 5%,38%) -->
+        <svg class="map-callout-svg" style="position:absolute;left:0;top:0;width:100%;height:100%;pointer-events:none;z-index:3;">
+          <line x1="45.6%" y1="51.7%" x2="18%" y2="35%" stroke="var(--coffee-400)" stroke-width="1" stroke-dasharray="4,3" opacity="0.6"/>
+          <line x1="45.6%" y1="51.7%" x2="18%" y2="35%" stroke="var(--coffee-400)" stroke-width="1" stroke-dasharray="4,3" opacity="0.6"/>
+        </svg>
+        <div class="map-callout-label" style="left:2%;top:28%;pointer-events:auto;">
+          <div class="map-callout-name">#1 GOODMANS</div>
+          <div class="map-callout-info">⭐4.9 · 咖啡信號 <strong>64%</strong></div>
+          <div class="map-callout-tag" style="background:var(--coffee-100);color:var(--coffee-700);">全島最穩定</div>
+        </div>
+
+        <!-- #2 Ningin (46%,52.2%) → 拉到左下海面 (標籤放 3%,78%) -->
+        <svg class="map-callout-svg" style="position:absolute;left:0;top:0;width:100%;height:100%;pointer-events:none;z-index:3;">
+          <line x1="46%" y1="52.2%" x2="15%" y2="80%" stroke="var(--coffee-400)" stroke-width="1" stroke-dasharray="4,3" opacity="0.6"/>
+        </svg>
+        <div class="map-callout-label" style="left:2%;top:76%;pointer-events:auto;">
+          <div class="map-callout-name">#2 Ningin Coffee</div>
+          <div class="map-callout-info">⭐4.7 · 259則 · 咖啡信號 <strong>59%</strong></div>
+          <div class="map-callout-tag" style="background:var(--coffee-100);color:var(--coffee-600);">國際認證</div>
+        </div>
+
+        <!-- #3 Majya (49.5%,51.1%) → 拉到右上海面 (標籤放 72%,8%) -->
+        <svg class="map-callout-svg" style="position:absolute;left:0;top:0;width:100%;height:100%;pointer-events:none;z-index:3;">
+          <line x1="49.5%" y1="51.1%" x2="78%" y2="15%" stroke="var(--coffee-400)" stroke-width="1" stroke-dasharray="4,3" opacity="0.6"/>
+        </svg>
+        <div class="map-callout-label" style="left:68%;top:5%;pointer-events:auto;">
+          <div class="map-callout-name">#3 Majya</div>
+          <div class="map-callout-info">⭐4.5 · 咖啡信號 <strong>85%</strong></div>
+          <div class="map-callout-tag" style="background:var(--coffee-100);color:var(--coffee-700);">全島最高信號</div>
+        </div>
+
+        <!-- #4 LB CAFE (57.8%,57.6%) → 拉到右邊海面 (標籤放 78%,42%) -->
+        <svg class="map-callout-svg" style="position:absolute;left:0;top:0;width:100%;height:100%;pointer-events:none;z-index:3;">
+          <line x1="57.8%" y1="57.6%" x2="82%" y2="45%" stroke="var(--coffee-400)" stroke-width="1" stroke-dasharray="4,3" opacity="0.6"/>
+        </svg>
+        <div class="map-callout-label" style="left:74%;top:38%;pointer-events:auto;">
+          <div class="map-callout-name">#4 LB CAFE</div>
+          <div class="map-callout-info">⭐4.4 · 127則 · 咖啡信號 <strong>52%</strong></div>
+          <div class="map-callout-tag" style="background:var(--coffee-100);color:var(--coffee-600);">手沖可續杯</div>
+        </div>
+
+        <!-- #5 Cafe Nuis (73.4%,63.5%) → 拉到右下海面 (標籤放 78%,78%) -->
+        <svg class="map-callout-svg" style="position:absolute;left:0;top:0;width:100%;height:100%;pointer-events:none;z-index:3;">
+          <line x1="73.4%" y1="63.5%" x2="85%" y2="80%" stroke="var(--coffee-400)" stroke-width="1" stroke-dasharray="4,3" opacity="0.6"/>
+        </svg>
+        <div class="map-callout-label" style="left:74%;top:76%;pointer-events:auto;">
+          <div class="map-callout-name">#5 Cafe Nuis</div>
+          <div class="map-callout-info">⭐4.6 · 264則 · 咖啡信號 <strong>50%</strong></div>
+          <div class="map-callout-tag" style="background:var(--coffee-100);color:var(--coffee-600);">東部唯一 · 田園風</div>
+        </div>
+
         <div class="map-osm-credit">© OpenStreetMap contributors</div>
-      </div>
-      <!-- Top 5 快速列表（地圖下方） -->
-      <div class="map-top5">
-        <div class="map-top5-title">Top 5 必訪</div>
-        <a class="map-top5-item" href="#item-1">
-          <span class="map-top5-rank" style="background:var(--gold);color:white;">1</span>
-          <span class="map-top5-name">GOODMANS COFFEE</span>
-          <span class="map-top5-meta">⭐4.9 · 64%</span>
-          <span class="map-top5-tag">全島最穩定</span>
-        </a>
-        <a class="map-top5-item" href="#item-2">
-          <span class="map-top5-rank" style="background:var(--silver);color:white;">2</span>
-          <span class="map-top5-name">Ningin Coffee</span>
-          <span class="map-top5-meta">⭐4.7 · 59%</span>
-          <span class="map-top5-tag">國際認證</span>
-        </a>
-        <a class="map-top5-item" href="#item-3">
-          <span class="map-top5-rank" style="background:var(--bronze);color:white;">3</span>
-          <span class="map-top5-name">Majya</span>
-          <span class="map-top5-meta">⭐4.5 · 85%</span>
-          <span class="map-top5-tag">全島最高信號</span>
-        </a>
-        <a class="map-top5-item" href="#item-4">
-          <span class="map-top5-rank" style="background:var(--coffee-200);color:var(--coffee-700);">4</span>
-          <span class="map-top5-name">LB CAFE</span>
-          <span class="map-top5-meta">⭐4.4 · 52%</span>
-          <span class="map-top5-tag">手沖可續杯</span>
-        </a>
-        <a class="map-top5-item" href="#item-5">
-          <span class="map-top5-rank" style="background:var(--coffee-200);color:var(--coffee-700);">5</span>
-          <span class="map-top5-name">Cafe Nuis</span>
-          <span class="map-top5-meta">⭐4.6 · 50%</span>
-          <span class="map-top5-tag">東部唯一</span>
-        </a>
       </div>
     </div>
     <div class="map-legend">
