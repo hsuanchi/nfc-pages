@@ -176,11 +176,33 @@ body{font-family:var(--sans);color:var(--text);background:var(--bg);-webkit-font
   display:inline-block;font-size:9px;font-weight:600;
   padding:1px 6px;border-radius:3px;margin-top:3px;
 }
+/* ═══ 手機版地圖下方 Top5 + Bottom5 列表 ═══ */
+.map-mobile-list{display:none;}
+.map-mobile-list-title{
+  font-family:var(--serif);font-size:14px;font-weight:600;
+  color:var(--coffee-700);margin-bottom:8px;
+}
+.map-mobile-item{
+  display:flex;align-items:center;gap:8px;
+  padding:8px 0;border-bottom:1px solid var(--border);
+  text-decoration:none;color:inherit;
+}
+.map-mobile-item:last-child{border-bottom:none;}
+.map-mobile-rank{
+  font-family:var(--serif);font-size:11px;font-weight:700;
+  width:22px;height:22px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;flex-shrink:0;
+}
+.map-mobile-name{font-size:13px;font-weight:600;color:var(--text);flex:1;}
+.map-mobile-signal{font-size:11px;font-weight:600;white-space:nowrap;}
+.map-mobile-tag{font-size:9px;color:var(--text-3);white-space:nowrap;}
+.map-mobile-group{margin-bottom:20px;}
 @media(max-width:700px){
   .map-osm-wrap{border-radius:12px;overflow:hidden;}
   .map-callout-label{display:none !important;}
   .map-callout-svg{display:none !important;}
   .map-callout-bottom5{display:none !important;}
+  .map-mobile-list{display:block;margin-top:16px;}
   .map-section-desc{font-size:12px;padding:0 8px;}
 }
 .map-tooltip{
@@ -532,6 +554,75 @@ body{font-family:var(--sans);color:var(--text);background:var(--bg);-webkit-font
         </div>
 
         <div class="map-osm-credit">© OpenStreetMap contributors</div>
+      </div>
+      <!-- 手機版地圖下方列表 -->
+      <div class="map-mobile-list">
+        <div class="map-mobile-group">
+          <div class="map-mobile-list-title">☕ Top 5 必訪</div>
+          <a class="map-mobile-item" href="#item-1" onclick="mapCalloutClick(1);return false;">
+            <span class="map-mobile-rank" style="background:var(--gold);color:white;">1</span>
+            <span class="map-mobile-name">GOODMANS COFFEE</span>
+            <span class="map-mobile-signal" style="color:var(--coffee-700);">64%</span>
+            <span class="map-mobile-tag">全島最穩定</span>
+          </a>
+          <a class="map-mobile-item" href="#item-2" onclick="mapCalloutClick(2);return false;">
+            <span class="map-mobile-rank" style="background:var(--silver);color:white;">2</span>
+            <span class="map-mobile-name">Ningin Coffee</span>
+            <span class="map-mobile-signal" style="color:var(--coffee-600);">59%</span>
+            <span class="map-mobile-tag">國際認證</span>
+          </a>
+          <a class="map-mobile-item" href="#item-3" onclick="mapCalloutClick(3);return false;">
+            <span class="map-mobile-rank" style="background:var(--bronze);color:white;">3</span>
+            <span class="map-mobile-name">Majya</span>
+            <span class="map-mobile-signal" style="color:var(--coffee-700);">85%</span>
+            <span class="map-mobile-tag">全島最高信號</span>
+          </a>
+          <a class="map-mobile-item" href="#item-4" onclick="mapCalloutClick(4);return false;">
+            <span class="map-mobile-rank" style="background:var(--coffee-200);color:var(--coffee-700);">4</span>
+            <span class="map-mobile-name">LB CAFE</span>
+            <span class="map-mobile-signal" style="color:var(--coffee-600);">52%</span>
+            <span class="map-mobile-tag">手沖可續杯</span>
+          </a>
+          <a class="map-mobile-item" href="#item-5" onclick="mapCalloutClick(5);return false;">
+            <span class="map-mobile-rank" style="background:var(--coffee-200);color:var(--coffee-700);">5</span>
+            <span class="map-mobile-name">Cafe Nuis</span>
+            <span class="map-mobile-signal" style="color:var(--coffee-600);">50%</span>
+            <span class="map-mobile-tag">東部唯一</span>
+          </a>
+        </div>
+        <div class="map-mobile-group">
+          <div class="map-mobile-list-title" style="color:var(--ocean-500);">🏖️ 倒數 5 名</div>
+          <a class="map-mobile-item" href="#item-11" onclick="mapCalloutClick(11);return false;">
+            <span class="map-mobile-rank" style="background:var(--ocean-100);color:var(--ocean-500);">11</span>
+            <span class="map-mobile-name">PANIPANI</span>
+            <span class="map-mobile-signal" style="color:var(--ocean-500);">27%</span>
+            <span class="map-mobile-tag">拍照用</span>
+          </a>
+          <a class="map-mobile-item" href="#item-12" onclick="mapCalloutClick(12);return false;">
+            <span class="map-mobile-rank" style="background:var(--ocean-100);color:var(--ocean-500);">12</span>
+            <span class="map-mobile-name">Karakara</span>
+            <span class="map-mobile-signal" style="color:var(--ocean-500);">24%</span>
+            <span class="map-mobile-tag">人情味</span>
+          </a>
+          <a class="map-mobile-item" href="#item-13" onclick="mapCalloutClick(13);return false;">
+            <span class="map-mobile-rank" style="background:var(--ocean-100);color:var(--ocean-500);">13</span>
+            <span class="map-mobile-name">cafe furari</span>
+            <span class="map-mobile-signal" style="color:var(--ocean-500);">14%</span>
+            <span class="map-mobile-tag">麵包店</span>
+          </a>
+          <a class="map-mobile-item" href="#item-14" onclick="mapCalloutClick(14);return false;">
+            <span class="map-mobile-rank" style="background:var(--ocean-100);color:var(--ocean-500);">14</span>
+            <span class="map-mobile-name">Sima cafe</span>
+            <span class="map-mobile-signal" style="color:var(--ocean-500);">22%</span>
+            <span class="map-mobile-tag">海景</span>
+          </a>
+          <a class="map-mobile-item" href="#item-15" onclick="mapCalloutClick(15);return false;">
+            <span class="map-mobile-rank" style="background:var(--ocean-100);color:var(--ocean-500);">15</span>
+            <span class="map-mobile-name">chill Miyako</span>
+            <span class="map-mobile-signal" style="color:var(--ocean-500);">2%</span>
+            <span class="map-mobile-tag">莓碗</span>
+          </a>
+        </div>
       </div>
     </div>
     <div class="map-legend">
