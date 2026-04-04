@@ -74,12 +74,15 @@ body{font-family:var(--sans);color:var(--text);background:var(--bg);-webkit-font
 .map-wrapper{max-width:1100px;margin:0 auto;display:flex;gap:40px;align-items:stretch;}
 .map-osm-wrap{
   flex:0 0 62%;min-width:0;position:relative;
-  background:#2C1810;border-radius:16px;overflow:hidden;
+  background:#2C1810;border-radius:16px;overflow:visible;
 }
 .map-osm-container{
   position:relative;width:100%;
-  border-radius:16px;overflow:hidden;
+  border-radius:16px;overflow:visible;
   line-height:0;
+}
+.map-osm-container .map-osm-img{
+  border-radius:16px;
 }
 .map-osm-img{
   width:100%;height:auto;display:block;
@@ -133,6 +136,45 @@ body{font-family:var(--sans);color:var(--text);background:var(--bg);-webkit-font
 .map-visitor-track{flex:1;height:8px;background:rgba(255,255,255,0.08);border-radius:4px;overflow:hidden;}
 .map-visitor-fill{height:100%;border-radius:4px;}
 .map-visitor-pct{min-width:36px;text-align:right;font-weight:600;color:rgba(240,220,192,0.85);}
+/* ═══ 虛線標籤 ═══ */
+.map-callout{
+  position:absolute;z-index:3;pointer-events:none;
+}
+.map-callout-line{
+  position:absolute;
+  border:0;border-top:1px dashed rgba(240,220,192,0.4);
+  transform-origin:0 0;
+}
+.map-callout-label{
+  position:absolute;
+  background:rgba(44,24,16,0.88);
+  backdrop-filter:blur(6px);
+  border:1px solid rgba(240,220,192,0.15);
+  border-radius:8px;
+  padding:8px 12px;
+  white-space:nowrap;
+  font-family:var(--sans);
+}
+.map-callout-name{
+  font-family:var(--serif);font-size:13px;font-weight:700;
+  color:#F0DCC0;line-height:1.3;
+}
+.map-callout-info{
+  font-size:11px;color:rgba(240,220,192,0.6);
+  line-height:1.4;margin-top:2px;
+}
+.map-callout-info strong{
+  color:rgba(240,220,192,0.85);font-weight:600;
+}
+.map-callout-tag{
+  display:inline-block;font-size:9px;font-weight:600;
+  padding:1px 6px;border-radius:3px;margin-top:3px;
+}
+@media(max-width:700px){
+  .map-callout-label{padding:6px 8px;}
+  .map-callout-name{font-size:11px;}
+  .map-callout-info{font-size:9px;}
+}
 .map-tooltip{
   position:fixed;pointer-events:none;z-index:9999;
   background:rgba(44,24,16,0.95);backdrop-filter:blur(12px);
@@ -340,6 +382,58 @@ body{font-family:var(--sans);color:var(--text);background:var(--bg);-webkit-font
         <div class="map-dot" data-id="14" style="left:63.7%;top:70.3%;width:18.7px;height:18.7px;background:#4A8FA8;margin-left:-9.35px;margin-top:-9.35px;"><span class="map-dot-num">14</span></div>
         <!-- #15 chill 47.8%, 50.4% reviews:301 color:#4A8FA8 size:16.3px -->
         <div class="map-dot" data-id="15" style="left:47.8%;top:50.4%;width:16.3px;height:16.3px;background:#4A8FA8;margin-left:-8.15px;margin-top:-8.15px;"><span class="map-dot-num">15</span></div>
+        <!-- ═══ 5 條虛線標籤（預設顯示） ═══ -->
+
+        <!-- #1 GOODMANS (45.6%, 51.7%) → 往左拉 -->
+        <div class="map-callout" style="left:45.6%;top:51.7%;">
+          <div class="map-callout-line" style="width:120px;transform:rotate(195deg);"></div>
+          <div class="map-callout-label" style="right:100%;margin-right:100px;top:-20px;">
+            <div class="map-callout-name">GOODMANS COFFEE</div>
+            <div class="map-callout-info">⭐ 4.9 · 咖啡信號 <strong>64%</strong></div>
+            <div class="map-callout-tag" style="background:rgba(92,46,14,0.5);color:#DEB87A;">全島最穩定</div>
+          </div>
+        </div>
+
+        <!-- #2 Ningin (46.0%, 52.2%) → 往左下拉 -->
+        <div class="map-callout" style="left:46.0%;top:52.2%;">
+          <div class="map-callout-line" style="width:130px;transform:rotate(210deg);"></div>
+          <div class="map-callout-label" style="right:100%;margin-right:95px;top:30px;">
+            <div class="map-callout-name">Ningin Coffee</div>
+            <div class="map-callout-info">⭐ 4.7 · 259 則 · 咖啡信號 <strong>59%</strong></div>
+            <div class="map-callout-tag" style="background:rgba(160,103,58,0.4);color:#DEB87A;">國際認證</div>
+          </div>
+        </div>
+
+        <!-- #9 Sunayama (48.3%, 43.2%) → 往右拉（北部空間大） -->
+        <div class="map-callout" style="left:48.3%;top:43.2%;">
+          <div class="map-callout-line" style="width:100px;transform:rotate(-15deg);"></div>
+          <div class="map-callout-label" style="left:100%;margin-left:80px;top:-20px;">
+            <div class="map-callout-name">Sunayama Cafe</div>
+            <div class="map-callout-info">⭐ 4.6 · 428 則 · 咖啡信號 <strong>22%</strong></div>
+            <div class="map-callout-tag" style="background:rgba(74,143,168,0.4);color:#6AAFC4;">去海灘順便吃</div>
+          </div>
+        </div>
+
+        <!-- #11 PANIPANI (42.4%, 71.1%) → 往左拉（來間島） -->
+        <div class="map-callout" style="left:42.4%;top:71.1%;">
+          <div class="map-callout-line" style="width:110px;transform:rotate(190deg);"></div>
+          <div class="map-callout-label" style="right:100%;margin-right:85px;top:-15px;">
+            <div class="map-callout-name">PANIPANI</div>
+            <div class="map-callout-info">⭐ 4.4 · 336 則 · 咖啡信號 <strong>27%</strong></div>
+            <div class="map-callout-tag" style="background:rgba(74,143,168,0.4);color:#6AAFC4;">來間島 · 拍照用</div>
+          </div>
+        </div>
+
+        <!-- #5 Cafe Nuis (73.4%, 63.5%) → 往右拉（東部） -->
+        <div class="map-callout" style="left:73.4%;top:63.5%;">
+          <div class="map-callout-line" style="width:80px;transform:rotate(-25deg);"></div>
+          <div class="map-callout-label" style="left:100%;margin-left:60px;top:-25px;">
+            <div class="map-callout-name">Cafe Nuis</div>
+            <div class="map-callout-info">⭐ 4.6 · 264 則 · 咖啡信號 <strong>50%</strong></div>
+            <div class="map-callout-tag" style="background:rgba(160,103,58,0.4);color:#DEB87A;">東部唯一 · 田園風</div>
+          </div>
+        </div>
+
         <div class="map-osm-credit">© OpenStreetMap contributors</div>
       </div>
     </div>
