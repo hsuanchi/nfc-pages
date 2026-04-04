@@ -71,7 +71,8 @@ body{font-family:var(--sans);color:var(--text);background:var(--bg);-webkit-font
   font-family:var(--serif);font-size:28px;font-weight:600;
   color:var(--coffee-800);text-align:center;margin-bottom:8px;
 }
-.map-section-sub{font-size:14px;color:var(--text-3);text-align:center;margin-bottom:48px;}
+.map-section-sub{font-size:14px;color:var(--text-3);text-align:center;margin-bottom:16px;}
+.map-section-desc{font-size:13px;color:var(--text-3);text-align:center;max-width:700px;margin:0 auto 36px;line-height:1.7;}
 .map-wrapper{max-width:1100px;margin:0 auto;display:flex;gap:40px;align-items:stretch;}
 .map-osm-wrap{
   flex:0 0 62%;min-width:0;position:relative;
@@ -127,14 +128,20 @@ body{font-family:var(--sans);color:var(--text);background:var(--bg);-webkit-font
 .map-legend-item{display:flex;align-items:center;gap:12px;margin-bottom:14px;font-size:14px;color:var(--text-2);}
 .map-legend-dot{width:16px;height:16px;border-radius:50%;flex-shrink:0;border:2px solid rgba(255,255,255,0.8);box-shadow:0 1px 4px rgba(0,0,0,0.2);}
 .map-legend-desc{font-size:12px;color:var(--text-3);margin-top:2px;}
-.map-legend-note{
-  font-size:12px;color:var(--text-3);margin-top:20px;line-height:1.6;
-  padding:14px 16px;background:var(--coffee-50);border-radius:10px;
-  border:1px solid var(--border);
-}
-.map-legend-note strong{color:var(--text);}
+.map-legend-top3{margin-top:20px;padding:14px 16px;background:var(--coffee-50);border-radius:10px;border:1px solid var(--border);}
+.map-legend-top3-title{font-size:12px;font-weight:700;color:var(--coffee-800);margin-bottom:10px;}
+.map-legend-top3-list{list-style:none;padding:0;margin:0;}
+.map-legend-top3-list li{font-size:12px;color:var(--text-2);margin-bottom:6px;}
+.map-legend-top3-list li a{color:var(--coffee-600);text-decoration:none;font-weight:500;}
+.map-legend-top3-list li a:hover{text-decoration:underline;}
 .map-visitor-bar{margin-top:24px;padding-top:20px;border-top:1px solid var(--border);}
 .map-visitor-title{font-size:13px;font-weight:600;color:var(--text);margin-bottom:12px;}
+.map-visitor-top2{margin-top:14px;padding:12px 14px;background:var(--coffee-50);border-radius:8px;border:1px solid var(--border);}
+.map-visitor-top2-title{font-size:12px;font-weight:700;color:var(--coffee-800);margin-bottom:8px;}
+.map-visitor-top2-list{list-style:none;padding:0;margin:0;}
+.map-visitor-top2-list li{font-size:12px;color:var(--text-2);margin-bottom:5px;}
+.map-visitor-top2-list li a{color:var(--coffee-600);text-decoration:none;font-weight:500;}
+.map-visitor-top2-list li a:hover{text-decoration:underline;}
 .map-visitor-row{display:flex;align-items:center;gap:8px;margin-bottom:8px;font-size:12px;color:var(--text-2);}
 .map-visitor-track{flex:1;height:8px;background:var(--coffee-100);border-radius:4px;overflow:hidden;}
 .map-visitor-fill{height:100%;border-radius:4px;}
@@ -276,6 +283,10 @@ body{font-family:var(--sans);color:var(--text);background:var(--bg);-webkit-font
 .practical-row{display:flex;flex-wrap:wrap;gap:12px 24px;font-size:13px;color:var(--text-3);margin-top:24px;}
 .practical-row a{color:var(--coffee-600);text-decoration:none;font-weight:500;}
 .practical-row a:hover{text-decoration:underline;}
+.review-verdict{background:var(--coffee-50);border-radius:10px;padding:16px;margin-bottom:16px;}
+.review-verdict-title{font-size:13px;font-weight:700;color:var(--coffee-800);margin-bottom:10px;letter-spacing:0.02em;}
+.review-verdict-good{font-size:13px;color:#3A7A4A;margin-bottom:6px;line-height:1.6;}
+.review-verdict-bad{font-size:13px;color:#8A5A2A;line-height:1.6;}
 
 /* ═══════════ MORE SHOPS (6-15) ═══════════ */
 .more-shops-section{margin-top:16px;}
@@ -381,6 +392,7 @@ body{font-family:var(--sans);color:var(--text);background:var(--bg);-webkit-font
 <section class="map-section">
   <div class="map-section-title">咖啡信號地圖</div>
   <div class="map-section-sub">圓點大小 = 評論數 · 顏色 = 評論中聊咖啡的比例</div>
+  <p class="map-section-desc">什麼是咖啡信號？我們分析了 3,091 則 Google Maps 評論，計算每家店的評論中「真正在聊咖啡」的比例。<br>信號越高，代表這家店的核心價值越在咖啡本身，而非環境或餐食。</p>
   <div class="map-wrapper">
     <div class="map-osm-wrap">
       <div class="map-osm-container">
@@ -529,13 +541,27 @@ body{font-family:var(--sans);color:var(--text);background:var(--bg);-webkit-font
       <div class="map-legend-item"><div class="map-legend-dot" style="background:#5C2E0E;"></div><div><div>真咖啡店 ≥ 60%</div><div class="map-legend-desc">評論主要在聊咖啡品質</div></div></div>
       <div class="map-legend-item"><div class="map-legend-dot" style="background:#A0673A;"></div><div><div>咖啡+其他 30–59%</div><div class="map-legend-desc">咖啡不錯但其他也是賣點</div></div></div>
       <div class="map-legend-item"><div class="map-legend-dot" style="background:#4A8FA8;"></div><div><div>環境取勝 &lt; 30%</div><div class="map-legend-desc">去的人不太在聊咖啡</div></div></div>
-      <div class="map-legend-note"><strong>咖啡信號比</strong> = 評論中真正在聊咖啡的比例。<br>越高 = 這家店的價值越在咖啡本身。<br>圓點大小 = 評論數量（16–428 則）</div>
+      <div class="map-legend-top3">
+        <div class="map-legend-top3-title">☕ 咖啡信號 Top 3</div>
+        <ul class="map-legend-top3-list">
+          <li>1. <a href="#item-3">Majya</a> — 85%</li>
+          <li>2. <a href="#item-8">Doug's Coffee</a> — 74%</li>
+          <li>3. <a href="#item-10">Coffee Barista</a> — 71%</li>
+        </ul>
+      </div>
       <div class="map-visitor-bar">
-        <div class="map-visitor-title">全島遊客結構</div>
+        <div class="map-visitor-title">咖啡評論來源</div>
         <div class="map-visitor-row"><span style="min-width:72px">🇹🇼🇭🇰🇨🇳</span><div class="map-visitor-track"><div class="map-visitor-fill" style="width:88%;background:#C8943A;"></div></div><span class="map-visitor-pct">88%</span></div>
         <div class="map-visitor-row"><span style="min-width:72px">🇺🇸 英語圈</span><div class="map-visitor-track"><div class="map-visitor-fill" style="width:10%;background:#4A8FA8;"></div></div><span class="map-visitor-pct">10%</span></div>
         <div class="map-visitor-row"><span style="min-width:72px">🇯🇵 日本</span><div class="map-visitor-track"><div class="map-visitor-fill" style="width:3%;background:var(--coffee-300);"></div></div><span class="map-visitor-pct">1%</span></div>
         <div class="map-visitor-row"><span style="min-width:72px">🇰🇷 韓國</span><div class="map-visitor-track"><div class="map-visitor-fill" style="width:1%;background:var(--coffee-300);"></div></div><span class="map-visitor-pct">&lt;1%</span></div>
+        <div class="map-visitor-top2">
+          <div class="map-visitor-top2-title">🇯🇵 日本人最愛</div>
+          <ul class="map-visitor-top2-list">
+            <li>1. <a href="#item-3">Majya</a> — 🇯🇵佔 65%</li>
+            <li>2. <a href="#item-13">cafe furari</a> — 🇯🇵佔 56%</li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
@@ -682,7 +708,7 @@ function mapCalloutClick(id) {
       </div>
 
       <div class="bento-cell bento-insight">
-        <div class="insight-text">🇺🇸 英語圈 16 人中 <strong>100%</strong> 聊咖啡 · 🇹🇼 中華圈 53 人中 <strong>53%</strong> 聊咖啡<span class="insight-tag">✓ 英語圈全員認證</span></div>
+        <div class="insight-text">🇹🇼🇭🇰🇨🇳 53 人 · 🇺🇸 16 人</div>
       </div>
     </div>
 
@@ -1077,6 +1103,11 @@ function mapCalloutClick(id) {
         <div class="review-meta">— 匿名旅客 · 3 個月前</div>
       </div>
     </div>
+    <div class="review-verdict">
+      <div class="review-verdict-title">評論怎麼說</div>
+      <div class="review-verdict-good">👍 好評重點：手沖品質頂尖，老闆熱情介紹豆子，Airstream 氛圍獨特</div>
+      <div class="review-verdict-bad">⚠️ 要注意：座位極少（常滿），只收現金，天氣不好可能沒開</div>
+    </div>
     <div class="practical-row">
       <span>Shimozato-393-1 Hirara</span>
       <span>中午～傍晚</span>
@@ -1151,7 +1182,7 @@ function mapCalloutClick(id) {
       </div>
 
       <div class="bento-cell bento-insight">
-        <div class="insight-text">🇺🇸 31 人中 <strong>90%</strong> 聊咖啡 · 🇹🇼 227 人中 <strong>55%</strong> 聊咖啡<span class="insight-tag">✓ 國際認證</span></div>
+        <div class="insight-text">🇹🇼🇭🇰🇨🇳 227 人 · 🇺🇸 31 人</div>
       </div>
     </div>
 
@@ -2526,6 +2557,11 @@ function mapCalloutClick(id) {
                   </div>
                 </div>
 <div class="review-summary">259 則評論中，153 則聊咖啡，23 則說是此生最佳。</div>
+    <div class="review-verdict">
+      <div class="review-verdict-title">評論怎麼說</div>
+      <div class="review-verdict-good">👍 好評重點：自家烘焙水準高，巴斯克蛋糕必點，老闆親切</div>
+      <div class="review-verdict-bad">⚠️ 要注意：排隊等候時間長，夏天室內偏熱</div>
+    </div>
     <div class="practical-row">
       <span>Kugai-670-4 Hirara</span>
       <span>~¥700</span>
@@ -2598,7 +2634,7 @@ function mapCalloutClick(id) {
       </div>
 
       <div class="bento-cell bento-insight">
-        <div class="insight-text">🇯🇵 17 人中 <strong>94%</strong> 聊咖啡 · 🇰🇷 5 人中 <strong>100%</strong> 聊咖啡<span class="insight-tag">✓ 日韓咖啡迷認證</span></div>
+        <div class="insight-text">🇯🇵 17 人 · 🇰🇷 5 人 · 🇺🇸 2 人 · 🇹🇼🇭🇰🇨🇳 2 人</div>
       </div>
     </div>
 
@@ -2762,6 +2798,11 @@ function mapCalloutClick(id) {
                   </div>
                 </div>
 <div class="review-summary">26 則評論中，22 則聊咖啡，3 則說是此生最佳。</div>
+    <div class="review-verdict">
+      <div class="review-verdict-title">評論怎麼說</div>
+      <div class="review-verdict-good">👍 好評重點：全島最高咖啡信號 85%，日韓咖啡迷認證，自家烘焙</div>
+      <div class="review-verdict-bad">⚠️ 要注意：僅 4 席座位，容易撲空，需預留時間</div>
+    </div>
     <div class="practical-row">
       <span>Nishizato-448 Hirara</span>
       <span>僅 4 席</span>
@@ -2833,7 +2874,7 @@ function mapCalloutClick(id) {
       </div>
 
       <div class="bento-cell bento-insight">
-        <div class="insight-text">🇺🇸 10 人中 <strong>80%</strong> 聊咖啡 · 🇹🇼 117 人中 <strong>50%</strong> 聊咖啡<span class="insight-tag">✓ 咖啡+服務雙認證</span></div>
+        <div class="insight-text">🇹🇼🇭🇰🇨🇳 117 人 · 🇺🇸 10 人</div>
       </div>
     </div>
 
@@ -3522,6 +3563,11 @@ function mapCalloutClick(id) {
                   </div>
                 </div>
 <div class="review-summary">127 則評論中，66 則聊咖啡，7 則說是此生最佳。</div>
+    <div class="review-verdict">
+      <div class="review-verdict-title">評論怎麼說</div>
+      <div class="review-verdict-good">👍 好評重點：手沖可續杯 CP 值高，早餐好吃，停車方便</div>
+      <div class="review-verdict-bad">⚠️ 要注意：餐點出餐慢，假日人多</div>
+    </div>
     <div class="practical-row">
       <span>Nishizato-1886-1 Hirara</span>
       <span>早午餐</span>
@@ -3595,7 +3641,7 @@ function mapCalloutClick(id) {
       </div>
 
       <div class="bento-cell bento-insight">
-        <div class="insight-text">🇺🇸 32 人中 <strong>44%</strong> 聊咖啡 · 🇹🇼 231 人中 <strong>51%</strong> 聊咖啡<span class="insight-tag">✓ 田園咖啡認證</span></div>
+        <div class="insight-text">🇹🇼🇭🇰🇨🇳 231 人 · 🇺🇸 32 人</div>
       </div>
     </div>
 
@@ -4997,6 +5043,11 @@ function mapCalloutClick(id) {
                   </div>
                 </div>
 <div class="review-summary">264 則評論中，132 則聊咖啡，11 則說是此生最佳。</div>
+    <div class="review-verdict">
+      <div class="review-verdict-title">評論怎麼說</div>
+      <div class="review-verdict-good">👍 好評重點：田園氛圍舒服，早餐 CP 值極高，咖哩也推</div>
+      <div class="review-verdict-bad">⚠️ 要注意：位置偏遠（東部），蚊蟲多，冷氣弱</div>
+    </div>
     <div class="practical-row">
       <span>Fukuzato-652-2 Gusukube</span>
       <span>早午餐、咖哩</span>
@@ -5081,7 +5132,7 @@ function mapCalloutClick(id) {
               <div class="b-note">5% 負評率，7成針對咖啡，仍屬少數。</div>
             </div>
             <div class="bento-cell bento-insight">
-              <div class="insight-text">🇺🇸 35 人中 <strong>71%</strong> 聊咖啡 · 🇹🇼 180 人中 <strong>59%</strong> 聊咖啡<span class="insight-tag">✓ 咖啡+空間雙認可</span></div>
+              <div class="insight-text">🇹🇼🇭🇰🇨🇳 180 人 · 🇺🇸 35 人</div>
             </div>
           </div>
                                                                                 <div class="reviews-head">關於這裡的咖啡：</div>
@@ -6241,6 +6292,11 @@ function mapCalloutClick(id) {
             <div class="reviews-head">也有人這樣說（佔 5%）：</div>
             <div class="review neg"><div class="review-flag">🇹🇼 ⭐⭐⭐</div><div class="review-body">「咖啡過度萃取，偏苦。空間很漂亮但飲料表現不穩定，不同時段差很多。」</div><div class="review-meta">— 誠實評測 · 2 個月前</div></div>
           </div>
+          <div class="review-verdict">
+            <div class="review-verdict-title">評論怎麼說</div>
+            <div class="review-verdict-good">👍 好評重點：空間時尚好拍，巴西莓碗好吃，咖啡也不差</div>
+            <div class="review-verdict-bad">⚠️ 要注意：價格偏高，假日排隊久</div>
+          </div>
           <div class="practical-row">
             <span>Kugai-1068-9 Hirara</span>
             <span>兼賣服飾</span>
@@ -6314,7 +6370,7 @@ function mapCalloutClick(id) {
               <div class="b-note">無負評，但樣本數僅 16 則。</div>
             </div>
             <div class="bento-cell bento-insight">
-              <div class="insight-text">🇺🇸 8 人中 <strong>62%</strong> 聊咖啡 · 🇹🇼 8 人中 <strong>62%</strong> 聊咖啡<span class="insight-tag">✓ 中英均衡認可</span></div>
+              <div class="insight-text">🇹🇼🇭🇰🇨🇳 8 人 · 🇺🇸 8 人</div>
             </div>
           </div>
                                                                                 <div class="reviews-head">關於這裡的咖啡：</div>
@@ -6425,6 +6481,11 @@ function mapCalloutClick(id) {
                                           </div>
                                         </div>
 <div class="review-summary">16 則評論中，10 則聊咖啡，2 則說是此生最佳。</div>
+          <div class="review-verdict">
+            <div class="review-verdict-title">評論怎麼說</div>
+            <div class="review-verdict-good">👍 好評重點：藝廊氛圍獨特，抹茶拿鐵好喝，露台景觀好</div>
+            <div class="review-verdict-bad">⚠️ 要注意：評論數少（16則），穩定度待觀察</div>
+          </div>
           <div class="practical-row">
             <span>Shimozato-574-6 Hirara</span>
             <span>抹茶拿鐵</span>
@@ -6503,7 +6564,7 @@ function mapCalloutClick(id) {
               <div class="b-note">5% 負評，8成針對咖啡偏苦問題，深烘焙不是每個人的菜。</div>
             </div>
             <div class="bento-cell bento-insight">
-              <div class="insight-text">🇺🇸 21 人中 <strong>76%</strong> 聊咖啡 · 🇹🇼 168 人中 <strong>74%</strong> 聊咖啡<span class="insight-tag">✓ 深烘焙愛好者聖地</span></div>
+              <div class="insight-text">🇹🇼🇭🇰🇨🇳 168 人 · 🇺🇸 21 人</div>
             </div>
           </div>
                                                                                 <div class="reviews-head">關於這裡的咖啡：</div>
@@ -7517,6 +7578,11 @@ function mapCalloutClick(id) {
             <div class="reviews-head">也有人這樣說（佔 5%）：</div>
             <div class="review neg"><div class="review-flag">🇹🇼 ⭐⭐⭐</div><div class="review-body">「咖啡太苦了，完全不適合我。偏好淺焙的人請繞道。」</div><div class="review-meta">— 淺焙派 · 2 個月前</div></div>
           </div>
+          <div class="review-verdict">
+            <div class="review-verdict-title">評論怎麼說</div>
+            <div class="review-verdict-good">👍 好評重點：深烘焙風味明確，玉子三明治是招牌</div>
+            <div class="review-verdict-bad">⚠️ 要注意：口味兩極化（偏苦偏酸），空間較小</div>
+          </div>
           <div class="practical-row">
             <span>Shimozato-1153-3-105 Hirara</span>
             <span>玉子三明治</span>
@@ -7592,7 +7658,7 @@ function mapCalloutClick(id) {
               <div class="b-note">幾乎沒人不滿意，但多數人不是特地為咖啡來的。</div>
             </div>
             <div class="bento-cell bento-insight">
-              <div class="insight-text">🇺🇸 36 人中 <strong>25%</strong> 聊咖啡 · 🇹🇼 391 人中 <strong>22%</strong> 聊咖啡<span class="insight-tag">環境取勝</span></div>
+              <div class="insight-text">🇹🇼🇭🇰🇨🇳 391 人 · 🇺🇸 36 人</div>
             </div>
           </div>
                                                                                 <div class="reviews-head">去這裡的人在說什麼：</div>
@@ -9845,6 +9911,11 @@ function mapCalloutClick(id) {
                                           </div>
                                         </div>
 <div class="review-summary">428 則評論中，94 則聊咖啡，20 則推薦。主角是海灘和餐點。</div>
+          <div class="review-verdict">
+            <div class="review-verdict-title">評論怎麼說</div>
+            <div class="review-verdict-good">👍 好評重點：砂山海灘旁，芒果思慕昔必喝，丹丹麵好吃</div>
+            <div class="review-verdict-bad">⚠️ 要注意：不是真的咖啡店（信號僅 22%），觀光客多</div>
+          </div>
           <div class="practical-row">
             <span>Nikadori-655-2 Hirara</span>
             <span>丹丹麵、芒果思慕昔</span>
@@ -9922,7 +9993,7 @@ function mapCalloutClick(id) {
               <div class="b-note">5% 負評，一半在說咖啡不如預期。</div>
             </div>
             <div class="bento-cell bento-insight">
-              <div class="insight-text">評論中 71% 聊咖啡，但推薦率 0%。<span class="insight-tag">工作族首選</span></div>
+              <div class="insight-text">🇹🇼🇭🇰🇨🇳 37 人 · 🇺🇸 4 人</div>
             </div>
           </div>
                                                                                 <div class="reviews-head">關於這裡：</div>
@@ -10164,6 +10235,11 @@ function mapCalloutClick(id) {
                                           </div>
                                         </div>
 <div class="review-summary">41 則評論中，29 則聊咖啡，無人強推。</div>
+          <div class="review-verdict">
+            <div class="review-verdict-title">評論怎麼說</div>
+            <div class="review-verdict-good">👍 好評重點：有 Wi-Fi 適合工作，空間寬敞</div>
+            <div class="review-verdict-bad">⚠️ 要注意：咖啡普通（無人說「最好」），服務評價普通</div>
+          </div>
           <div class="practical-row">
             <span>Nishizato-840-2 Hirara</span>
             <span>Wi-Fi</span>
@@ -10240,7 +10316,7 @@ function mapCalloutClick(id) {
               <div class="b-note">負評極少，來這裡的人本就不是為了咖啡。</div>
             </div>
             <div class="bento-cell bento-insight">
-              <div class="insight-text">評論中只有 27% 提到咖啡，其餘在聊氛圍和拍照<span class="insight-tag">來間島打卡</span></div>
+              <div class="insight-text">🇹🇼🇭🇰🇨🇳 316 人 · 🇺🇸 20 人</div>
             </div>
           </div>
                                                                                 <div class="reviews-head">大家都說：</div>
@@ -12015,6 +12091,11 @@ function mapCalloutClick(id) {
                                           </div>
                                         </div>
 <div class="review-summary">336 則評論中，91 則提到咖啡，23 則推薦。主角是拍照和氛圍。</div>
+          <div class="review-verdict">
+            <div class="review-verdict-title">評論怎麼說</div>
+            <div class="review-verdict-good">👍 好評重點：峇里島氛圍獨特，戶外沙地座位拍照超好看</div>
+            <div class="review-verdict-bad">⚠️ 要注意：咖啡信號僅 27%，蚊蟲多，來間島交通不便</div>
+          </div>
           <div class="practical-row">
             <span>Kurima-105-1 Shimoji</span>
             <span>來間島</span>
@@ -12094,7 +12175,7 @@ function mapCalloutClick(id) {
               <div class="b-note">6% 負評，但只有 17% 提到咖啡，主要在說等待時間。</div>
             </div>
             <div class="bento-cell bento-insight">
-              <div class="insight-text">池間島途中的人情驛站，服務是靈魂<span class="insight-tag">老夫婦人情咖啡</span></div>
+              <div class="insight-text">🇹🇼🇭🇰🇨🇳 91 人 · 🇺🇸 12 人 · 🇯🇵 1 人</div>
             </div>
           </div>
                                                                                 <div class="reviews-head">大家都說：</div>
@@ -12667,6 +12748,11 @@ function mapCalloutClick(id) {
             <div class="reviews-head">也有人這樣說（佔 6%）：</div>
             <div class="review neg"><div class="review-flag">🇹🇼 ⭐⭐⭐</div><div class="review-body">「等了很久才被招待到，咖啡也沒什麼特別。不在池間島動線上的人不用特別去。」</div><div class="review-meta">— 路過旅客 · 2 個月前</div></div>
           </div>
+          <div class="review-verdict">
+            <div class="review-verdict-title">評論怎麼說</div>
+            <div class="review-verdict-good">👍 好評重點：老夫婦經營有人情味，庭院花園氛圍好</div>
+            <div class="review-verdict-bad">⚠️ 要注意：咖啡不是重點（信號 24%），池間島途中順道去</div>
+          </div>
           <div class="practical-row">
             <span>Oura-130-32 Hirara</span>
             <span>庭院花園</span>
@@ -12745,7 +12831,7 @@ function mapCalloutClick(id) {
               <div class="b-note">6% 負評，多為等待時間或麵包售完問題。</div>
             </div>
             <div class="bento-cell bento-insight">
-              <div class="insight-text">56% 日本在地客，是觀光客還沒發現的在地麵包店<span class="insight-tag">日本人的早餐</span></div>
+              <div class="insight-text">🇯🇵 20 人 · 🇹🇼🇭🇰🇨🇳 8 人 · 🇺🇸 6 人 · 🇰🇷 2 人</div>
             </div>
           </div>
                                                                                 <div class="reviews-head">大家都說：</div>
@@ -12960,6 +13046,11 @@ function mapCalloutClick(id) {
                                           </div>
                                         </div>
 <div class="review-summary">36 則評論中，5 則聊咖啡，但 31 則都在說麵包。</div>
+          <div class="review-verdict">
+            <div class="review-verdict-title">評論怎麼說</div>
+            <div class="review-verdict-good">👍 好評重點：手工麵包是亮點，早餐值得去，日本在地客多</div>
+            <div class="review-verdict-bad">⚠️ 要注意：咖啡信號僅 14%（去吃麵包的），座位有限</div>
+          </div>
           <div class="practical-row">
             <span>Nishinakasone-3-1 Hirara</span>
             <span>手工麵包</span>
@@ -13039,7 +13130,7 @@ function mapCalloutClick(id) {
               <div class="b-note">負評不針對咖啡，而是等位和服務速度。</div>
             </div>
             <div class="bento-cell bento-insight">
-              <div class="insight-text">🇹🇼 95% 台灣旅客，59% 在說海景是人生第一<span class="insight-tag">海景打卡必訪</span></div>
+              <div class="insight-text">🇹🇼🇭🇰🇨🇳 380 人 · 🇺🇸 20 人</div>
             </div>
           </div>
                                                                                 <div class="reviews-head">大家都說：</div>
@@ -15146,6 +15237,11 @@ function mapCalloutClick(id) {
                                           </div>
                                         </div>
 <div class="review-summary">400 則評論中，88 則聊咖啡，59% 在說海景無敵。</div>
+          <div class="review-verdict">
+            <div class="review-verdict-title">評論怎麼說</div>
+            <div class="review-verdict-good">👍 好評重點：無敵海景是賣點，吊椅拍照，有兒童設施</div>
+            <div class="review-verdict-bad">⚠️ 要注意：咖啡信號僅 22%（沒人聊咖啡），等候時間長</div>
+          </div>
           <div class="practical-row">
             <span>Arazato-1214 Ueno</span>
             <span>吊椅</span>
@@ -15225,7 +15321,7 @@ function mapCalloutClick(id) {
               <div class="b-note">負評不針對咖啡，說明來這裡的人根本不是為了咖啡。</div>
             </div>
             <div class="bento-cell bento-insight">
-              <div class="insight-text">301 則評論，咖啡信號僅 2%。這是一家以巴西莓碗為主角的早餐店<span class="insight-tag">莓碗早餐首選</span></div>
+              <div class="insight-text">🇹🇼🇭🇰🇨🇳 289 人 · 🇺🇸 12 人</div>
             </div>
           </div>
                                                                                 <div class="reviews-head">大家都說：</div>
@@ -17070,6 +17166,11 @@ function mapCalloutClick(id) {
           <div class="neg-section">
             <div class="reviews-head">也有人這樣說（佔 2%）：</div>
             <div class="review neg"><div class="review-flag">🇹🇼 ⭐⭐</div><div class="review-body">「等了太久，座位也很少。莓碗好吃，但旺季人太多，要有心理準備。」</div><div class="review-meta">— 旺季旅客 · 2 個月前</div></div>
+          </div>
+          <div class="review-verdict">
+            <div class="review-verdict-title">評論怎麼說</div>
+            <div class="review-verdict-good">👍 好評重點：早上 7 點開門，巴西莓碗是招牌，宮古蕎麥也好吃</div>
+            <div class="review-verdict-bad">⚠️ 要注意：咖啡信號 2%（完全沒人聊咖啡），去吃莓碗的</div>
           </div>
           <div class="practical-row">
             <span>Shimozato-28-1 Hirara</span>
