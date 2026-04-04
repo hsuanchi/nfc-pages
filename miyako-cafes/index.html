@@ -72,17 +72,42 @@ body{font-family:var(--sans);color:var(--text);background:var(--bg);-webkit-font
 }
 .map-section-sub{font-size:14px;color:rgba(240,220,192,0.6);text-align:center;margin-bottom:48px;}
 .map-wrapper{max-width:1100px;margin:0 auto;display:flex;gap:40px;align-items:stretch;}
-.map-svg-wrap{
+.map-osm-wrap{
   flex:0 0 62%;min-width:0;position:relative;
-  background:#1E1410;border-radius:16px;overflow:hidden;
-  padding:24px;
+  background:#2C1810;border-radius:16px;overflow:hidden;
 }
-.map-svg-wrap svg{width:100%;height:auto;display:block;}
-.map-dot{cursor:pointer;transition:all 0.2s ease;}
-.map-dot:hover{filter:brightness(1.3) drop-shadow(0 0 8px rgba(255,255,255,0.4));}
-.map-dot-label{
-  font-size:10px;fill:rgba(255,255,255,0.9);pointer-events:none;
-  font-family:var(--sans);font-weight:700;text-shadow:0 1px 3px rgba(0,0,0,0.6);
+.map-osm-container{
+  position:relative;width:100%;
+  border-radius:16px;overflow:hidden;
+  line-height:0;
+}
+.map-osm-img{
+  width:100%;height:auto;display:block;
+  filter:saturate(0.3) sepia(0.5) brightness(0.4) contrast(1.2);
+  pointer-events:none;user-select:none;
+}
+.map-dot{
+  position:absolute;border-radius:50%;
+  border:2px solid rgba(255,255,255,0.85);
+  opacity:0.9;cursor:pointer;
+  transition:transform 0.2s ease, box-shadow 0.2s ease, z-index 0s;
+  z-index:2;
+  display:flex;align-items:center;justify-content:center;
+}
+.map-dot:hover{
+  transform:scale(1.5);z-index:10;
+  box-shadow:0 0 12px 4px rgba(255,255,255,0.4), 0 0 24px 8px rgba(255,200,100,0.2);
+}
+.map-dot-num{
+  font-size:8px;line-height:1;font-weight:700;color:rgba(255,255,255,0.95);
+  font-family:var(--sans);text-shadow:0 1px 2px rgba(0,0,0,0.7);
+  pointer-events:none;user-select:none;
+}
+.map-osm-credit{
+  position:absolute;bottom:6px;right:8px;
+  font-size:9px;color:rgba(240,220,192,0.45);
+  font-family:var(--sans);pointer-events:none;line-height:1;
+  text-shadow:0 1px 3px rgba(0,0,0,0.8);
 }
 .map-legend{
   flex:1;background:rgba(255,255,255,0.06);backdrop-filter:blur(8px);
@@ -122,7 +147,7 @@ body{font-family:var(--sans);color:var(--text);background:var(--bg);-webkit-font
 .map-tooltip-natl{font-size:12px;color:rgba(240,220,192,0.5);}
 @media(max-width:700px){
   .map-wrapper{flex-direction:column;}
-  .map-svg-wrap{flex:none;width:100%;}
+  .map-osm-wrap{flex:none;width:100%;}
   .map-legend{flex:none;width:100%;}
 }
 
@@ -281,51 +306,42 @@ body{font-family:var(--sans);color:var(--text);background:var(--bg);-webkit-font
   <div class="map-section-title">咖啡信號地圖</div>
   <div class="map-section-sub">圓點大小 = 評論數 · 顏色 = 評論中聊咖啡的比例</div>
   <div class="map-wrapper">
-    <div class="map-svg-wrap">
-      <svg viewBox="0 0 700 600" xmlns="http://www.w3.org/2000/svg">
-        <rect width="700" height="600" fill="#1E1410" rx="8"/>
-        <g stroke="rgba(240,220,192,0.06)" stroke-width="0.5">
-          <line x1="0" y1="150" x2="700" y2="150"/>
-          <line x1="0" y1="300" x2="700" y2="300"/>
-          <line x1="0" y1="450" x2="700" y2="450"/>
-          <line x1="175" y1="0" x2="175" y2="600"/>
-          <line x1="350" y1="0" x2="350" y2="600"/>
-          <line x1="525" y1="0" x2="525" y2="600"/>
-        </g>
-        <path d="M 35,130 Q 55,105 95,100 Q 135,95 155,115 Q 175,135 165,160 Q 155,185 120,190 Q 85,195 55,180 Q 30,165 35,130 Z" fill="rgba(240,220,192,0.15)" stroke="rgba(240,220,192,0.3)" stroke-width="1"/>
-        <text x="100" y="152" text-anchor="middle" font-size="9" fill="rgba(240,220,192,0.3)" font-family="sans-serif">伊良部島</text>
-        <ellipse cx="215" cy="55" rx="30" ry="18" fill="rgba(240,220,192,0.15)" stroke="rgba(240,220,192,0.3)" stroke-width="1"/>
-        <text x="215" y="60" text-anchor="middle" font-size="8" fill="rgba(240,220,192,0.3)" font-family="sans-serif">池間島</text>
-        <line x1="215" y1="73" x2="230" y2="105" stroke="rgba(240,220,192,0.2)" stroke-width="1.5" stroke-dasharray="4,4"/>
-        <line x1="160" y1="145" x2="195" y2="175" stroke="rgba(240,220,192,0.2)" stroke-width="1.5" stroke-dasharray="4,4"/>
-        <ellipse cx="130" cy="505" rx="35" ry="20" fill="rgba(240,220,192,0.15)" stroke="rgba(240,220,192,0.3)" stroke-width="1"/>
-        <text x="130" y="510" text-anchor="middle" font-size="8" fill="rgba(240,220,192,0.3)" font-family="sans-serif">來間島</text>
-        <line x1="155" y1="490" x2="200" y2="430" stroke="rgba(240,220,192,0.2)" stroke-width="1.5" stroke-dasharray="4,4"/>
-        <path d="M 220,110 Q 250,95 290,90 Q 340,85 390,95 Q 440,108 485,130 Q 530,155 555,185 Q 575,215 580,250 Q 582,280 570,310 Q 555,340 530,360 Q 500,378 470,385 Q 440,390 410,380 Q 385,372 365,390 Q 340,415 320,440 Q 295,468 265,485 Q 235,498 210,505 Q 185,510 165,498 Q 148,485 145,460 Q 143,435 155,405 Q 170,375 190,345 Q 205,318 210,290 Q 215,260 208,235 Q 200,210 195,185 Q 190,160 200,135 Q 208,118 220,110 Z" fill="rgba(240,220,192,0.12)" stroke="rgba(240,220,192,0.35)" stroke-width="1.5"/>
-        <text x="250" y="190" font-size="10" fill="rgba(240,220,192,0.25)" font-family="sans-serif" font-weight="600">平良市區</text>
-        <text x="420" y="200" font-size="9" fill="rgba(240,220,192,0.2)" font-family="sans-serif">東海岸</text>
-        <text x="280" y="470" font-size="9" fill="rgba(240,220,192,0.2)" font-family="sans-serif">南部</text>
-        <circle class="map-dot" data-id="9" cx="212" cy="97" r="15" fill="#4A8FA8" stroke="rgba(255,255,255,0.6)" stroke-width="1.5" opacity="0.85"/>
-        <circle class="map-dot" data-id="12" cx="265" cy="63" r="8" fill="#4A8FA8" stroke="rgba(255,255,255,0.6)" stroke-width="1.5" opacity="0.85"/>
-        <circle class="map-dot" data-id="13" cx="211" cy="187" r="6" fill="#4A8FA8" stroke="rgba(255,255,255,0.6)" stroke-width="1.5" opacity="0.85"/>
-        <circle class="map-dot" data-id="8" cx="201" cy="206" r="10" fill="#5C2E0E" stroke="rgba(255,255,255,0.7)" stroke-width="1.5" opacity="0.9"/>
-        <circle class="map-dot" data-id="15" cx="188" cy="215" r="12" fill="#4A8FA8" stroke="rgba(255,255,255,0.6)" stroke-width="1.5" opacity="0.85"/>
-        <circle class="map-dot" data-id="7" cx="215" cy="220" r="5" fill="#5C2E0E" stroke="rgba(255,255,255,0.7)" stroke-width="1.5" opacity="0.9"/>
-        <circle class="map-dot" data-id="3" cx="235" cy="230" r="6" fill="#5C2E0E" stroke="rgba(255,255,255,0.7)" stroke-width="1.5" opacity="0.9"/>
-        <circle class="map-dot" data-id="1" cx="170" cy="235" r="7" fill="#5C2E0E" stroke="rgba(255,255,255,0.7)" stroke-width="2" opacity="0.95"/>
-        <circle class="map-dot" data-id="2" cx="183" cy="248" r="12" fill="#A0673A" stroke="rgba(255,255,255,0.7)" stroke-width="1.5" opacity="0.9"/>
-        <circle class="map-dot" data-id="10" cx="258" cy="244" r="6" fill="#5C2E0E" stroke="rgba(255,255,255,0.7)" stroke-width="1.5" opacity="0.9"/>
-        <circle class="map-dot" data-id="6" cx="208" cy="273" r="11" fill="#5C2E0E" stroke="rgba(255,255,255,0.7)" stroke-width="1.5" opacity="0.9"/>
-        <circle class="map-dot" data-id="4" cx="352" cy="314" r="8" fill="#A0673A" stroke="rgba(255,255,255,0.7)" stroke-width="1.5" opacity="0.9"/>
-        <circle class="map-dot" data-id="5" cx="593" cy="401" r="12" fill="#A0673A" stroke="rgba(255,255,255,0.7)" stroke-width="1.5" opacity="0.9"/>
-        <circle class="map-dot" data-id="14" cx="449" cy="505" r="15" fill="#4A8FA8" stroke="rgba(255,255,255,0.6)" stroke-width="1.5" opacity="0.85"/>
-        <circle class="map-dot" data-id="11" cx="130" cy="505" r="13" fill="#4A8FA8" stroke="rgba(255,255,255,0.6)" stroke-width="1.5" opacity="0.85"/>
-        <text class="map-dot-label" x="170" y="224" text-anchor="middle" font-size="8">1</text>
-        <text class="map-dot-label" x="183" y="240" text-anchor="middle" font-size="8">2</text>
-        <text class="map-dot-label" x="235" y="222" text-anchor="middle" font-size="8">3</text>
-        <text class="map-dot-label" x="352" y="306" text-anchor="middle" font-size="8">4</text>
-        <text class="map-dot-label" x="593" y="393" text-anchor="middle" font-size="8">5</text>
-      </svg>
+    <div class="map-osm-wrap">
+      <div class="map-osm-container">
+        <img class="map-osm-img" src="map-full.png" alt="宮古島地圖" draggable="false"/>
+        <!-- 15 shop dots with absolute % positioning -->
+        <!-- #1 GOODMANS 45.6%, 51.7% reviews:69 color:#5C2E0E size:8.8px -->
+        <div class="map-dot" data-id="1" style="left:45.6%;top:51.7%;width:8.8px;height:8.8px;background:#5C2E0E;margin-left:-4.4px;margin-top:-4.4px;"><span class="map-dot-num">1</span></div>
+        <!-- #2 Ningin 46.0%, 52.2% reviews:259 color:#A0673A size:15.0px -->
+        <div class="map-dot" data-id="2" style="left:46.0%;top:52.2%;width:15.0px;height:15.0px;background:#A0673A;margin-left:-7.5px;margin-top:-7.5px;"><span class="map-dot-num">2</span></div>
+        <!-- #3 Majya 49.5%, 51.1% reviews:26 color:#5C2E0E size:9.2px -->
+        <div class="map-dot" data-id="3" style="left:49.5%;top:51.1%;width:9.2px;height:9.2px;background:#5C2E0E;margin-left:-4.6px;margin-top:-4.6px;"><span class="map-dot-num">3</span></div>
+        <!-- #4 LB CAFE 57.8%, 57.6% reviews:127 color:#A0673A size:12.3px -->
+        <div class="map-dot" data-id="4" style="left:57.8%;top:57.6%;width:12.3px;height:12.3px;background:#A0673A;margin-left:-6.15px;margin-top:-6.15px;"><span class="map-dot-num">4</span></div>
+        <!-- #5 Cafe Nuis 73.4%, 63.5% reviews:264 color:#A0673A size:15.2px -->
+        <div class="map-dot" data-id="5" style="left:73.4%;top:63.5%;width:15.2px;height:15.2px;background:#A0673A;margin-left:-7.6px;margin-top:-7.6px;"><span class="map-dot-num">5</span></div>
+        <!-- #6 ensemble 48.4%, 54.9% reviews:217 color:#5C2E0E size:13.9px -->
+        <div class="map-dot" data-id="6" style="left:48.4%;top:54.9%;width:13.9px;height:13.9px;background:#5C2E0E;margin-left:-6.95px;margin-top:-6.95px;"><span class="map-dot-num">6</span></div>
+        <!-- #7 SR COFFEE 48.3%, 50.8% reviews:16 color:#5C2E0E size:8.0px -->
+        <div class="map-dot" data-id="7" style="left:48.3%;top:50.8%;width:8.0px;height:8.0px;background:#5C2E0E;margin-left:-4.0px;margin-top:-4.0px;"><span class="map-dot-num">7</span></div>
+        <!-- #8 Doug's 48.0%, 50.4% reviews:189 color:#5C2E0E size:13.2px -->
+        <div class="map-dot" data-id="8" style="left:48.0%;top:50.4%;width:13.2px;height:13.2px;background:#5C2E0E;margin-left:-6.6px;margin-top:-6.6px;"><span class="map-dot-num">8</span></div>
+        <!-- #9 Sunayama 48.3%, 43.2% reviews:428 color:#4A8FA8 size:20.0px -->
+        <div class="map-dot" data-id="9" style="left:48.3%;top:43.2%;width:20.0px;height:20.0px;background:#4A8FA8;margin-left:-10.0px;margin-top:-10.0px;"><span class="map-dot-num">9</span></div>
+        <!-- #10 Barista 51.7%, 52.3% reviews:41 color:#5C2E0E size:9.6px -->
+        <div class="map-dot" data-id="10" style="left:51.7%;top:52.3%;width:9.6px;height:9.6px;background:#5C2E0E;margin-left:-4.8px;margin-top:-4.8px;"><span class="map-dot-num">10</span></div>
+        <!-- #11 PANIPANI 42.4%, 71.1% reviews:336 color:#4A8FA8 size:17.4px -->
+        <div class="map-dot" data-id="11" style="left:42.4%;top:71.1%;width:17.4px;height:17.4px;background:#4A8FA8;margin-left:-8.7px;margin-top:-8.7px;"><span class="map-dot-num">11</span></div>
+        <!-- #12 Karakara 51.8%, 40.8% reviews:104 color:#4A8FA8 size:11.7px -->
+        <div class="map-dot" data-id="12" style="left:51.8%;top:40.8%;width:11.7px;height:11.7px;background:#4A8FA8;margin-left:-5.85px;margin-top:-5.85px;"><span class="map-dot-num">12</span></div>
+        <!-- #13 furari 48.3%, 49.1% reviews:36 color:#4A8FA8 size:8.5px -->
+        <div class="map-dot" data-id="13" style="left:48.3%;top:49.1%;width:8.5px;height:8.5px;background:#4A8FA8;margin-left:-4.25px;margin-top:-4.25px;"><span class="map-dot-num">13</span></div>
+        <!-- #14 Sima cafe 63.7%, 70.3% reviews:400 color:#4A8FA8 size:18.7px -->
+        <div class="map-dot" data-id="14" style="left:63.7%;top:70.3%;width:18.7px;height:18.7px;background:#4A8FA8;margin-left:-9.35px;margin-top:-9.35px;"><span class="map-dot-num">14</span></div>
+        <!-- #15 chill 47.8%, 50.4% reviews:301 color:#4A8FA8 size:16.3px -->
+        <div class="map-dot" data-id="15" style="left:47.8%;top:50.4%;width:16.3px;height:16.3px;background:#4A8FA8;margin-left:-8.15px;margin-top:-8.15px;"><span class="map-dot-num">15</span></div>
+        <div class="map-osm-credit">© OpenStreetMap contributors</div>
+      </div>
     </div>
     <div class="map-legend">
       <div class="map-legend-title">咖啡信號圖例</div>
