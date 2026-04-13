@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <meta name="theme-color" content="#ffffff">
+  <meta name="theme-color" content="#b0b3b8">
   <title>好好生醫</title>
   <style>
     :root {
@@ -44,7 +44,7 @@
       width: 100%;
       height: 100%;
       overflow: hidden;
-      background: #fff;
+      background: #b0b3b8;
       -webkit-tap-highlight-color: transparent;
       touch-action: manipulation;
     }
@@ -54,6 +54,7 @@
       width: 100vw;
       height: 100dvh;
       overflow: hidden;
+      background: #b0b3b8;
     }
 
     .brand-image {
@@ -62,10 +63,18 @@
       width: 100%;
       height: 100%;
       object-fit: cover;
-      object-position: center 15%;
+      object-position: center center;
       display: block;
       user-select: none;
       -webkit-user-drag: none;
+    }
+
+    /* 手機直式：contain 顯示完整圖片，不裁切 */
+    @media (orientation: portrait) and (max-width: 767px) {
+      .brand-image {
+        object-fit: contain;
+        object-position: center center;
+      }
     }
 
     @media (orientation: landscape) {
@@ -81,10 +90,12 @@
     /* ── Version A: Classic Vinyl ── */
     .player-btn-a {
       position: absolute;
-      right: 24px;
-      bottom: calc(48px + env(safe-area-inset-bottom, 0px));
-      width: 120px;
-      height: 120px;
+      /* 手機預設：底部置中 */
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: calc(36px + env(safe-area-inset-bottom, 0px));
+      width: 100px;
+      height: 100px;
       border-radius: 50%;
       border: none;
       cursor: pointer;
@@ -156,14 +167,24 @@
     .player-btn-a.playing .icon-play  { opacity: 0; }
     .player-btn-a.playing .icon-pause { opacity: 1; }
 
-    /* 播放旋轉 */
+    /* 播放旋轉 — 手機用 translateX 置中，桌面無 translate */
     .player-btn-a.playing {
-      animation: vinyl-spin 2.4s linear infinite;
+      animation: vinyl-spin-mobile 2.4s linear infinite;
     }
 
-    @keyframes vinyl-spin {
-      from { transform: rotate(0deg); }
-      to   { transform: rotate(360deg); }
+    @keyframes vinyl-spin-mobile {
+      from { transform: translateX(-50%) rotate(0deg); }
+      to   { transform: translateX(-50%) rotate(360deg); }
+    }
+
+    @media (min-width: 768px) {
+      .player-btn-a.playing {
+        animation-name: vinyl-spin-desktop;
+      }
+      @keyframes vinyl-spin-desktop {
+        from { transform: rotate(0deg); }
+        to   { transform: rotate(360deg); }
+      }
     }
 
     /* Hover / Active */
@@ -175,13 +196,23 @@
     }
 
     .player-btn-a:active {
-      scale: 0.94;
+      transform: translateX(-50%) scale(0.94);
       transition-duration: var(--duration-fast);
     }
 
-    /* 響應式 */
-    @media (min-width: 390px) {
+    @media (min-width: 768px) {
+      .player-btn-a:active {
+        transform: scale(0.94);
+      }
+    }
+
+    /* 響應式 — 桌面/平板：右下角較大按鈕 */
+    @media (min-width: 768px) {
       .player-btn-a {
+        left: auto;
+        right: 32px;
+        bottom: calc(48px + env(safe-area-inset-bottom, 0px));
+        transform: none;
         width: 140px;
         height: 140px;
       }
@@ -191,10 +222,35 @@
       }
     }
 
+    /* 中型手機 */
+    @media (min-width: 390px) and (max-width: 767px) {
+      .player-btn-a {
+        width: 110px;
+        height: 110px;
+      }
+      .player-btn-a .vinyl-label {
+        width: 38px;
+        height: 38px;
+      }
+    }
+
+    /* 手機直式：按鈕放在圖片下方留白區 */
+    @media (orientation: portrait) and (max-width: 767px) {
+      .player-btn-a {
+        /* 圖片 contain 後，下方有留白空間，按鈕置於偏下方 */
+        bottom: calc(8vh + env(safe-area-inset-bottom, 0px));
+      }
+    }
+
+    /* 小螢幕手機 */
     @media (max-width: 374px) {
       .player-btn-a {
-        width: 100px;
-        height: 100px;
+        width: 88px;
+        height: 88px;
+      }
+      .player-btn-a .vinyl-label {
+        width: 30px;
+        height: 30px;
       }
     }
 
@@ -211,8 +267,8 @@
   <div class="page">
     <img
       class="brand-image"
-      src="brand.jpg"
-      alt="好好生醫 — With JOY."
+      src="images/YS.jpg"
+      alt="好好生醫 — With YS."
       loading="eager"
     >
 
@@ -241,7 +297,7 @@
     </button>
   </div>
 
-  <audio id="audio" src="voice.mp3" preload="auto"></audio>
+  <audio id="audio" src="voice/YS-好好生活.mp3" preload="auto"></audio>
 
   <script>
     (function() {

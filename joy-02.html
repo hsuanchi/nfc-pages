@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#ededec">
+  <title>好好生醫</title>
+  <style>
+    :root {
+      --color-brand-red:    #C8373A;
+      --color-brand-white:  #FFFFFF;
+      --color-brand-dark:   #1A1A1A;
+      --color-black:        #111111;
+      --color-gray-deep:    #2C2C2C;
+      --color-gray-mid:     #6B6B6B;
+      --color-gray-light:   #E8E8E8;
+      --color-cta:          #C8373A;
+      --color-cta-hover:    #A52D30;
+      --glass-bg:           rgba(255, 255, 255, 0.18);
+      --glass-border:       rgba(255, 255, 255, 0.35);
+      --glass-shadow:       0 8px 32px rgba(31, 38, 135, 0.12);
+      --glass-blur:         12px;
+      --space-xs:   4px;
+      --space-sm:   8px;
+      --space-md:   16px;
+      --space-lg:   24px;
+      --space-xl:   40px;
+      --ease-smooth:        cubic-bezier(0.4, 0, 0.2, 1);
+      --ease-bounce:        cubic-bezier(0.34, 1.56, 0.64, 1);
+      --duration-fast:      150ms;
+      --duration-base:      250ms;
+      --duration-slow:      400ms;
+      --font-heading: 'Cormorant Garamond', Georgia, serif;
+      --font-body: 'DM Sans', system-ui, sans-serif;
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html, body {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background: #ededec;
+      -webkit-tap-highlight-color: transparent;
+      touch-action: manipulation;
+    }
+
+    .page {
+      position: relative;
+      width: 100vw;
+      height: 100dvh;
+      overflow: hidden;
+      background: #ededec;
+    }
+
+    .brand-image {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+      display: block;
+      user-select: none;
+      -webkit-user-drag: none;
+    }
+
+    /* 手機直式：contain 顯示完整圖片，不裁切 */
+    @media (orientation: portrait) and (max-width: 767px) {
+      .brand-image {
+        object-fit: contain;
+        object-position: center center;
+      }
+    }
+
+    @media (orientation: landscape) {
+      .brand-image {
+        object-position: center center;
+      }
+      .player-btn-a {
+        bottom: 16px;
+        right: 16px;
+      }
+    }
+
+    /* ── Version A: Classic Vinyl ── */
+    .player-btn-a {
+      position: absolute;
+      /* 手機預設：底部置中 */
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: calc(36px + env(safe-area-inset-bottom, 0px));
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border: none;
+      cursor: pointer;
+      background: radial-gradient(circle at 35% 35%, #3A3A3A 0%, #0D0D0D 100%);
+      box-shadow:
+        inset 0 2px 4px rgba(255,255,255,0.15),
+        inset 0 -2px 4px rgba(0,0,0,0.4),
+        0 4px 20px rgba(0,0,0,0.5),
+        0 8px 40px rgba(0,0,0,0.3);
+      transition:
+        transform var(--duration-fast) var(--ease-smooth),
+        box-shadow var(--duration-base) var(--ease-smooth);
+      will-change: transform;
+      -webkit-tap-highlight-color: transparent;
+      outline: none;
+    }
+
+    .player-btn-a:focus-visible {
+      outline: 2px solid #C8373A;
+      outline-offset: 4px;
+    }
+
+    /* 同心圓溝紋 */
+    .player-btn-a::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      border-radius: 50%;
+      background: repeating-radial-gradient(
+        circle at center,
+        transparent 0px,
+        transparent 6px,
+        rgba(255,255,255,0.04) 6px,
+        rgba(255,255,255,0.04) 7px
+      );
+      pointer-events: none;
+    }
+
+    /* 中心 Label */
+    .player-btn-a .vinyl-label {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: #C8373A;
+      border: 2px solid rgba(255,255,255,0.3);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 2;
+    }
+
+    /* Icon 切換 */
+    .player-btn-a .icon-play,
+    .player-btn-a .icon-pause {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      transition: opacity var(--duration-base) var(--ease-smooth);
+      pointer-events: none;
+      z-index: 3;
+    }
+    .player-btn-a .icon-play  { opacity: 1; }
+    .player-btn-a .icon-pause { opacity: 0; }
+    .player-btn-a.playing .icon-play  { opacity: 0; }
+    .player-btn-a.playing .icon-pause { opacity: 1; }
+
+    /* 播放旋轉 — 手機用 translateX 置中，桌面無 translate */
+    .player-btn-a.playing {
+      animation: vinyl-spin-mobile 2.4s linear infinite;
+    }
+
+    @keyframes vinyl-spin-mobile {
+      from { transform: translateX(-50%) rotate(0deg); }
+      to   { transform: translateX(-50%) rotate(360deg); }
+    }
+
+    @media (min-width: 768px) {
+      .player-btn-a.playing {
+        animation-name: vinyl-spin-desktop;
+      }
+      @keyframes vinyl-spin-desktop {
+        from { transform: rotate(0deg); }
+        to   { transform: rotate(360deg); }
+      }
+    }
+
+    /* Hover / Active */
+    .player-btn-a:hover {
+      box-shadow:
+        inset 0 2px 6px rgba(255,255,255,0.2),
+        0 6px 28px rgba(0,0,0,0.6),
+        0 12px 48px rgba(0,0,0,0.35);
+    }
+
+    .player-btn-a:active {
+      transform: translateX(-50%) scale(0.94);
+      transition-duration: var(--duration-fast);
+    }
+
+    @media (min-width: 768px) {
+      .player-btn-a:active {
+        transform: scale(0.94);
+      }
+    }
+
+    /* 響應式 — 桌面/平板：右下角較大按鈕 */
+    @media (min-width: 768px) {
+      .player-btn-a {
+        left: auto;
+        right: 32px;
+        bottom: calc(48px + env(safe-area-inset-bottom, 0px));
+        transform: none;
+        width: 140px;
+        height: 140px;
+      }
+      .player-btn-a .vinyl-label {
+        width: 42px;
+        height: 42px;
+      }
+    }
+
+    /* 中型手機 */
+    @media (min-width: 390px) and (max-width: 767px) {
+      .player-btn-a {
+        width: 110px;
+        height: 110px;
+      }
+      .player-btn-a .vinyl-label {
+        width: 38px;
+        height: 38px;
+      }
+    }
+
+    /* 手機直式：按鈕放在圖片下方留白區 */
+    @media (orientation: portrait) and (max-width: 767px) {
+      .player-btn-a {
+        /* 圖片 contain 後，下方有留白空間，按鈕置於偏下方 */
+        bottom: calc(8vh + env(safe-area-inset-bottom, 0px));
+      }
+    }
+
+    /* 小螢幕手機 */
+    @media (max-width: 374px) {
+      .player-btn-a {
+        width: 88px;
+        height: 88px;
+      }
+      .player-btn-a .vinyl-label {
+        width: 30px;
+        height: 30px;
+      }
+    }
+
+    /* 無障礙：減少動畫 */
+    @media (prefers-reduced-motion: reduce) {
+      * {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <img
+      class="brand-image"
+      src="images/JOY.jpg"
+      alt="好好生醫 — With JOY."
+      loading="eager"
+    >
+
+    <button class="player-btn-a" aria-label="播放音樂" type="button">
+      <!-- 中心品牌 Label -->
+      <span class="vinyl-label" aria-hidden="true">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="white" aria-hidden="true">
+          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14H9V8h2v8zm4 0h-2V8h2v8z"/>
+        </svg>
+      </span>
+
+      <!-- Play Icon -->
+      <svg class="icon-play" xmlns="http://www.w3.org/2000/svg"
+           width="16" height="16" viewBox="0 0 24 24"
+           fill="white" aria-hidden="true">
+        <polygon points="5,3 19,12 5,21" />
+      </svg>
+
+      <!-- Pause Icon -->
+      <svg class="icon-pause" xmlns="http://www.w3.org/2000/svg"
+           width="16" height="16" viewBox="0 0 24 24"
+           fill="white" aria-hidden="true">
+        <rect x="6" y="4" width="4" height="16" rx="1"/>
+        <rect x="14" y="4" width="4" height="16" rx="1"/>
+      </svg>
+    </button>
+  </div>
+
+  <audio id="audio" src="voice/JOY-你就水.mp3" preload="auto"></audio>
+
+  <script>
+    (function() {
+      'use strict';
+
+      const audio = document.getElementById('audio');
+      const btnA = document.querySelector('.player-btn-a');
+
+      function togglePlay(classTarget, labelTarget) {
+        if (audio.paused) {
+          audio.play().catch(function() {
+            console.warn('autoplay blocked');
+          });
+          classTarget.classList.add('playing');
+          labelTarget.setAttribute('aria-label', '暫停音樂');
+        } else {
+          audio.pause();
+          classTarget.classList.remove('playing');
+          labelTarget.setAttribute('aria-label', '播放音樂');
+        }
+      }
+
+      if (btnA) {
+        btnA.addEventListener('click', function() {
+          togglePlay(btnA, btnA);
+        });
+      }
+
+      audio.addEventListener('ended', function() {
+        if (btnA) {
+          btnA.classList.remove('playing');
+          btnA.setAttribute('aria-label', '播放音樂');
+        }
+      });
+    })();
+  </script>
+</body>
+</html>
