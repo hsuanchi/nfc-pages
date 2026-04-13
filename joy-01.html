@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <meta name="theme-color" content="#ededec">
+  <meta name="theme-color" content="#ffffff">
   <title>好好生醫</title>
   <style>
     :root {
@@ -44,7 +44,7 @@
       width: 100%;
       height: 100%;
       overflow: hidden;
-      background: #ededec;
+      background: #ffffff;
       -webkit-tap-highlight-color: transparent;
       touch-action: manipulation;
     }
@@ -54,7 +54,7 @@
       width: 100vw;
       height: 100dvh;
       overflow: hidden;
-      background: #ededec;
+      background: #ffffff;
     }
 
     .brand-image {
@@ -62,19 +62,11 @@
       inset: 0;
       width: 100%;
       height: 100%;
-      object-fit: cover;
+      object-fit: contain;
       object-position: center center;
       display: block;
       user-select: none;
       -webkit-user-drag: none;
-    }
-
-    /* 手機直式：contain 顯示完整圖片，不裁切 */
-    @media (orientation: portrait) and (max-width: 767px) {
-      .brand-image {
-        object-fit: contain;
-        object-position: center center;
-      }
     }
 
     @media (orientation: landscape) {
